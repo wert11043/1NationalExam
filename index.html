@@ -123,6 +123,8 @@ button{cursor:pointer;font-family:inherit}
 /* ── history ── */
 .hist-item{padding:.8rem 1rem;background:var(--card);border:1.5px solid var(--border);border-radius:.6rem;margin-bottom:.5rem;display:flex;align-items:center;gap:.7rem;cursor:pointer;transition:.12s}
 .hist-item:hover{border-color:var(--primary)}
+.hist-item.selecting{padding-left:.9rem}
+.hist-item.selected{border-color:var(--primary);box-shadow:0 0 0 3px rgba(37,99,235,.12)}
 .hist-info{flex:1}
 .hist-info h4{font-size:.88rem;font-weight:700}
 .hist-info .meta{font-size:.75rem;color:var(--muted);margin-top:.15rem}
@@ -130,6 +132,9 @@ button{cursor:pointer;font-family:inherit}
 .hist-score.perfect{color:var(--correct)}
 .hist-score.good{color:var(--warn)}
 .hist-score.bad{color:var(--wrong)}
+.hist-toolbar{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;margin-bottom:.75rem}
+.hist-check{width:1.1rem;height:1.1rem;border:1.5px solid var(--border2);border-radius:.3rem;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.72rem;font-weight:800;color:#fff;background:#fff;transition:.12s}
+.hist-item.selected .hist-check{background:var(--primary);border-color:var(--primary)}
 
 /* ── section title ── */
 .sec-title{font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-bottom:.55rem}
@@ -260,7 +265,7 @@ hr.div{border:none;border-top:1px solid var(--border);margin:.85rem 0}
 <!-- ══ HISTORY ══ -->
 <div id="view-history" class="view" hidden>
   <p class="sec-title">作答紀錄</p>
-  <button class="btn btn-outline btn-sm mb" onclick="if(confirm('確定清除所有作答紀錄？'))clearHistory()">清除所有紀錄</button>
+  <div id="history-actions"></div>
   <div id="history-list"></div>
 </div>
 
@@ -306,6 +311,8 @@ function getUncertain(){ return load(SK.uncert,{}); }
 // ═══════════════════════════════════════════════════════════════
 let state = {
   examTab: load(SK.curTab,'醫學二'),
+  historySelecting: false,
+  historySelection: new Set(),
   // exam session
   currentSetId: null,
   questions: [],
@@ -348,6 +355,10 @@ function resolveStoredQuestion(entry){
 // ═══════════════════════════════════════════════════════════════
 const VIEWS = ['home','exam','results','review-all','review-uncertain','history'];
 function showView(name){
+  if(name!=='history'){
+    state.historySelecting=false;
+    state.historySelection.clear();
+  }
   VIEWS.forEach(v=>{ const el=document.getElementById('view-'+v); if(el) el.hidden=true; });
   const el=document.getElementById('view-'+name);
   if(el){ el.hidden=false; window.scrollTo(0,0); }
@@ -686,12 +697,33 @@ function buildReviewItemHtml(q,userAnswer,isUnc=false,count=0,showTags=true){
 // ═══════════════════════════════════════════════════════════════
 function renderHistory(){
   const sessions=getSessions();
+  const actionsEl=document.getElementById('history-actions');
   if(!sessions.length){
+    state.historySelecting=false;
+    state.historySelection.clear();
+    actionsEl.innerHTML='';
     document.getElementById('history-list').innerHTML=emptyState('尚無作答紀錄');
     return;
   }
+  if(state.historySelecting){
+    const selectedCount=state.historySelection.size;
+    actionsEl.innerHTML=`
+      <div class="hist-toolbar">
+        <span style="font-size:.8rem;color:var(--muted)">已選 ${selectedCount} 筆</span>
+        <button class="btn btn-outline btn-sm" onclick="selectAllHistoryRecords()">全選</button>
+        <button class="btn btn-outline btn-sm" onclick="clearSelectedHistoryRecords()">清除選取</button>
+        <button class="btn btn-outline btn-sm" onclick="cancelHistorySelection()">取消</button>
+      </div>`;
+  }else{
+    actionsEl.innerHTML=`
+      <div class="hist-toolbar">
+        <button class="btn btn-outline btn-sm" onclick="enterHistorySelectionMode()">選擇清除作答紀錄</button>
+        <button class="btn btn-outline btn-sm" onclick="if(confirm('確定清除所有作答紀錄？'))clearHistory()">清除全部</button>
+      </div>`;
+  }
   document.getElementById('history-list').innerHTML=sessions.map(s=>`
-    <div class="hist-item" onclick="reviewSession('${s.id}')">
+    <div class="hist-item ${state.historySelecting?'selecting':''} ${state.historySelection.has(s.id)?'selected':''}" onclick="onHistoryItemClick('${s.id}')">
+      ${state.historySelecting?`<div class="hist-check">${state.historySelection.has(s.id)?'✓':''}</div>`:''}
       <div class="hist-info">
         <h4>${s.exam} ${s.year}年${s.session}</h4>
         <div class="meta">${s.date} ｜ 錯 ${s.wrong} ｜ 不確定 ${s.uncertain}</div>
@@ -718,9 +750,103 @@ function reviewSession(sid){
   showResults(s,_lastWrong,_lastUnc);
 }
 
+function onHistoryItemClick(sid){
+  if(state.historySelecting){
+    toggleHistorySelection(sid);
+    return;
+  }
+  reviewSession(sid);
+}
+
+function enterHistorySelectionMode(){
+  state.historySelecting=true;
+  state.historySelection.clear();
+  renderHistory();
+}
+
+function cancelHistorySelection(){
+  state.historySelecting=false;
+  state.historySelection.clear();
+  renderHistory();
+}
+
+function toggleHistorySelection(sid){
+  if(state.historySelection.has(sid)) state.historySelection.delete(sid);
+  else state.historySelection.add(sid);
+  renderHistory();
+}
+
+function selectAllHistoryRecords(){
+  state.historySelection=new Set(getSessions().map(s=>s.id));
+  renderHistory();
+}
+
+function refreshStudyViews(){
+  renderHome();
+  renderReviewAll();
+  renderReviewUncertain();
+  renderHistory();
+}
+
+function rebuildStudyBooks(sessions){
+  const sets=getSets();
+  const errors={};
+  const uncs={};
+  [...sessions].reverse().forEach(s=>{
+    const qs=getQs(s.setId);
+    if(!qs || !Array.isArray(qs.questions)) return;
+    const meta=sets[s.setId] || s;
+    const uaMap=s.userAnswers||{};
+    const uncNos=new Set(s.uncertain_nos||[]);
+    const seenAt=Number.isFinite(Number(s.id)) ? new Date(Number(s.id)).toISOString() : new Date().toISOString();
+    qs.questions.forEach(q=>{
+      const userAnswer=uaMap[q.no] || null;
+      const key=`${s.setId}_Q${q.no}`;
+      if(userAnswer && !isCorrectAnswer(q,userAnswer)){
+        if(!errors[key]) errors[key]={setId:s.setId,exam:meta.exam||s.exam||'',year:meta.year||s.year||'',session:meta.session||s.session||'',q,count:0};
+        errors[key].setId=s.setId;
+        errors[key].q=q;
+        errors[key].count++;
+        errors[key].lastSeen=seenAt;
+        errors[key].lastUserAnswer=userAnswer;
+      }
+      if(uncNos.has(q.no)){
+        if(!uncs[key]) uncs[key]={setId:s.setId,exam:meta.exam||s.exam||'',year:meta.year||s.year||'',session:meta.session||s.session||'',q,count:0};
+        uncs[key].setId=s.setId;
+        uncs[key].q=q;
+        uncs[key].count++;
+        uncs[key].lastSeen=seenAt;
+        uncs[key].lastUserAnswer=userAnswer;
+      }
+    });
+  });
+  save(SK.errors,errors);
+  save(SK.uncert,uncs);
+}
+
+function clearSelectedHistoryRecords(){
+  const selectedIds=[...state.historySelection];
+  if(!selectedIds.length){
+    alert('請先選擇要清除的作答紀錄。');
+    return;
+  }
+  if(!confirm(`確定清除已選的 ${selectedIds.length} 筆作答紀錄？`)) return;
+  const selectedSet=new Set(selectedIds);
+  const remaining=getSessions().filter(s=>!selectedSet.has(s.id));
+  save(SK.sessions,remaining);
+  rebuildStudyBooks(remaining);
+  state.historySelecting=false;
+  state.historySelection.clear();
+  refreshStudyViews();
+}
+
 function clearHistory(){
   save(SK.sessions,[]);
-  renderHistory();
+  save(SK.errors,{});
+  save(SK.uncert,{});
+  state.historySelecting=false;
+  state.historySelection.clear();
+  refreshStudyViews();
 }
 
 // ═══════════════════════════════════════════════════════════════

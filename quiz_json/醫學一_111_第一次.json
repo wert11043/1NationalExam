@@ -1,0 +1,1107 @@
+{
+  "exam": "醫學一",
+  "year": "111",
+  "session": "第一次",
+  "questions": [
+    {
+      "no": 1,
+      "text": "下列那一對腦幹神經核，其神經元發出神經纖維後先在腦幹內交叉到對側才離開腦幹？",
+      "choices": [
+        "動眼神經核（oculomotor nucleus）",
+        "滑車神經核（trochlear nucleus）",
+        "外旋神經核（abducens nucleus）",
+        "舌下神經核（hypoglossal nucleus）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 2,
+      "text": "小腦的苔狀傳入神經纖維（mossy fiber）主要與下列小腦皮質何者中的神經細胞產生突觸（synapses）？",
+      "choices": [
+        "分子層（molecular layer）",
+        "蒲金氏細胞層（Purkinje cell layer）",
+        "顆粒層（granule cell layer）",
+        "分子層（molecular layer）以及蒲金氏細胞層（Purkinje cell layer）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 3,
+      "text": "下列大腦皮質（cerebral cortex）的那一區負責控制兩眼外側注視（lateral gaze）的動作？",
+      "choices": [
+        "主要運動區（primary motor area）",
+        "主要視覺區（primary visual area）",
+        "運動輔助區（supplementary motor area）",
+        "額葉眼動區（frontal eye field）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 4,
+      "text": "下列何者受刺激時，會造成同側身體伸肌（extensor muscles）收縮，屈肌（flexor muscles）鬆弛？",
+      "choices": [
+        "外側前庭脊髓徑（lateral vestibulospinal tract）",
+        "外側網狀脊髓徑（lateral reticulospinal tract）",
+        "紅核脊髓徑（rubrospinal tract）",
+        "外側皮質脊髓徑（lateral corticospinal tract）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 5,
+      "text": "有關負責傳遞本體感覺（proprioception）的神經纖維，下列敘述何者最恰當？",
+      "choices": [
+        "通常為較粗的神經纖維（large diameter fiber），主要經脊髓背根內側（medial division of posterior root）進入 脊髓",
+        "通常為較粗的神經纖維（large diameter fiber），主要經脊髓背根外側（lateral division of posterior root）進入 脊髓",
+        "通常為較細的神經纖維（small diameter fiber），主要經脊髓背根內側（medial division of posterior root）進入 脊髓",
+        "通常為較細的神經纖維（small diameter fiber），主要經脊髓背根外側（lateral division of posterior root）進入 脊髓"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 6,
+      "text": "下列何者不是間腦（diencephalon）之構造？",
+      "choices": [
+        "丘腦（thalamus）",
+        "松果體（pineal body）",
+        "豆狀核（lentiform nucleus）",
+        "下視丘（hypothalamus）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 7,
+      "text": "下列有關眼神經（ophthalmic nerve）的描述，何者最不恰當？",
+      "choices": [
+        "屬於特殊感覺神經",
+        "屬於體感覺神經",
+        "接收眼眶結構之感覺訊息",
+        "接收部分顏面之感覺訊息"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 8,
+      "text": "眼眶內側壁之鼻淚管（nasolacrimal canal）連通下列那一空間？",
+      "choices": [
+        "最上鼻道",
+        "上鼻道",
+        "中鼻道",
+        "下鼻道"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 9,
+      "text": "鼓索神經（chorda tympani nerve）經過下列那一個顳骨構造離開中耳進入顳下窩（infratemporal fossa）？",
+      "choices": [
+        "岩鼓裂（petrotympanic fissure）",
+        "莖乳突孔（stylomastoid foramen）",
+        "乳突孔（mastoid foramen）",
+        "咽鼓室管（pharyngotympanic tube）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 10,
+      "text": "下列何者不包覆在頸動脈鞘（carotid sheath）內？",
+      "choices": [
+        "頸總動脈（common carotid artery）",
+        "舌咽神經（glossopharyngeal nerve）",
+        "內頸動脈（internal carotid artery）",
+        "迷走神經（vagus nerve）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 11,
+      "text": "下列何者同時參與眼眶、鼻腔與口腔三者的形成？",
+      "choices": [
+        "篩骨（ethmoid bone）",
+        "淚骨（lacrimal bone）",
+        "顴骨（zygomatic bone）",
+        "上頷骨（maxillary bone）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 12,
+      "text": "口腔底部近會厭軟骨（epiglottis）的黏膜，其神經支配為：",
+      "choices": [
+        "舌神經（lingual nerve）",
+        "舌咽神經（glossopharyngeal nerve）",
+        "鼓索神經（chorda tympani nerve）",
+        "內喉神經（internal laryngeal nerve）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 13,
+      "text": "蝶骨棘（spine of sphenoid bone）的位置最靠近下列何孔洞？",
+      "choices": [
+        "盲孔（foramen cecum）",
+        "腭大孔（greater palatine foramen）",
+        "棘孔（foramen spinosum）",
+        "莖乳突孔（stylomastoid foramen）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 14,
+      "text": "下列何區的一般感覺，是第五對腦神經第三分支（CN V3）負責？",
+      "choices": [
+        "硬顎",
+        "鼻腔內",
+        "下眼瞼",
+        "口腔內頰"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 15,
+      "text": "心臟缺血（cardiac ischemia）產生的痛覺主要經由下列何者傳遞入中樞神經系統？",
+      "choices": [
+        "膈神經（phrenic nerve）",
+        "迷走神經（vagus nerve）",
+        "交感神經系統（sympathetic system）",
+        "左側喉返神經（left recurrent laryngeal nerve）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 16,
+      "text": "有關胸部交感神經節（thoracic sympathetic ganglion）的敘述，下列何者最為恰當？",
+      "choices": [
+        "通常會發出神經，並且只支配胸腹腔臟器",
+        "僅以灰交通支（gray rami communicantes）與胸部脊神經（thoracic spinal nerve）相連",
+        "上五個交感神經節，會發出節後神經纖維（postganglionic sympathetic fibers），支配胸腔內器官",
+        "下七個交感神經節，會發出節後神經纖維（postganglionic sympathetic fibers），支配腹腔內器官"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 17,
+      "text": "臨床上左側優勢冠狀動脈（left dominant coronary artery）指的是下列何者？",
+      "choices": [
+        "前室間支動脈血液來自於左冠狀動脈",
+        "前室間支動脈血液來自於右冠狀動脈",
+        "後室間支動脈血液來自於左冠狀動脈",
+        "後室間支動脈血液來自於右冠狀動脈"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 18,
+      "text": "咳血最常發生於：",
+      "choices": [
+        "肺動脈系統",
+        "肺靜脈系統",
+        "支氣管動脈系統",
+        "支氣管靜脈系統"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 19,
+      "text": "下列何者經由橫膈（diaphragm）的主動脈裂口（aortic hiatus），穿通胸腔與腹腔？",
+      "choices": [
+        "胸管（thoracic duct）",
+        "食道（esophagus）",
+        "內胸動脈（internal thoracic artery）",
+        "下膈靜脈（inferior phrenic vein）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 20,
+      "text": "左性腺靜脈（left gonadal vein）會直接匯入下列那一個靜脈？",
+      "choices": [
+        "下腔靜脈（inferior vena cava）",
+        "左腎靜脈（left renal vein）",
+        "左總髂靜脈（left common iliac vein）",
+        "下腸繫膜靜脈（inferior mesenteric vein）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 21,
+      "text": "下列何者不在精索（spermatic cord）內？",
+      "choices": [
+        "髂腹股溝神經（ilioinguinal nerve）",
+        "生殖股神經-生殖支（genital branch of genitofemoral nerve）",
+        "輸精管（ductus deferens）",
+        "蔓狀靜脈叢（pampiniform venous plexus）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 22,
+      "text": "下列何者與網膜孔（omental foramen）的關係位置不正確？",
+      "choices": [
+        "總膽管在其後方",
+        "肝門靜脈在其前方",
+        "肝臟在其上方",
+        "十二指腸在其下方"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 23,
+      "text": "關於直腸（rectum），下列敘述何者正確？",
+      "choices": [
+        "直腸的黏膜非常平滑，沒有任何皺褶",
+        "提肛肌（levator ani）及肛尾韌帶（anococcygeal ligament）協助維持直腸與鄰近構造間的關係",
+        "腹膜（peritoneum）只覆蓋到乙狀結腸（sigmoid colon），並未覆蓋到直腸",
+        "肛管直腸彎曲（anorectal flexure）大略成80°，這主要是由U字型的尾骨肌（coccygeus）所造成"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 24,
+      "text": "下列何肌肉覆蓋住陰莖腳（crus of penis）？",
+      "choices": [
+        "坐骨海綿體肌（ischiocavernosus muscle）",
+        "球海綿體肌（bulbospongiosus muscle）",
+        "會陰淺橫肌（superficial transverse perineal muscle）",
+        "會陰深橫肌（deep transverse perineal muscle）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 25,
+      "text": "下列何神經傳遞陰道（vagina）上部及子宮頸（cervix of uterus）的痛覺傳導纖維？",
+      "choices": [
+        "陰部神經（pudendal nerves）",
+        "下腹神經（hypogastric nerves）",
+        "骨盆內臟神經（pelvic splanchnic nerves）",
+        "腰內臟神經（lumbar splanchnic nerves）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 26,
+      "text": "下列何者不是女性會陰深隙（deep perineal pouch）的內容物？",
+      "choices": [
+        "前庭球（bulb of vestibule）",
+        "部分陰道（vagina）",
+        "部分尿道（urethra）",
+        "外尿道括約肌（external urethral sphincter muscle）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 27,
+      "text": "下列那一條肌肉協助三角肌（deltoid muscle）外展（abduct）上臂？",
+      "choices": [
+        "棘上肌（supraspinatus）",
+        "棘下肌（infraspinatus）",
+        "大圓肌（teres major）",
+        "小圓肌（teres minor）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 28,
+      "text": "下列何者與大腿闊筋膜（fascia lata）的附著點無關？",
+      "choices": [
+        "腹股溝韌帶（inguinal ligament）",
+        "薦棘韌帶（sacrospinous ligament）",
+        "髂嵴（iliac crest）",
+        "坐骨粗隆（ischial tuberosity）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 29,
+      "text": "下列那一條神經，支配圖中黑色區域的表皮感覺？",
+      "choices": [
+        "尺神經（ulnar nerve）",
+        "橈神經（radial nerve）",
+        "正中神經（median nerve）",
+        "肌皮神經（musculocutaneous nerve）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 30,
+      "text": "下列腋淋巴結（axillary lymph nodes）中，何者主要直接收集乳房的淋巴回流，尤其是乳房的外上側？",
+      "choices": [
+        "中央淋巴結（central nodes）",
+        "前淋巴結（anterior nodes; pectoral nodes）",
+        "外淋巴結（lateral nodes; humeral nodes）",
+        "後淋巴結（posterior nodes; subscapular nodes）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 31,
+      "text": "病人位於膕窩處的膕靜脈（popliteal vein）發生血栓，下列何者的血流量最不可能減少?",
+      "choices": [
+        "大隱靜脈（great saphenous vein）",
+        "小隱靜脈（small saphenous vein）",
+        "脛後靜脈（posterior tibial vein）",
+        "股靜脈（femoral vein）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 32,
+      "text": "下列何者由軸旁中胚層（paraxial mesoderm）衍生而來？",
+      "choices": [
+        "脊索（notochord）",
+        "體節（somite）",
+        "體腔（coelom）",
+        "原條（primitive streak）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 33,
+      "text": "下列關於氣管（trachea）發育之敘述，何項錯誤？",
+      "choices": [
+        "其內襯上皮源於前腸（foregut）之內胚層（endoderm）",
+        "其軟骨源於臟層間葉組織（splanchnic mesenchyme）",
+        "其腺體源自於前腸（foregut）之中胚層（mesoderm）",
+        "其肌肉源於臟層間葉組織（splanchnic mesenchyme）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 34,
+      "text": "在男性生殖系統，下列何者構造衍生自胚胎時期之中腎管（mesonephric duct）？",
+      "choices": [
+        "細精管（seminiferous tubule）",
+        "睪丸網（rete testis）",
+        "射精管（ejaculatory duct）",
+        "睪丸附件（appendix of testis）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 35,
+      "text": "動脈導管（ductus arteriosus）源自下列何構造？",
+      "choices": [
+        "左側第六動脈弓（aortic arch）",
+        "左側第五動脈弓（aortic arch）",
+        "右側第五動脈弓（aortic arch）",
+        "左側第四動脈弓（aortic arch）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 36,
+      "text": "下列有關四肢（limbs）發育的敘述，何者錯誤？",
+      "choices": [
+        "肢芽（limb buds）於胚胎第四週末時，開始出現於體壁腹外側",
+        "頂外胚層嵴（apical ectodermal ridge）誘導肢芽（limb buds）的生長及發育",
+        "下肢芽（lower limb buds）較上肢芽（upper limb buds）晚一或二天發育",
+        "發育中的上肢和下肢均以其縱軸朝外側旋轉90度"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 37,
+      "text": "下列何者的內部細胞骨架是以微管（microtubule）為基礎？",
+      "choices": [
+        "紋狀緣的微絨毛（microvilli of the striated border）",
+        "刷狀緣的微絨毛（microvilli of the brush border）",
+        "靜纖毛（stereocilia）",
+        "纖毛（cilia）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 38,
+      "text": "分泌物質自腺體細胞釋出至細胞外之後，分泌物質仍有細胞膜（plasma membrane）包覆的是屬於：",
+      "choices": [
+        "全泌腺（holocrine gland）",
+        "局泌腺（merocrine gland）",
+        "頂泌腺（apocrine gland）",
+        "內分泌腺（endocrine gland）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 39,
+      "text": "下列對骨母細胞（osteoblast）、骨細胞（osteocyte）與蝕骨細胞（osteoclast）的敘述，何者正確？",
+      "choices": [
+        "皆由骨生成細胞（osteoprogenitor cell）分化而來",
+        "骨細胞的壽命最長，蝕骨細胞的壽命最短",
+        "骨母細胞的數量最多，蝕骨細胞的數量最少",
+        "皆為單核細胞"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 40,
+      "text": "下列有關中樞神經系統內無髓鞘神經元（unmyelinated neuron）的敘述，何者正確？",
+      "choices": [
+        "包埋於神經膠細胞的突起（glial cell process）",
+        "其無髓鞘軸突（unmyelinated axon）周圍有支持細胞（supporting cell）",
+        "其無髓鞘軸突（unmyelinated axon）具有基底層（basal lamina）",
+        "其無髓鞘軸突（unmyelinated axon）外沒有結締組織（connective tissue）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 41,
+      "text": "下列有關下腔靜脈（inferior vena cava）管壁組成的敘述，何者正確？",
+      "choices": [
+        "有顯著波浪狀的彈性內膜（internal elastic membrane）和彈性外膜（external elastic membrane）",
+        "平滑肌細胞（smooth muscle cells）只分布在中膜（tunica media）",
+        "外膜（tunica adventitia）比中膜（tunica media）厚，外膜有許多縱走平滑肌（smooth muscle cells）成束排列",
+        "分布在中膜（tunica media）與外膜（tunica adventitia）的平滑肌細胞（smooth muscle cells）的排列方向相同"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 42,
+      "text": "下列何者是膽汁（bile）運送之管道？",
+      "choices": [
+        "赫林氏管（canal of Hering）",
+        "狄氏腔（space of Disse）",
+        "肝竇（hepatic sinusoid）",
+        "乳糜管（lacteal）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 43,
+      "text": "下列何種細胞具有外分泌（exocrine）以及類似內分泌（endocrine-like）的功能？",
+      "choices": [
+        "肝細胞（hepatocytes）",
+        "胰島細胞（pancreatic islet cells）",
+        "唾液腺腺泡細胞（salivary acinar cells）",
+        "庫弗氏細胞（Kupffer cells）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 44,
+      "text": "在表皮層中那一種結構連接基底細胞（basal cell）與基底膜（basement membrane）？",
+      "choices": [
+        "胞橋小體（desmosome）",
+        "緊密接合（tight junction）",
+        "間隙接合（gap junction）",
+        "半胞橋小體（hemidesmosome）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 45,
+      "text": "關於胎盤（placenta）的絨毛（chorionic villi），下列敘述何者正確？",
+      "choices": [
+        "初級絨毛（primary chorionic villi）內具有大量的結締組織",
+        "次級絨毛（secondary chorionic villi）只會覆蓋部分的絨毛膜囊（chorionic sac）",
+        "三級絨毛（tertiary chorionic villi）可觀察到血管出現於結締組織中",
+        "次級絨毛（secondary chorionic villi）的最外層為細胞滋養層（cytotrophoblast）所構成"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 46,
+      "text": "下列內分泌腺（endocrine gland）與細胞或構造之配對，何者錯誤？",
+      "choices": [
+        "腎上腺絲球帶（zona glomerulosa）：糖皮質素分泌細胞（glucocorticoid secreting cell）",
+        "腎上腺髓質（adrenal medulla）：嗜鉻細胞（chromaffin cell）",
+        "腦上腺（epiphysis cerebri）：腦砂（brain sand）",
+        "腦下腺神經部（pars nervosa of hypophysis）：赫氏小體（Herring body）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 47,
+      "text": "一個原本沒有任何通透性的膜分隔左右兩邊等體積的水溶液，左邊水溶液為1M 氯化鉀，右邊水溶液為1M 氯 化鈉。現在如果讓這個膜變成水與鈉離子可以自由通過的半透膜，直到擴散平衡為止。下列敘述何者正確？",
+      "choices": [
+        "左邊溶液之水分子總量減少，半透膜右側帶負電荷",
+        "左邊溶液之水分子總量減少，半透膜右側帶正電荷",
+        "左邊溶液之水分子總量增加，半透膜右側帶負電荷",
+        "左邊溶液之水分子總量增加，半透膜右側帶正電荷"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 48,
+      "text": "排卵後會發生的生理現象，下列何者正確？",
+      "choices": [
+        "濾泡刺激素（follicle-stimulating hormone, FSH）促進黃體（corpus luteum）分泌黃體素（progesterone）",
+        "雌性素（estrogen）抑制黃體生成素（luteinizing hormone, LH）分泌",
+        "濾泡刺激素（follicle-stimulating hormone, FSH）刺激子宮內膜增生（endometrium proliferation）",
+        "雌性素（estrogen）促進基礎體溫上升"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 49,
+      "text": "下列何者是參與引發睪丸下降至陰囊（testis descent）的重要因子，而此與精子生成能力密切相關？",
+      "choices": [
+        "激活素（activin）",
+        "雄性素（androgen）",
+        "沃氏管退化因子（Wolffian duct regression factor）",
+        "血管內皮生長因子（vascular endothelial growth factor）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 50,
+      "text": "下列對於負責傳遞視覺刺激的細胞，其接受域（receptive field）的敘述，何者最不適當？",
+      "choices": [
+        "細胞接受域的形狀是由光點在完全黑暗的視野中游移測試得知，當光點刺激出現的位置可改變該細胞在黑暗 （或光點游移至該位置前）時所呈現的電位活動，即定義為該細胞的接受域",
+        "相鄰的兩細胞，其接受域的形狀及大小，通常較空間分布位置相隔遙遠的兩細胞更為相似；相鄰兩細胞其接 受域發生重疊的程度，通常也較空間分布位置相隔遙遠的兩細胞為高",
+        "感光細胞（包括桿細胞及椎細胞）及節細胞的接受域都是圓形，後者甚至會出現光刺激之效果相反或互相拮 抗之細胞電位活動反應的同心圓分布型態 。節細胞接受域圓的直徑通常都較感光細胞圓形接受域之直徑為小",
+        "不論細胞具有on-center/off-surround或off-center/on-surround的接受域，對於解析光刺激究竟出現在甚麼位置 （或稱空間解像力）都有貢獻。off-surround可能是由鄰近細胞的側抑制（lateral inhibition）所造成"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 51,
+      "text": "下列神經元，何項最不可能是主司意識喚起（arousal）功能的ascending reticular formation system之一部分？",
+      "choices": [
+        "位於pontine reticular formation的cholinergic neuron",
+        "位於locus coeruleus的noradrenergic neuron",
+        "位於medial septal area的dopaminergic neuron",
+        "位於dorsal raphé nucleus的serotoninergic neuron"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 52,
+      "text": "個案因長期酗酒而出現有突然想不起來本來計畫好要做的事情、想不起來一個名字熟識的人其臉孔的特徵、 想用過去學過的詞彙來進行溝通，卻怎麼也想不起來那些詞彙要怎麼說等症狀的Korsakoff syndrome，但該個 案長久以來所建立的聽覺相關記憶卻無明顯缺損。下列何項腦區和該個案之功能缺損症狀最不相關？",
+      "choices": [
+        "prefrontal cortex",
+        "parahippocampal cortex",
+        "mammillary body",
+        "planum temporale"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 53,
+      "text": "下列有關鈉鉀幫浦的敘述，何者錯誤？",
+      "choices": [
+        "每運轉一次，會消耗一個ATP",
+        "每次打進三個鈉離子，打出兩個鉀離子",
+        "毛地黃抑制鈉鉀幫浦時，細胞體積可能會變大",
+        "毛地黃抑制鈉鉀幫浦時，細胞可能會去極化"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 54,
+      "text": "肉毒桿菌毒素（botulinum toxin）可以用來舒緩局部肌肉痙攣症，因為肉毒桿菌毒素會：",
+      "choices": [
+        "阻斷鈣離子通道",
+        "破壞SNARE蛋白",
+        "抑制乙醯膽鹼受體",
+        "抑制乙醯膽鹼酶"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 55,
+      "text": "下列有關甘胺酸（glycine）的敘述，何者正確？",
+      "choices": [
+        "是脊髓與腦幹最主要的抑制性神經傳遞物質",
+        "受體開啟時會讓鉀離子流出細胞而產生抑制作用",
+        "生物鹼番木鼈鹼（strychnine）是甘胺酸受體的拮抗劑，服用過量會抑制肌肉收縮",
+        "可以結合到尼古丁型乙醯膽鹼通道的甘胺酸結合位置，並促進乙醯膽鹼通道的開啟"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 56,
+      "text": "下列何者為身體在直線加速（linear acceleration）時協助維持平衡的最主要構造？",
+      "choices": [
+        "Ruffini corpuscle",
+        "organ of Corti",
+        "semicircular canals",
+        "utricle and saccule"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 57,
+      "text": "下列何者是造成屍僵（rigor mortis）的主要因素？",
+      "choices": [
+        "鈣離子無法結合到旋轉素（troponin）",
+        "旋轉肌凝素（tropomyosin）持續覆蓋住橫橋結合位置",
+        "肌凝蛋白的橫橋無法自肌動蛋白脫離開來",
+        "ATP結合上肌凝蛋白後無法水解"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 58,
+      "text": "某病人患有B細胞無法形成漿細胞（plasma cells）之罕見免疫疾病，則其最有可能缺乏下列那一個細胞激素 （cytokine）？",
+      "choices": [
+        "type 1 interferons",
+        "type 2 interferons",
+        "interleukin 2",
+        "colony-stimulating factors"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 59,
+      "text": "有關自主神經對心跳的調節，下列敘述何者是最合理的說明？",
+      "choices": [
+        "交感神經末梢釋出norepinephrine，作用於心臟的alpha 1受體，可加快心搏速度",
+        "交感神經末梢釋出norepinephrine，作用於心臟的alpha 2受體，可減緩心搏速度",
+        "副交感神經末梢釋出acetylcholine，作用於心臟的nicotinic受體，可加快心搏速度",
+        "副交感神經末梢釋出acetylcholine，作用於心臟的muscarinic受體，可減緩心搏速度"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 60,
+      "text": "在正常心臟週期的等容收縮（isovolumic contraction）期中，下列各腔室的壓力排列順序何者正確？",
+      "choices": [
+        "主動脈的壓力（aortic pressure）＞左心室的壓力（left ventricular pressure）＞左心房的壓力（left atrial pressure）",
+        "主動脈的壓力（aortic pressure）＞左心房的壓力（left atrial pressure）＞左心室的壓力（left ventricular pressure）",
+        "左心室的壓力（left ventricular pressure）＞ 主動脈的壓力（aortic pressure）＞ 左心房的壓力（left atrial pressure）",
+        "左心室的壓力（left ventricular pressure）＞左心房的壓力（left atrial pressure）＞ 主動脈的壓力（aortic pressure）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 61,
+      "text": "一位在跳跳繩的同學每分鐘的耗氧量為1.9 L，若其動脈血中的氧含量約為188 mL/L，而其靜脈血中的氧含量 約為134 mL/L，則其cardiac output約為多少L/min？",
+      "choices": [
+        "17.5",
+        "35",
+        "70",
+        "14"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 62,
+      "text": "王大明車禍失血導致平均動脈壓（mean arterial pressure）下降，下列何者與此一現象之發生最不相關？",
+      "choices": [
+        "血液總體積大幅下降",
+        "分布到心臟的副交感神經活性減少",
+        "周邊靜脈壓減少及靜脈回流減少",
+        "心室舒張末期容積明顯減少"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 63,
+      "text": "有關肺臟的氧氣擴散能力（diffusing capacity for oxygen），下列敘述何者正確？",
+      "choices": [
+        "在肺水腫（lung edema）時增加，運動時則減少",
+        "在肺水腫（lung edema）時增加，運動時也增加",
+        "在肺水腫（lung edema）時減少，運動時則增加",
+        "在肺水腫（lung edema）時減少，運動時也減少"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 64,
+      "text": "相較於正常換氣（normal ventilation），過度換氣（hyperventilation）時可見：①肺泡內氧分壓（ ）顯著 上升 ②肺泡內二氧化碳分壓（ ）顯著下降 ③體動脈血中二氧化碳總含量（total content of CO2）顯著 下降",
+      "choices": [
+        "僅①②",
+        "僅②③",
+        "僅①③",
+        "①②③"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 65,
+      "text": "刺激下列何者，對於促進胃酸生成的效果最低？",
+      "choices": [
+        "D細胞（D cell）",
+        "類腸嗜鉻細胞（enterochromaffin-like cell, ECL cell）",
+        "G細胞（G cell）",
+        "迷走神經（vagus nerve）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 66,
+      "text": "關於分節運動（segmentation）的生理功能敘述，下列何者最適當？",
+      "choices": [
+        "混合腸腔內容物",
+        "誘發胃結腸反射（gastrocolic reflex）的前趨活動",
+        "快速推進食物",
+        "抑制胃排空（gastric emptying）與降低胃酸分泌"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 67,
+      "text": "下列何種情況，最可能會造成遠端腎小管的鉀離子分泌減少？",
+      "choices": [
+        "血漿總量減少",
+        "腎小管管腔液的鈉離子增加",
+        "醛固酮（aldosterone）降低",
+        "飲食中的鉀離子增加"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 68,
+      "text": "成年男性之血漿中菊糖（inulin）濃度為0.25 mg/mL、尿液流量為0.6 mL/min、尿液中菊糖濃度為35 mg/mL， 則此人之菊糖清除率為多少mL/min？",
+      "choices": [
+        "84",
+        "106",
+        "116",
+        "126"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 69,
+      "text": "腦下垂體腫瘤（pituitary adenoma）經手術切除後，下列那一個荷爾蒙的分泌量最不會受到影響？",
+      "choices": [
+        "皮質醇（cortisol）",
+        "醛固酮（aldosterone）",
+        "黃體素（progesterone）",
+        "甲狀腺素（thyroid hormone）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 70,
+      "text": "下列那一個荷爾蒙不會促進生長，且有明顯抑制生長的效應？",
+      "choices": [
+        "皮質醇（cortisol）",
+        "胰島素（insulin）",
+        "甲狀腺荷爾蒙（thyroid hormone）",
+        "睪固酮（testosterone）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 71,
+      "text": "身體發炎時，會引發何種反應，以對抗或減緩發炎情況？",
+      "choices": [
+        "腎臟（kidney）分泌腎素（renin）",
+        "皮膚（skin）分泌維生素B（vitamin",
+        "胰臟（pancreas）分泌體抑素（somatostatin）",
+        "腎上腺（adrenal gland）分泌皮質醇（cortisol）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 72,
+      "text": "有關口渴（thirst）的相關機制，下列敘述何者最不適當？",
+      "choices": [
+        "口渴與否，主要與血液滲透壓和細胞外液容積的變化有關",
+        "健康人從靜脈注射高張食鹽水，會使抗利尿荷爾蒙（ADH）分泌減少，並造成口渴",
+        "細胞外液容積下降，會影響腎素（renin）分泌，造成血中血管張力素II（angiotensin II）濃度升高，刺激口 渴反應",
+        "改變細胞外液容積，不一定會改變血液滲透壓，兩者沒有絕對依存關係"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 73,
+      "text": "下列何者最可能是胰島素分泌或作用不足（insulin deficiency）造成的變化？",
+      "choices": [
+        "肝臟肝醣合成增加",
+        "肌肉葡萄糖吸收增加",
+        "肝臟合成之酮體增加",
+        "脂肪合成增加"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 74,
+      "text": "在一個符合Michaelis-Menten equation的酵素催化反應中，當受質（substrate）濃度遠大於Michaelis常數 （KM）時，此反應會近似於幾級化學反應？",
+      "choices": [
+        "零級反應（zero-order reaction）",
+        "一級反應（first-order reaction）",
+        "二級反應（second-order reaction）",
+        "三級反應（third-order reaction）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 75,
+      "text": "有關酵素催化反應之敘述，下列何者正確？",
+      "choices": [
+        "一個由酵素催化的反應一定是放熱反應",
+        "由酵素催化的反應不會達到化學平衡",
+        "酵素的總量在反應中不會改變",
+        "如果酵素不存在，則此酵素催化的反應就不會發生"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 76,
+      "text": "關於雙硫鍵（disulfide bond）的敘述，下列何者正確？",
+      "choices": [
+        "雙硫鍵對大部分蛋白質三級結構的穩定性沒有顯著影響",
+        "雙硫鍵是由2個甲硫胺酸（methionine）共價鍵結所形成",
+        "強還原劑會破壞蛋白質結構中的雙硫鍵",
+        "雙硫鍵屬於非共價交互作用（non-covalent interaction）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 77,
+      "text": "DNA複製在真核生物細胞週期（cell cycle）的那一個時期（phase）中進行？",
+      "choices": [
+        "G1",
+        "S",
+        "G2",
+        "M"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 78,
+      "text": "下列何種激素－受體相互作用後，受體會由單體（monomer）形成雙聚體（dimer）？",
+      "choices": [
+        "乙醯膽鹼與其菸鹼受體（nicotinic acetylcholine receptor）",
+        "表皮生長因子（EGF）與其受體（EGF receptor）",
+        "腎上腺素與其受體（β-adrenergic receptor）",
+        "膠原蛋白與其受體（integrin）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 79,
+      "text": "庫欣氏症（Cushing syndrome）是一種腎上腺皮質類固醇分泌過多的疾病，下列敘述何者錯誤？",
+      "choices": [
+        "腎上腺皮質類固醇合成的前驅物是膽固醇",
+        "類固醇無法穿透細胞膜，故必須作用於細胞膜上之受體",
+        "腎上腺皮質類固醇與其受體結合可造成受體之構形改變",
+        "受體經活化之後可調控基因轉錄作用"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 80,
+      "text": "反義寡核酸（antisense oligonucleotides）已被使用做為治療疾病的藥物，下列何者不是其可達成的作用機制？",
+      "choices": [
+        "影響核糖核酸剪切（RNA splicing）",
+        "造成核糖核酸序列突變（RNA sequence mutation）",
+        "導致信使核糖核酸降解（mRNA degradation）",
+        "影響蛋白質轉譯效率（translation efficiency）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 81,
+      "text": "下列那個雙股去氧核糖核酸的物理性質可被用來測定其融化溫度（melting temperature, Tm）？",
+      "choices": [
+        "導電性（conductivity）",
+        "在膠體中的泳動性（mobility）",
+        "水溶性（solubility）",
+        "低色度（hypochromicity）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 82,
+      "text": "下列何種維生素的缺乏會造成糙皮病（pellagra），其典型症狀是腹瀉、皮膚發炎及癡呆？",
+      "choices": [
+        "thiamine",
+        "niacin",
+        "riboflavin",
+        "pantothenic acid"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 83,
+      "text": "維生素B5是泛酸（pantothenic acid），用於合成輔酶A（CoA），下列有關輔酶A的敘述，何者錯誤？",
+      "choices": [
+        "輔酶A的結構含泛酸、ADP衍生物和cysteine之結合",
+        "輔酶A結構中之硫原子可與acyl group結合",
+        "輔酶A參與pyruvate dehydrogenase complex催化之反應，形成acetyl-CoA",
+        "在三羧酸循環（TCA cycle）中參與α-ketoglutarate dehydrogenase complex催化之反應，形成succinyl-CoA"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 84,
+      "text": "胸腺嘧啶（thymine）經代謝後在尿液中可測得的代謝產物為下列何者？",
+      "choices": [
+        "β-aminoisobutyric acid",
+        "β-alanine",
+        "uridine",
+        "citidine"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 85,
+      "text": "DNA合成時，主要負責合成後DNA校對（proofreading）的酵素活性為：",
+      "choices": [
+        "5’→3’ DNA聚合活性（polymerization activity）",
+        "3’→5’ DNA聚合活性（polymerization activity）",
+        "5’→3’ DNA核酸水解活性（exonucleolytic activity）",
+        "3’→5’ DNA核酸水解活性（exonucleolytic activity）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 86,
+      "text": "移除DNA上誤植的尿嘧啶（uracil）鹼基，最主要是利用下列何種修復機制？",
+      "choices": [
+        "直接修復機制（direct repair）",
+        "重組修復（recombination repair）",
+        "鹼基切除修復（base excision repair）",
+        "鹼基錯誤配對修復（mismatch repair）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 87,
+      "text": "下列何者為大腸桿菌DNA聚合酶III（polymerase III）的特性？",
+      "choices": [
+        "能誘發不需要引子（primer）之DNA合成",
+        "是DNA複製時主要的DNA聚合酶",
+        "是用在nick translation反應時所使用的酵素",
+        "此聚合酶需要引子（primer）提供5'-羥基（hydroxyl group）才能進行DNA合成"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 88,
+      "text": "下列何種修飾可直接導致蛋白質被蛋白酶體（proteasome）辨識並分解？",
+      "choices": [
+        "methylation",
+        "acetylation",
+        "ubiquitination",
+        "glycosylation"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 89,
+      "text": "下列何者在原核細胞蛋白質轉譯過程中，負責將帶有甲醯基甲硫胺酸（formyl-methionine）的轉譯起始 tRNA（transfer RNA）攜帶至核糖體？",
+      "choices": [
+        "轉譯起始因子1（translation initiation factor 1, IF1）",
+        "轉譯起始因子2（translation initiation factor 2, IF2）",
+        "轉譯起始因子3（translation initiation factor 3, IF3）",
+        "轉譯延長因子-Tu（translation elongation factor -Tu, EF-Tu）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 90,
+      "text": "下列與蛋白質轉譯相關的蛋白質分子中，何者之立體結構與轉運核糖核酸（tRNA）結構應最為相似？",
+      "choices": [
+        "轉譯起始因子 2（translation initiation factor 2, IF2）",
+        "轉譯延長因子 -Tu（translation elongation factor -Tu, EF-Tu）",
+        "轉譯釋放因子 1（translation release factor 1, RF1）",
+        "伴護蛋白（chaperone）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 91,
+      "text": "原核細胞內調節基因表現的許多DNA結合蛋白具有下列何種特殊結構模體（structural motif）？",
+      "choices": [
+        "同源框（homeobox）",
+        "催化三角（catalytic triad）",
+        "EF手掌（EF hand）",
+        "螺旋–轉角–螺旋（helix-turn-helix）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 92,
+      "text": "下列關於Cori cycle在體內不同組織進行反應的敘述，何者正確？",
+      "choices": [
+        "乳酸（lactate）由肝臟運送到骨骼肌",
+        "葡萄糖由骨骼肌運送到肝臟",
+        "肝臟經過糖質新生（gluconeogenesis）產生葡萄糖",
+        "骨骼肌經過糖質新生（gluconeogenesis）產生乳酸"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 93,
+      "text": "下列糖解作用（glycolysis）的步驟中，那一個酵素所催化的步驟在正常生理條件下為不可逆反應？",
+      "choices": [
+        "enolase",
+        "phosphoglycerate kinase",
+        "pyruvate kinase",
+        "aldolase"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 94,
+      "text": "雙醣分子（disaccharide）為兩個單醣分子（monosaccharide）依照特定的方式組合，經縮合反應除去一個水分 子而形成。下列何者為麥芽糖（maltose）？",
+      "choices": [
+        "Glcα(1→2)Fru",
+        "Galβ(1→4)Glc",
+        "Glcα(1→4)Glc",
+        "Glcα(1→1)Glc"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 95,
+      "text": "葡萄糖進入細胞後，主要經由下列何種修飾將其留在細胞內進行代謝？",
+      "choices": [
+        "glycosylation",
+        "phosphorylation",
+        "palmitoylation",
+        "acetylation"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 96,
+      "text": "下列那一類生化反應主要不是在粒線體內進行？",
+      "choices": [
+        "pyruvate oxidative decarboxylation",
+        "pentose phosphate pathway",
+        "oxidative phosphorylation",
+        "fatty acid β-oxidation"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 97,
+      "text": "下列對於膽酸（bile acids）的敘述，何者錯誤？",
+      "choices": [
+        "在小腸內脂肪的分解吸收過程中需要膽酸的幫助",
+        "膽酸可由肝細胞合成",
+        "促進水溶性維生素的吸收",
+        "膽固醇為合成膽酸的前驅物"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 98,
+      "text": "下列有關支鏈胺基酸（branched-chain amino acids, BCAAs）代謝，何者敘述錯誤？",
+      "choices": [
+        "支鏈胺基酸包括白胺酸（leucine）、異白胺酸（isoleucine）與離胺酸（lysine）",
+        "肌肉組織中BCAA aminotransferase活性較肝臟組織高",
+        "楓糖尿症（maple syrup urine disease）導因於粒線體中branched-chain α-keto acid dehydrogenase complex功能 缺失",
+        "支鏈胺基酸代謝過程會產生NADH與FADH2"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 99,
+      "text": "下列何者兼具必需胺基酸（essential amino acid）及生酮性胺基酸（ketogenic amino acid）特性？",
+      "choices": [
+        "天門冬胺酸（aspartate）",
+        "組胺酸（histidine）",
+        "酪胺酸（tyrosine）",
+        "白胺酸（leucine）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 100,
+      "text": "粒線體的膜電位差對於ATP synthase（complex V）所催化的ATP合成是必需的，當一對電子從NADH藉由電 子傳遞鏈轉移到氧分子（O2）的過程中，下列敘述何者正確？",
+      "choices": [
+        "Complex I會將4個氫離子移轉到細胞質",
+        "Complex II會將2個氫離子移轉到粒線體內外膜間隙（intermembrane space）",
+        "Complex III會將4個氫離子移轉到粒線體內外膜間隙（intermembrane space）",
+        "Complex IV會將2個氫離子移轉到粒線體基質（matrix）"
+      ],
+      "answer": "C"
+    }
+  ]
+}

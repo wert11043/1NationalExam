@@ -1,0 +1,1125 @@
+{
+  "exam": "醫學二",
+  "year": "112",
+  "session": "第一次",
+  "questions": [
+    {
+      "no": 1,
+      "text": "一個5歲小男孩被診斷出細菌性肺炎，從檢體培養出主要具有alpha溶血能力、觸酶（catalase）陰性，且帶有莢 膜（capsule）的細菌，最可能是下列何種細菌？",
+      "choices": [
+        "化膿性鏈球菌（Streptococcus pyogenes）",
+        "肺炎鏈球菌（Streptococcus pneumoniae）",
+        "表皮葡萄球菌（Staphylococcus epidermidis）",
+        "金黃色葡萄球菌（Staphylococcus aureus）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 2,
+      "text": "肺炎黴漿菌（Mycoplasma pneumoniae）對於β-內醯胺（β-lactam）類藥物如碳青黴烯（carbapenems）具有抗藥 性，最有可能的原因為何？",
+      "choices": [
+        "青黴素結合蛋白質（penicillin-binding protein）產生突變",
+        "不具有胜肽聚糖（peptidoglycan）結構",
+        "能分泌強力β-內醯胺酶（β-lactamase）",
+        "能有效地將藥物排出菌體外"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 3,
+      "text": "有關砂眼的敘述，下列何者最不適當？",
+      "choices": [
+        "通常由血清型（serovars）A, B, Ba, C 砂眼披衣菌（Chlamydia trachomatis）感染造成",
+        "最嚴重會導致角膜結痂，並可能造成失明的併發症",
+        "除了眼睛分泌物，亦可透過帶菌的呼吸道飛沫或糞便傳染",
+        "症狀消除後一般即可痊癒，不會再復發"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 4,
+      "text": "一位上班族抱怨左上腹疼痛，醫生開立呼氣測試，主要目的是測試病人是否感染下列何種細菌？該菌具有何種 酵素的活性？應偵測何種氣體？",
+      "choices": [
+        "傷寒沙門氏菌（Salmonella Typhi），蛋白酶（protease）， 氧氣（O2）",
+        "空腸彎曲桿菌（Campylobacter jejuni），尿素酶（urease），二氧化碳（CO2）",
+        "胃幽門桿菌（Helicobacter pylori），尿素酶（urease），二氧化碳（CO2）",
+        "大腸桿菌（Escherichia coli），蛋白酶（protease），氧氣（O2）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 5,
+      "text": "關於退伍軍人菌屬（Legionella）的敘述，下列何者最不適當？",
+      "choices": [
+        "雖為革蘭氏陰性（Gram-negative）桿菌，但不易以常規染劑染色",
+        "為兼性細胞內寄生菌，可寄生在宿主巨噬細胞（macrophage）內並繁殖",
+        "主要存在水域環境，如天然湖泊及人工的供水系統內",
+        "對生長條件不挑剔，可使用血培養基（blood agar）加以培養分離"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 6,
+      "text": "一位25歲婦女因為高燒、頭痛、手腳胸口都有紅色斑丘疹（erythematous maculopapular rash）住院，培養血液 樣本發現只有以加強營養成分的巧克力瓊脂（enriched chocolate agar）可以培養出該菌，染色後發現是革蘭氏 陰性球菌，此婦女最可能感染的是下列何種細菌？",
+      "choices": [
+        "金氏金氏菌（Kingella kingae）",
+        "淋病雙球菌（Neisseria gonorrhoeae）",
+        "侵蝕愛啃菌（Eikenella corrodens）",
+        "腦膜敗血伊莉莎白菌（Elizabethkingia meningoseptica）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 7,
+      "text": "下列何種細菌產生之A-B毒素（A-B toxin）會造成腹痛、腹瀉等症狀？",
+      "choices": [
+        "金黃色葡萄球菌（Staphylococcus aureus）之腸毒素（enterotoxins）",
+        "產氣莢膜梭狀芽孢桿菌（Clostridium perfringens）之α毒素（α toxin）",
+        "霍亂弧菌（Vibrio cholerae）之霍亂毒素（cholera toxin）",
+        "單核細胞增多性李斯特菌（Listeria monocytogenes）之李斯特菌溶血素O（listeriolysin O）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 8,
+      "text": "有關破傷風桿菌（Clostridium tetani）的敘述，下列何者最不適當？",
+      "choices": [
+        "破傷風類毒素（toxoid）可當做有效的疫苗",
+        "有群體免疫（herd immunity）的現象存在，可降低感染罹病的機會",
+        "造成痙攣性的肌肉麻痺",
+        "此菌可產生內孢子（endospore）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 9,
+      "text": "下列何者細菌屬於生長緩慢、菌落無色素（nonpigmented colonies），顯微鏡下呈聚集現象（aggregation）的抗 酸性（acid-fast）桿菌？",
+      "choices": [
+        "金黃色葡萄球菌（Staphylococcus aureus）",
+        "結核分枝桿菌（Mycobacterium tuberculosis）",
+        "綠膿桿菌（Pseudomonas aeruginosa）",
+        "鬆脆類桿菌（Bacteroides fragilis）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 10,
+      "text": "抗C型肝炎病毒（HCV）的藥物雷巴威林（Ribavirin），是抑制該病毒複製的那一項步驟？",
+      "choices": [
+        "接觸（attachment）",
+        "穿過細胞膜及解散外殼",
+        "病毒RNA的生合成",
+        "蛋白質合成"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 11,
+      "text": "下列有關沙狀病毒（arenavirus）的敘述何者最不適當？",
+      "choices": [
+        "病毒顆粒中含核糖體（ribosome）",
+        "病毒經由蚊子傳播",
+        "病毒可經由空氣傳播",
+        "病毒感染會造成腦膜炎及出血性症狀"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 12,
+      "text": "下列何種檢驗結果可以用來區分「未曾感染過但曾經接種B型肝炎病毒疫苗」與「曾經感染B型肝炎病毒但已 經康復」的個體？",
+      "choices": [
+        "Anti-HBc抗體陽性",
+        "Anti-HBs抗體陽性",
+        "HBs抗原陰性",
+        "HBe抗原陰性"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 13,
+      "text": "下列何者不屬於小RNA 病毒科（Picornaviridae）？",
+      "choices": [
+        "Poliovirus",
+        "B19 virus",
+        "Hepatitis A virus",
+        "Rhinovirus"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 14,
+      "text": "有關登革熱病毒（Dengue virus）的敘述，下列何者最不適當？",
+      "choices": [
+        "是一個arbovirus",
+        "與茲卡病毒（Zika virus）屬相同病毒科（family）",
+        "患者將獲終身免疫",
+        "感染後可能引起出血熱（hemorrhagic fever）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 15,
+      "text": "有關人類D型肝炎病毒（human hepatitis D virus）的敘述，下列何者正確？",
+      "choices": [
+        "主要藉由糞口傳染",
+        "可藉由施打B型肝炎疫苗來預防感染",
+        "D型肝炎病毒感染會促進HBsAg的抗體陽轉反應（positive conversion）",
+        "需要B型肝炎病毒的HBc蛋白質，才能產生具感染性的病毒顆粒"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 16,
+      "text": "麴菌（Aspergillus）CYP51A基因突變是產生下列何種藥物抗藥性的主要原因？",
+      "choices": [
+        "三唑（triazole）",
+        "棘白菌素（echinocandin）",
+        "多烯（polyene）",
+        "烯丙胺（allylamines）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 17,
+      "text": "在HIV/AIDS患者血液培養分離到一株真菌，此菌在25℃呈絲狀（filamentous），並產生鮮紅色的色素滲入培 養基，35℃下菌落為酵母菌狀（yeasts），最有可能是下列何者？",
+      "choices": [
+        "Emergomyces pasteurianus",
+        "Scedosporium apiospermum",
+        "Paracoccidioides brasiliensis",
+        "Talaromyces marneffei"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 18,
+      "text": "大部分的免疫細胞都是由骨髓中的造血幹細胞發育而來，這些免疫細胞又可以依據它們的發育源頭進一步分 成骨髓系（myeloid lineage）或淋巴系（lymphoid lineage），下列那一種細胞可以由骨髓系及淋巴系前驅細胞 產生？",
+      "choices": [
+        "樹突細胞（dendritic cell）",
+        "先天淋巴細胞（innate lymphoid cell, ILC）",
+        "紅血球（red blood cell）",
+        "巨噬細胞（macrophage）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 19,
+      "text": "發炎通常是在局部感染或受傷初期所產生的免疫反應，有關發炎的敘述下列何者錯誤？",
+      "choices": [
+        "產生發炎的目的是藉由免疫效應分子（immune effector molecule）的增加去攻擊病原菌並促進傷口的癒合",
+        "發炎所伴隨的紅、腫、熱、痛是由病原菌在複製過程中所釋放的毒力因子（virulence factor）直接造成的結 果",
+        "發炎會增加血管壁的通透性，使血液中的補體成分進入發炎組織中，促進宿主的免疫反應清除病原菌",
+        "如果病原菌透過血液傳播至各個器官而引發全身性細菌感染或敗血症（sepsis）時，則會因過度發炎反應產 生大量TNF-α而導致敗血性休克（septic shock）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 20,
+      "text": "下列何種蛋白與MHC class II分子的抗原呈獻過程有重要關聯？",
+      "choices": [
+        "Calnexin",
+        "Calreticulin",
+        "Invariant chain",
+        "Transporters associated with antigen processing（TAPs）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 21,
+      "text": "下列何者是T細胞發育過程“positive selection”的最適當敘述？",
+      "choices": [
+        "胸腺上皮細胞表現AIRE，此蛋白可以促進組織特異性抗原（tissue-specific antigens）在胸腺中表現",
+        "當胸腺細胞辨識到胸腺上皮細胞表面的MHC-peptide，如果引發中等以上的TCR訊號，則可以被選擇出來繼 續發育",
+        "當胸腺細胞無法辨識到胸腺上皮細胞表面的MHC-peptide，則可以被選擇出來繼續發育",
+        "當胸腺細胞辨識到自己的MHC分子時，胸腺細胞就會進行細胞凋亡（apoptosis）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 22,
+      "text": "在注射利什曼原蟲（Leishmania major）小鼠的實驗中，可藉由注射拮抗型IL-4抗體（anti-IL-4 antibody）而明 顯增加感染小鼠存活率，此機轉主要是抑制何種免疫反應？",
+      "choices": [
+        "TH1 response",
+        "TH17 response",
+        "TH2 response",
+        "chemotaxis response"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 23,
+      "text": "胸腺依賴性（thymus-dependent） 抗原（TD抗原）及非胸腺依賴性（thymus-independent）抗原（TI抗原）都 可以活化B細胞產生抗體反應，有關TD及TI抗原的敘述何者錯誤？",
+      "choices": [
+        "蛋白質抗原屬於TD抗原，而且B細胞的完全活化需要兩個訊號，第一個訊號由B細胞的MHC-peptide和T細胞 的TCR結合後所傳遞。第二個訊號則是由B細胞的CD40和T細胞的CD40配體（CD40 ligand）結合後所傳遞",
+        "脂多醣（lipopolysaccharide, LPS）不需要T細胞的幫忙也可以活化B細胞，是屬於第一型TI抗原（TI-1）。高 劑量的LPS會引起非專一性的抗體反應。相反的，低劑量的LPS則引起專一性抗體反應",
+        "TD抗原和TI-2抗原都是藉由BCR來辨識，但TI-1抗原則可以由BCR或非BCR來辨識",
+        "嬰兒容易受到具有莢膜的肺炎球菌的感染，其可能原因是嬰兒體內的B細胞尚未成熟的關係所導致"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 24,
+      "text": "下列有關人體內共生菌相（commensal microbiota）的敘述，何者最正確？",
+      "choices": [
+        "每一個人體內不同部位的菌種都是一致的",
+        "這些菌種很特別，對抗生素具有抗藥性",
+        "體內免疫系統完全不會對這些共生菌有免疫反應",
+        "可以協助產出維生素K1與短鏈脂肪酸"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 25,
+      "text": "HIV會造成慢性感染而且引起後天免疫不全症（acquired immune deficiency syndrome, AIDS）造成許多人死 亡，有關HIV慢性感染的原因，下列何者錯誤？",
+      "choices": [
+        "在HIV感染的過程中，重要的效應細胞及分子（effector cell / molecule），如毒殺型CD8 T細胞及對HIV有專 一性的抗體都沒有產生",
+        "HIV在複製的過程中會導致基因的突變，使得原本有效的免疫反應失去作用",
+        "HIV的病毒因子會抑制第一型MHC（MHC class I）在被感染細胞的表現，以逃脫毒殺型CD8 T（cytotoxic CD8 T）細胞的攻擊",
+        "HIV會感染免疫細胞包含CD4 T細胞、樹突細胞及巨噬細胞，且造成CD4 T細胞數目的減少"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 26,
+      "text": "下列何種自我免疫耐受性（self-tolerance）機制的作用位置發生在發炎處？",
+      "choices": [
+        "central tolerance",
+        "antigen segregation",
+        "negative selection",
+        "regulatory T cells"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 27,
+      "text": "有關雷帕黴素（rapamycin）之作用，下列何者錯誤？",
+      "choices": [
+        "與FK結合蛋白（FK-binding protein）結合",
+        "促進白血球凋亡（apoptosis）",
+        "抑制白血球增生（proliferation）",
+        "降低調節性T細胞（regulatory T cell）數目"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 28,
+      "text": "利用基因工程製備嵌合抗原受體T細胞（chimeric antigen receptor T cells, CAR-T）作為免疫細胞治療方式已經 成功用來治療ALL（acute lymphocytic leukemia），在此嵌合分子之組成中不包括下列何者？",
+      "choices": [
+        "anti-CD19",
+        "CTLA-4",
+        "4-1 BB",
+        "CD3ζ chain"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 29,
+      "text": "下列有關棘頜口線蟲（Gnathostoma spinigerum）感染的敘述，何者錯誤？",
+      "choices": [
+        "成蟲可寄生於貓的胃壁",
+        "完成生活史需2個中間宿主",
+        "感染人體後只侵犯皮下組織",
+        "食入未熟帶蟲之淡水魚而被感染"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 30,
+      "text": "下列何種寄生蟲感染，最有可能造成一種咽喉型的病症（halzoun），導致咽喉劇烈疼痛、出血及呼吸困難？",
+      "choices": [
+        "牛羊肝吸蟲（Fasciola hepatica）",
+        "貓肝吸蟲（Opisthorchis felineus）",
+        "槍狀肝吸蟲（Dicrocoelium dendriticum）",
+        "泰國肝吸蟲（Opisthorchis viverrini）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 31,
+      "text": "下列何種寄生蟲感染會導致人類肺部的病變？",
+      "choices": [
+        "犬複殖器絛蟲（Dipylidium caninum）",
+        "顆粒性包生絛蟲（Echinococcus granulosus）",
+        "廣節裂頭絛蟲（Diphyllobothrium latum）",
+        "短小包膜絛蟲（Hymenolepis nana）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 32,
+      "text": "有關利什曼原蟲（Leishmania spp.）的敘述，下列何者正確？",
+      "choices": [
+        "前鞭毛體（promastigote）在脊椎動物宿主體內會被巨噬細胞（macrophage）吞噬後形成無鞭毛體 （amastigote）",
+        "在中間宿主體內，會因為氧氣分壓降低而導致蟲體外型鞭毛縮短，轉變成為無鞭毛體",
+        "有關利什曼原蟲的分類，可以借助中間宿主的種株（species）來決定",
+        "當無鞭毛體進入中間宿主腸道後段時，會受到腸道內皮細胞的影響，轉化變形成為循環後期錐鞭毛體 （metacyclic trypomastigote）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 33,
+      "text": "下列症狀中何者與枯西氏錐蟲（Trypanosoma cruzi）之感染症無關？",
+      "choices": [
+        "單側眼瞼水腫（Romaña's sign）",
+        "心肌炎（myocarditis）",
+        "巨結腸（megacolon）",
+        "黑熱病（kala-azar）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 34,
+      "text": "有關瘧原蟲（Plasmodium spp.）在病媒蚊體內之發育，下列敘述何者錯誤？",
+      "choices": [
+        "瘧蚊叮咬感染宿主而吸入雌或雄配子母細胞（gametocyte）",
+        "受精合子（zygote）發育成具活性卵動子（ookinete）",
+        "卵動子鑽入蚊唾液腺發育成孢子體（sporozoites）",
+        "依瘧原蟲種類不同，在蚊體內生長發育約8～35日不等時程"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 35,
+      "text": "下列何者為曾經流行於臺澎金馬及中國南方地區之班氏絲蟲（Wuchereria bancrofti）的主要傳播病媒？",
+      "choices": [
+        "埃及斑蚊（Aedes aegypti）",
+        "白線斑蚊（Aedes albopictus）",
+        "熱帶家蚊（Culex quinquefasciatus / fatigans）",
+        "微小瘧蚊（Anopheles minimus）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 36,
+      "text": "假設某研究利用100人之樣本評估12歲兒童的智力測驗分數（IQ，範圍80～140分）與產前暴露到多氯聯苯 （Polychlorinated biphenyls, PCBs，範圍500～1800 ng/g of Fat）之關係，建構其迴歸模式如下： =125.7- 0.02×PCBs，迴歸模式之判定係數（R2）為0.4。下列敘述何者最正確？",
+      "choices": [
+        "IQ與PCBs的Pearson相關係數為 -0.02，呈負相關",
+        "此模式之依變項（dependent variable）為PCBs，自變項（independent variable）為IQ",
+        "若PCBs增加了500個單位，則IQ估計值下降1分",
+        "判定係數（R2）為0.4，顯示IQ之變異約40%無法被PCBs解釋"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "all_correct": true,
+      "answer_note": "一律給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 37,
+      "text": "過去研究曾發現X1因素會導致胰臟癌的風險增加，然而X1因素暴露者亦有較高X2因素的暴露，由於X2因素 已知是胰臟癌的危險因子，在統計分析時控制X2因素後，X1因素與胰臟癌的相關性消失，則X2因素對於X1 因素與胰臟癌關係中扮演何種角色？",
+      "choices": [
+        "致病因子",
+        "干擾因子",
+        "隨機因子",
+        "促使因子"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 38,
+      "text": "一研究發現各國的乳癌發生率與女性高血脂盛行率呈現正向關係，因此判定女性若高血脂容易導致乳癌。此 推論最可能犯下何種問題？",
+      "choices": [
+        "型一錯誤（type I error）",
+        "生態謬誤（ecological fallacy）",
+        "訊息偏差（information bias）",
+        "干擾（confounding）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 39,
+      "text": "醫療檢測數據呈現明顯右偏分布，下列何組指標最適合測量此群資料之集中與分散狀況？",
+      "choices": [
+        "平均值，標準差",
+        "平均值，標準誤",
+        "中位數，四分位距",
+        "中位數，全距"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 40,
+      "text": "下列關於臭氧在全球環境變遷的敘述，何者最為恰當？",
+      "choices": [
+        "臭氧層的稀薄連帶使得地表臭氧濃度降低",
+        "溫室效應可能造成地表臭氧濃度增加",
+        "臭氧稀薄現象最早發現在北極地區",
+        "導致臭氧稀薄的主因是氟氯碳化物中的氟原子與臭氧產生連鎖反應"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 41,
+      "text": "鉛目前仍然為我國工業使用量最大的有毒重金屬之一，其進入環境的分布也是最廣泛的，自從公元2000年我 國停用含鉛汽油（高級汽油）後，一般民眾血液內的鉛濃度就降下來，在環境衛生與職業衛生上，下列敘述 何者最不恰當？",
+      "choices": [
+        "急性鉛中毒可分為有機鉛與無機鉛中毒，主要症狀不同。其中無機鉛急性中毒主要在中樞神經系統，嚴重者 會有幻覺",
+        "鉛中毒的預防重點在職業衛生，避免工人暴露鉛粉塵作業",
+        "如果玩具品質不良，其上的色料可能成為兒童鉛暴露的來源",
+        "老舊的建築，其中的水管可能有含鉛的原料"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 42,
+      "text": "要預防人因性（ergonomics）危害，下列何者最無相關？",
+      "choices": [
+        "良好物料搬運習慣",
+        "正確姿勢",
+        "避免重複性的工作內容",
+        "避免同儕間之肢體暴力與語言暴力"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 43,
+      "text": "針對職業衛生中所稱「短時間時量平均容許濃度」，下列何者為最常使用之評估時間長度？",
+      "choices": [
+        "1分鐘",
+        "15分鐘",
+        "30分鐘",
+        "60分鐘"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 44,
+      "text": "衛生福利部國民健康署為了預防青少年吸電子煙對健康造成影響，請當紅偶像明星拍攝拒吸電子煙的影片進 行宣導，青少年仿效偶像明星拒吸電子煙的行動，進而降低其吸電子煙比率。上述是運用何項行為改變策 略？",
+      "choices": [
+        "社會支持",
+        "自我監測",
+        "訊息回饋",
+        "觀察學習"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 45,
+      "text": "下列關於健康的敘述，何者最不恰當？",
+      "choices": [
+        "健康的定義就是身體沒有疾病",
+        "社會角色與功能健全是健康的要素",
+        "根據聯合國人權宣言，健康是基本人權的一環",
+        "根據1974年加拿大拉朗德報告（Lalonde Report），健康行為和生活型態是影響健康的重要元素，而不應該 過度依賴醫療"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 46,
+      "text": "進行吸菸者戒菸衛教時，先讓吸菸者觀看吸菸造成身體健康危害的恐怖影片後，接著告知吸菸者戒菸的好 處。前述情形最符合下列那一種說服理論？",
+      "choices": [
+        "恐懼訴求",
+        "情感利益訴求",
+        "啟發性訴求",
+        "理性訴求"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 47,
+      "text": "依據長期照顧服務法，團體家屋（group home）屬於下列何種長期照顧服務類型？",
+      "choices": [
+        "家庭照顧者支持服務",
+        "社區式服務",
+        "居家式服務",
+        "機構住宿式服務"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 48,
+      "text": "下列何者為健康保險論質計酬（pay for performance）的主要缺點？",
+      "choices": [
+        "缺乏節約的誘因",
+        "不易被醫療供給者接受",
+        "醫療服務生產力降低",
+        "提供挑選輕症病人的誘因"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 49,
+      "text": "下列對於臺灣衛生福利行政組織的敘述，何者最不恰當？",
+      "choices": [
+        "臺灣衛生行政組織分為二級：中央、直轄市及縣（市）",
+        "我國衛生行政體系並非為「一條鞭制」",
+        "有關中藥藥品查驗，是屬於衛生福利部食品藥物管理署的權責範圍",
+        "衛生福利部國民健康署的權責主要是負責國民健康業務，但不包含傳染病防疫"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 50,
+      "text": "平衡計分卡（balanced scorecard）是醫院管理當中的那一種管理方法？",
+      "choices": [
+        "策略管理",
+        "財務管理",
+        "人力資源管理",
+        "資材管理"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 51,
+      "text": "下列何者在固定濃度下，無法被持續增高濃度的致效劑（agonist）逆轉其效能（efficacy）？",
+      "choices": [
+        "競爭性拮抗劑（competitive antagonist）",
+        "非競爭性拮抗劑（noncompetitive antagonist）",
+        "反促效劑（inverse agonist）",
+        "部分促效劑（partial agonist）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 52,
+      "text": "關於rifampin產生的作用，下列敘述何者錯誤？",
+      "choices": [
+        "抗藥性產生可能是結合到DNA聚合酶的能力降低",
+        "於開放性肺結核病，必須與isoniazid併用，以預防抗藥性的發生",
+        "會加速methadone或anticoagulants排除，是因為能誘發細胞色素P450（cytochrome P450）",
+        "與其他rifamycin類的藥物會有交叉抗藥性（cross-resistance）產生"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 53,
+      "text": "下列抗癌藥物與其主要產生毒性之配對，何者錯誤？",
+      "choices": [
+        "doxorubicin－心臟毒性",
+        "oxaliplatin－周邊感覺神經病變",
+        "vincristine－肺纖維化",
+        "cyclophosphamide－出血性膀胱炎"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 54,
+      "text": "Pembrolizumab為免疫檢查點抑制劑（immune checkpoint inhibitor），可用於治療癌症，下列何者為此單株抗 體專一性結合的蛋白？",
+      "choices": [
+        "epidermal growth factor receptor（EGFR）",
+        "programmed death-1 receptor（PD-1）",
+        "programmed death ligand 1（PD-L1）",
+        "cytotoxic T-lymphocyte-associated antigen 4（CTLA-4）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 55,
+      "text": "林先生因車禍受傷，傷口已化膿才就醫，經檢驗為β-lactamase positive金黃色葡萄球菌（Staphylococcus aureus）感染，下列何種抗生素最適合用於治療？",
+      "choices": [
+        "ampicillin",
+        "dicloxacillin",
+        "penicillin G",
+        "piperacillin"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 56,
+      "text": "有關預防性抗血栓藥物（antithrombotic drug）rivaroxaban之相關敘述，下列何者錯誤？",
+      "choices": [
+        "主要機制為抑制凝血因子Xa作用",
+        "可用於治療靜脈血栓症",
+        "年長者使用時，應注意此藥物之半衰期會縮短",
+        "目前andexanet alfa為直接性解毒劑"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 57,
+      "text": "下列關於可刺激子宮肌肉收縮（oxytocic action）自泌素及其相關藥物之敘述，何者錯誤？",
+      "choices": [
+        "PGE2及 PGF2α具強效收縮作用",
+        "misoprostol具類似PGF2α之作用",
+        "dinoprostone具類似PGE2之作用",
+        "carboprost具類似PGF2α之作用"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 58,
+      "text": "Simvastatin主要療效在於降低血中LDL含量，同時具有緩解血管發炎及粥狀動脈形成的作用。此藥物主要之 作用機制為何？",
+      "choices": [
+        "活化PPAR-α受體",
+        "抑制HMG-CoA reductase活性",
+        "抑制腸道運輸蛋白NPC1L1",
+        "與膽酸（bile acid）結合"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 59,
+      "text": "下列何種藥物的主要作用對象，不是G蛋白耦合受體（G protein-couple receptor, GPCR）？",
+      "choices": [
+        "somatotropin",
+        "bromocriptine",
+        "desmopressin",
+        "leuprolide"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 60,
+      "text": "下列何種藥物主要作用對象為雌激素受體，可治療停經後婦女的骨質疏鬆？",
+      "choices": [
+        "omeprazole",
+        "denosumab",
+        "raloxifene",
+        "prednisolone"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 61,
+      "text": "下列何種腎上腺皮質素拮抗劑的作用，係透過抑制膽固醇（cholesterol）轉換成孕烯醇酮（pregnenolone）的 作用，來阻斷皮質醇和皮質酮的生合成？",
+      "choices": [
+        "aminoglutethimide",
+        "metyrapone",
+        "mifepristone",
+        "trilostane"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 62,
+      "text": "下列何者具有在中樞轉換成α-methylnorepinephrine的作用，可以適用於腎功能不全的高血壓患者？",
+      "choices": [
+        "clonidine",
+        "captopril",
+        "methyldopa",
+        "minoxidil"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 63,
+      "text": "下列降血壓藥何者具有ATP-sensitive K-channel活化作用，會使動脈血管擴張，但會抑制insulin釋放？",
+      "choices": [
+        "fenoldopam",
+        "captopril",
+        "diazoxide",
+        "minoxidil"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 64,
+      "text": "下列關於sacubitril的敘述，何者錯誤？",
+      "choices": [
+        "可活化brain natriuretic peptide受體",
+        "可和valsartan合併使用",
+        "可引起血管擴張",
+        "用於治療慢性心臟衰竭"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 65,
+      "text": "下列局部點眼藥中，何者無法降低眼壓，對隅角開放性青光眼（open-angle glaucoma）也沒有改善效果？",
+      "choices": [
+        "latanoprost",
+        "apraclonidine",
+        "timolol",
+        "atropine"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 66,
+      "text": "肉毒桿菌毒素（botulinum toxin）可局部注射於皮下，用以消除皺紋，其作用是透過下列何種機制而產生？",
+      "choices": [
+        "抑制運動神經細胞的鈉離子通道（sodium channel）",
+        "抑制骨骼肌細胞的鈉離子通道",
+        "阻斷骨骼肌細胞的菸鹼性受體（nicotinic receptor）",
+        "抑制突觸囊泡（synaptic vesicle）釋放乙醯膽鹼"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 67,
+      "text": "下列何者是metoclopramide的主要副作用？",
+      "choices": [
+        "胃食道逆流（gastroesophageal reflux）",
+        "錐體外症狀（extrapyramidal symptom）",
+        "嗜睡",
+        "嘔吐"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 68,
+      "text": "使用吸入型皮質類固醇仍無法有效控制氣喘時，最適合併用下列何種藥物以預防氣喘發作？",
+      "choices": [
+        "ephedrine",
+        "formoterol",
+        "roflumilast",
+        "zileuton"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 69,
+      "text": "若患者有腸躁症合併便秘時，使用下列何種藥物來治療的效果最佳？",
+      "choices": [
+        "tegaserod",
+        "cisapride",
+        "fluoxetine",
+        "ritanserin"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "all_correct": true,
+      "answer_note": "一律給分",
+      "answer_source": "#"
+    },
+    {
+      "no": 70,
+      "text": "下列何種藥物最適合用來治療男性勃起障礙（erectile dysfunction）？",
+      "choices": [
+        "epoprostenol",
+        "treprostinil",
+        "misoprostol",
+        "alprostadil"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 71,
+      "text": "關於氣喘的藥物中，下列何者的作用機轉是透過抑制支氣管平滑肌上leukotriene受體的作用而來的？",
+      "choices": [
+        "zafirlukast",
+        "misoprostol",
+        "zileuton",
+        "iloprost"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 72,
+      "text": "以levodopa治療帕金森氏症時，可併用selegiline增強levodopa的療效，下列何者為selegiline的藥理作用機制？",
+      "choices": [
+        "抑制單胺氧化酶B（monoamine oxidase",
+        "抑制兒茶酚-O-甲基轉移酶（catechol-O-methyltransferase）",
+        "抑制多巴脫羧基酶（dopa decarboxylase）",
+        "促進腦部神經末梢釋放多巴胺（dopamine）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 73,
+      "text": "下列那一個治療癲癇發作的藥物，多數患者長期使用造成顯著的體重降低，目前與phentermine作成複方用於 肥胖治療？",
+      "choices": [
+        "topiramate",
+        "valproic acid",
+        "gabapentin",
+        "levetiracetam"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 74,
+      "text": "關於麻醉藥propofol作用的敘述，下列何者錯誤？",
+      "choices": [
+        "具有鎮痛效果",
+        "降低血壓，在老年人更明顯",
+        "起效快，可用於誘導麻醉",
+        "具有止吐作用"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 75,
+      "text": "下列何種藥物使用過量或中毒，採用血液透析解毒效果最差？",
+      "choices": [
+        "digoxin",
+        "lithium",
+        "theophylline",
+        "carbamazepine"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 76,
+      "text": "傷口有過多膠原蛋白（collagen）堆積，生長超出原始傷口的邊界，並且不消退，稱為：",
+      "choices": [
+        "蟹足腫（keloid）",
+        "肥厚疤（hypertrophic scar）",
+        "肉芽腫（granuloma）",
+        "肉芽組織（granulation tissue）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 77,
+      "text": "下列何項器官或組織的再生能力最強？",
+      "choices": [
+        "肺",
+        "肌肉",
+        "胰",
+        "肝"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 78,
+      "text": "關於唐氏症候群（Down syndrome）的敘述，下列何者最適當？",
+      "choices": [
+        "單核苷酸多態性（single nucleotide polymorphism）基因分型法是最適合用來診斷唐氏症的工具",
+        "95%的個案是由於細胞多出的一條第21號染色體轉位到第14號染色體所致",
+        "可利用螢光原位雜交法（fluorescence in situ hybridization）診斷唐氏症",
+        "異常細胞鑲嵌（mosaicism）型唐氏症是由於第21號染色體的短臂鑲嵌到其它染色體內所致"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 79,
+      "text": "關於過敏性疾病的敘述，下列何者最適當？",
+      "choices": [
+        "鼻瘜肉（nasal polyp）一般被認為與IgE媒介所引發的外因性過敏性鼻炎或鼻竇炎（atopic allergic rhinitis or sinusitis）有關",
+        "運動引發的過敏一般被認為主要是與TH2細胞的過度反應有關",
+        "發炎性腸道疾病（inflammatory bowel disease）一般被認為主要與TH2細胞的過度反應有關",
+        "全身過敏性反應（systemic anaphylaxis）的臨床症狀一般被認為與被活化的肥大細胞（mast cells）釋放一些 引起血管活化調節物質有關"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 80,
+      "text": "下列關於胃的原發性黏膜相關淋巴瘤（mucosa-associated lymphoid tissue lymphoma, MALToma）之敘述，何者 最不適當？",
+      "choices": [
+        "屬於B-cell lymphoma",
+        "與其關係最密切之微生物為Helicobacter pylori",
+        "cytotoxin-associated gene A（CagA）為其相關微生物之重要致病基因",
+        "當其發生轉移時，最常出現之染色體變化為t(11;14)"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 81,
+      "text": "下列造成腹水（ascites）的原因中，何種原因的積液所含的蛋白質濃度最高？",
+      "choices": [
+        "細菌性腹膜炎（peritonitis）",
+        "腎病症候群（nephrotic syndrome）",
+        "肝硬化（liver cirrhosis）",
+        "營養不良（malnutrition）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 82,
+      "text": "下列疾病容易引起血栓（thrombosis），但何者除外？",
+      "choices": [
+        "肝素引起血小板低下（heparin-induced thrombocytopenia）",
+        "抗磷脂質抗體症候群（antiphospholipid antibody syndrome）",
+        "Protein S缺乏（protein S deficiency）",
+        "Von Willebrand disease"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 83,
+      "text": "72歲男性呈現心臟衰竭，右心壁肥厚及左心肥大，心肌切片檢查顯示在心肌間質有細絲狀物質沉積，此絲狀 物直徑約10～12微米並呈無分支狀結構。下列何者最符合上述的病理變化？",
+      "choices": [
+        "endocardial fibroelastosis",
+        "ischemic interstitial fibrosis",
+        "transthyretin amyloidosis",
+        "postirradiation fibrosis"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 84,
+      "text": "45歲女性，鼻腔腫瘤切片發現中等大小異常淋巴球浸潤，且有明顯的血管侵犯（angioinvasion）及組織壞死， 免疫染色顯示腫瘤細胞表現CD56，此腫瘤最可能與何種病毒有關？",
+      "choices": [
+        "人類嗜T淋巴球病毒第一型（human T-lymphotropic virus 1）",
+        "Epstein-Barr病毒（Epstein-Barr virus）",
+        "人類免疫缺乏病毒（human immunodeficiency virus）",
+        "人類疱疹病毒第八型（human herpesvirus 8）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 85,
+      "text": "6歲男童兩週來出現面色蒼白、精神不佳。病童血液中紅血球、血小板、白血球數目減少。男童之前曾有類似 感冒症狀，也服用過抗生素與退燒藥。骨髓切片檢查發現骨髓中約80%～90%都是脂肪組織，造血母細胞 （blast cells）數目並未明顯增加。造血細胞形態大致正常。下列有關病人的敘述，何者最適當？",
+      "choices": [
+        "最常見的感染性病因是黴漿菌感染",
+        "此類疾病以原發性（idiopathic）引起的最多",
+        "此類病人大多會因為脾臟出現造血功能而腫大",
+        "化療藥物中以taxol類為最常見病因"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 86,
+      "text": "有關肺的鱗狀細胞癌（squamous cell carcinoma）的敘述，下列何者最適當？",
+      "choices": [
+        "女性比男性多",
+        "通常發生於肺部周邊區域",
+        "EGFR有高度表現且常合併突變",
+        "相對於其它組織形態，最常出現高鈣血症"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 87,
+      "text": "α1-抗胰蛋白酶缺乏症（α1-antitrypsin deficiency）造成之肺氣腫類型多屬於下列何者？",
+      "choices": [
+        "全腺泡型肺氣腫（panacinar emphysema）",
+        "中心型肺氣腫（centriacinar emphysema）",
+        "遠端腺泡型肺氣腫（distal acinar emphysema）",
+        "不規則型肺氣腫（irregular emphysema）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 88,
+      "text": "肺泡玻璃樣膜（hyaline membranes of alveoli）與下列何種病變最為相關？",
+      "choices": [
+        "慢性支氣管炎（chronic bronchitis）",
+        "氣喘（asthma）",
+        "急性呼吸窘迫症候群（ARDS）",
+        "肺氣腫（emphysema）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 89,
+      "text": "下列關於胰臟癌的敘述，何者最不適當？",
+      "choices": [
+        "腺泡細胞癌（acinar cell carcinoma）是最常見的胰臟癌類型",
+        "胰腺癌（ductal carcinoma）預後不良",
+        "胰腺癌（ductal carcinoma）經常發現CDKN2A inactivation和KRAS突變",
+        "大部分的胰腺癌（ductal carcinoma）發生在胰臟頭部（pancreatic head）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 90,
+      "text": "下列何處的鱗狀細胞癌（squamous cell carcinoma）與人類乳突瘤病毒（human papillomavirus）最為相關？",
+      "choices": [
+        "牙齦（gingiva）",
+        "頰黏膜（buccal mucosa）",
+        "口咽（oropharynx）",
+        "食道（esophagus）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 91,
+      "text": "有關肝臟的威爾森氏病（Wilson disease），下列何種生化檢查的診斷價值最低？",
+      "choices": [
+        "血清的銅離子濃度",
+        "血清的銅藍蛋白（ceruloplasmin）濃度",
+        "肝臟的銅離子濃度",
+        "尿液的銅離子濃度"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 92,
+      "text": "下列何種炎症細胞最不可能出現在硬化性後腹腔纖維化（sclerosing retroperitoneal fibrosis）的病灶中？",
+      "choices": [
+        "淋巴球",
+        "IgG4陽性漿細胞",
+        "嗜酸性白血球",
+        "嗜中性白血球"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 93,
+      "text": "有關腎臟微小病變（minimal-change disease）之特徵，下列敘述何者最適當？",
+      "choices": [
+        "最主要的病理變化為腎小球中的壁上皮細胞（parietal epithelial cells）的足突消失",
+        "腎小球的基底膜變厚",
+        "近側腎小管上皮有脂質沉積",
+        "在人類此疾病已證實與血管新生因子（angiopoietin-like 1）有密切關係"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 94,
+      "text": "最常造成原發性副甲狀腺功能亢進症（primary hyperparathyroidism）的原因是：",
+      "choices": [
+        "primary hyperplasia",
+        "parathyroid carcinoma",
+        "multiple parathyroid adenomas",
+        "solitary parathyroid adenoma"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 95,
+      "text": "下列有關人類乳突狀病毒（human papillomavirus）與子宮頸癌或鱗狀前驅病灶（squamous cervical precursor lesions）的敘述，何者最不適當？",
+      "choices": [
+        "大部分的鱗狀上皮內病灶（squamous intraepithelial lesion）不論是低度（low-grade）或高度（high-grade）都 與人類乳突狀病毒的感染有關",
+        "大部分的低度鱗狀上皮內病灶與低危險性人類乳突狀病毒（low-risk human papillomavirus）的感染有關",
+        "大部分的高度鱗狀上皮內病灶與高危險性人類乳突狀病毒（high-risk human papillomavirus）的感染有關",
+        "在低度鱗狀上皮內病灶中，人類乳突狀病毒的病毒量，在表面成熟上皮較基底層上皮為高"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 96,
+      "text": "卵巢腫瘤中，最常見的是源自於穆勒氏上皮（Müllerian epithelium）的上皮性腫瘤，下列有關卵巢上皮性腫瘤 的敘述， 何者最不適當？",
+      "choices": [
+        "主要的組織型包括漿液性（serous）、黏液性（mucinous）與子宮內膜樣性（endometrioid）",
+        "卵巢漿液性癌（serous carcinoma）為最常見的卵巢上皮癌，兩側卵巢皆被侵犯的比例很低 ，低於20%",
+        "卵巢漿液性癌（serous carcinoma）可以分為高惡性度（high-grade）與低惡性度（low-grade）",
+        "卵巢上皮癌中，第二常見組織型為子宮內膜樣癌（endometrioid carcinoma）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 97,
+      "text": "根據卵巢上皮癌的發生機轉，可區分為第一型（type I）與第二型（type II）腫瘤，下列何者為第二型（type II）腫瘤？",
+      "choices": [
+        "子宮內膜樣癌（endometrioid carcinoma）",
+        "亮細胞癌（clear cell carcinoma）",
+        "低惡性度漿液性癌（low-grade serous carcinoma）",
+        "高惡性度漿液性癌（high-grade serous carcinoma）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 98,
+      "text": "非創傷性蜘蛛網膜下出血（subarachnoid hemorrhage）最常見之成因是：",
+      "choices": [
+        "arteriovenous malformation血管破裂",
+        "cavernous hemangioma血管破裂",
+        "arteriolar sclerosis血管破裂",
+        "saccular aneurysm in the circle of Willis血管破裂"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 99,
+      "text": "庫賈氏症（Creutzfeldt-Jakob disease）患者大腦主要的病理變化是：",
+      "choices": [
+        "demyelinated plaque",
+        "ring hemorrhage",
+        "TH17 T cell infiltrate",
+        "spongiform encephalopathy"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 100,
+      "text": "14歲男童於橋腦（pons）處有一經病理切片診斷為diffuse glioma, WHO grade II。針對brain stem glioma往往 具有某特殊的基因變化，現已被歸屬成另外單獨類別之glioma，此特殊的基因變化是：",
+      "choices": [
+        "ATRX loss",
+        "H3.1 or H3.3 K27M mutation",
+        "MGMT hypermethylation",
+        "1p/19q co-deletion"
+      ],
+      "answer": "B"
+    }
+  ]
+}

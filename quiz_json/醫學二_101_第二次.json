@@ -1,0 +1,1178 @@
+{
+  "exam": "醫學二",
+  "year": "101",
+  "session": "第二次",
+  "questions": [
+    {
+      "no": 1,
+      "text": "下列何種臨床疾病之病因被認為和Endothelin-1 無關？",
+      "choices": [
+        "高血壓",
+        "心衰竭",
+        "心肌梗塞",
+        "肺動脈高壓症"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "all_correct": true,
+      "answer_note": "一律給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 2,
+      "text": "NMDA receptor 亦為離子通道，開啟時下列何種離子可通過？",
+      "choices": [
+        "僅鈉",
+        "僅鈉與鉀",
+        "僅鈉與鈣",
+        "鈉、鉀與鈣"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 3,
+      "text": "黃體（corpus luteum）主要是由何種細胞組成？",
+      "choices": [
+        "顆粒細胞（granulosa cells）",
+        "膜細胞（theca cells）",
+        "纖維組織母細胞（fibroblasts）",
+        "肌肉細胞（muscle cells）"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "B"
+      ],
+      "answer_note": "答A或B或AB者均給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 4,
+      "text": "肢體末梢神經對稱性感覺喪失最可能發生在下列何種疾病的患者？",
+      "choices": [
+        "cerebellar lesions",
+        "cerebrovascular diseases",
+        "diabetic polyneuropathy",
+        "Parkinson’s disease"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 5,
+      "text": "如果脊髓受損（spinal cord injury）患者的主要損傷部位在背側之脊髓神經束（dorsal column），下列 何者最不可能發生？",
+      "choices": [
+        "閉眼時無法正確辨識手掌中的物體",
+        "震動感覺（vibratory sense）較差",
+        "無法正確偵測皮膚上的溫度變化",
+        "閉眼時無法站穩"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 6,
+      "text": "下列有關骨骼肌收縮的敘述，何者錯誤？",
+      "choices": [
+        "動作電位是經由T-tubules 傳遞",
+        "肌細胞內鈣離子濃度上升會促進肌動蛋白（actin）與肌凝蛋白（myosin）之交互作用",
+        "Ryanodine 受器是一種鈣離子釋放通道",
+        "鈣離子是經由肌細胞膜釋放到細胞質內"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 7,
+      "text": "lower motor neuron 損傷後，其所支配之骨骼肌最可能發生何種症狀？",
+      "choices": [
+        "伸張反射（stretch reflex）消失",
+        "縮回反射（withdrawal reflex）增強",
+        "肌肉張力（muscle tone）增加",
+        "痙攣性麻痺（spastic paralysis）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 8,
+      "text": "與大部分血管新生（angiogenesis）關係最密切的生長因子（growth factor）為何？",
+      "choices": [
+        "PDGF（platelet-derived growth factor）",
+        "IGF-1（insulin-like growth factor-1）",
+        "VEGF（vascular endothelial growth factor）",
+        "TGF-β（transforming growth factor-β）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 9,
+      "text": "關於左心室之冠狀動脈血流供應，下列何者正確？",
+      "choices": [
+        "平均分配於心臟收縮期及舒張期",
+        "主要在心臟舒張期",
+        "主要在心臟收縮期",
+        "往往依收縮壓高低而有所不同"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 10,
+      "text": "下列何種immunoglobulin（Ig）可促使basophils 和mast cells 分泌組織胺（histamine）？",
+      "choices": [
+        "Ig M",
+        "Ig A",
+        "Ig E",
+        "Ig G"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 11,
+      "text": "一位健康者其體循環之動脈血pH 值瞬間由7.4 降低至7.3，經過幾分鐘後會產生下列何種狀況？",
+      "choices": [
+        "降低肺通氣量（ventilation）",
+        "增加腦脊髓液中的二氧化碳分壓",
+        "體循環動脈血pH 值維持不變",
+        "降低肺泡二氧化碳分壓"
+      ],
+      "answer": "C",
+      "accepted_answers": [
+        "C",
+        "D"
+      ],
+      "answer_note": "答C或D或CD者均 給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 12,
+      "text": "下列何者為臨床上最常被用來測量肺部氣體擴散率（diffusion rate）的氣體？",
+      "choices": [
+        "Carbon dioxide",
+        "Carbon monoxide",
+        "Helium",
+        "Nitrogen"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "all_correct": true,
+      "answer_note": "一律給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 13,
+      "text": "下列何種氣體於體液之擴散係數（diffusion coefficient）最高？",
+      "choices": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon monoxide",
+        "Carbon dioxide"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 14,
+      "text": "下列那一種血漿蛋白不是以肝臟為主要的製造場所？",
+      "choices": [
+        "白蛋白（albumin）",
+        "β 球蛋白（β-globulin）",
+        "γ 球蛋白（γ-globulin）",
+        "纖維蛋白原（fibrinogen）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 15,
+      "text": "由basal ganglia 輸出至thalamus 的訊息主要由何者媒介？",
+      "choices": [
+        "GABA",
+        "acetylcholine",
+        "glutamate",
+        "dopamine"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 16,
+      "text": "鈉離子的再吸收（reabsorption）在下列何處最大？",
+      "choices": [
+        "亨利氏彎管的細下降支（thin descending limb）",
+        "亨利氏彎管的細上升支（thin ascending limb）",
+        "亨利氏彎管的粗上升支（thick ascending limb）",
+        "集尿管（collecting duct）的髓質部（inner medullary portion）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 17,
+      "text": "霍亂弧菌毒素會刺激小腸絨毛分泌細胞產生cyclic AMP，接著引發下列何種離子大量釋出，導致分 泌性腹瀉？",
+      "choices": [
+        "鈉離子",
+        "氯離子",
+        "鈣離子",
+        "鎂離子"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 18,
+      "text": "腎臟血流量在腎臟內分布並不均勻，血流量最多之處位於下列那一個部位？",
+      "choices": [
+        "腎臟皮質",
+        "腎臟外側髓質",
+        "腎臟內側髓質",
+        "腎臟脂肪組織"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 19,
+      "text": "一位20 歲男性最近出現下肢水腫、小便有沖不掉的泡泡。抽血檢驗發現病人血中白蛋白數值偏低 （albumin 2.0 g/dL）；而且尿液常規檢查發現病人有蛋白尿（urine protein > 300 mg/dL）。抽血檢驗 發現其血色素值有升高現象（hemoglobin 16.8 g/dL）。有關病人之敘述，下列何者最可能發生？",
+      "choices": [
+        "病人腎臟的鈉總排出量會增加",
+        "病人血中之腎素（renin）濃度會上升",
+        "病人細胞外組織間質液（interstitial fluid）的淨水壓（hydrostatic pressure）會下降",
+        "病人胸管內的淋巴流量（thoracic duct lymph flow）會減少"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 20,
+      "text": "一位48 歲女性，主訴近幾年來常常腰酸背痛，手部麻木，足部和手部明顯變粗大，住院時之空腹血 糖181 mg/dL，血壓165/95 mmHg，血中growth hormone 值25 ng/mL（正常女性< 5 ng/mL）。此病 人最可能之診斷為何？",
+      "choices": [
+        "acromegaly",
+        "gigantism",
+        "dwarfism",
+        "rickets"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 21,
+      "text": "關於胃黏膜分泌胃酸和內在因子（intrinsic factor）的敘述，下列何者錯誤？",
+      "choices": [
+        "慢性胃炎會引起胃黏膜逐漸萎縮，並導致胃酸分泌減少",
+        "無酸症（achlorhydria）病人經各種刺激後，胃液的pH 值仍無法降至pH6.5 以下",
+        "內在因子是胃黏膜的主細胞（chief cell）所分泌的醣蛋白（glycoprotein）；胃酸則由壁細胞（parietal cell）所分泌",
+        "缺乏內在因子會使維生素B B12吸收不良，進而導致惡性貧血（pernicious anemia）"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "C"
+      ],
+      "answer_note": "答A或C或AC者均給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 22,
+      "text": "臨床表現低血鈉、低血糖及色素沈著於皮膚皺摺（crease）處之患者，其原發病灶最可能位於何處？",
+      "choices": [
+        "腎上腺",
+        "腎臟",
+        "腦下垂體",
+        "肝臟"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 23,
+      "text": "懷孕3 個月後，切除卵巢一般不會導致流產，原因為何？",
+      "choices": [
+        "母親體內仍有足夠黃體促素（LH）",
+        "母親體內仍有足夠濾泡促素（FSH）",
+        "胎盤產生足夠的雌激素（estrogen）及助孕素（progesterone）維持子宮內膜厚度",
+        "胎盤產生足夠的雌激素及雄性素（androgen）維持子宮內膜厚度"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 24,
+      "text": "下列何者為對光敏感的感光色素成分？",
+      "choices": [
+        "retinal",
+        "transducin",
+        "phosphodiesterase",
+        "opsin"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 25,
+      "text": "一位55 歲的男性因性慾降低及勃起功能障礙而求診，經抽血檢驗發現其血中睪酮（testosterone）量 只有150 ng/dL（正常值為300 ng/dL）。醫師給予之診斷為男性更年期（或稱男性性腺分泌不足）， 故給予定時之睪酮注射補充治療（replacement therapy）。經由一段時間的睪酮補充之後，下列何種 現象是較不會發生的？",
+      "choices": [
+        "落髮量增多，結果頭頂禿髮的情形變嚴重",
+        "陰部及臉上鬍鬚之毛髮量增多",
+        "血中血紅素（hemoglobin）數值增加",
+        "睪丸內精子之製造量增加"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 26,
+      "text": "某酵素對受質A的動力學參數為：Km＝0.01 mM；Kcat＝5 S-1，而對受質B的動力學參數為：Km ＝0.1 mM；Kcat＝5 S-1，由以上數據可知：",
+      "choices": [
+        "此酵素對受質B 的反應速率較易飽和",
+        "當催化速率處於飽和時，此酵素對受質A 的反應較快",
+        "此酵素對受質A 的專一性較高",
+        "當受質濃度極低時，此酵素對受質B 的反應較快"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 27,
+      "text": "下列何者不是同源重組（homologous recombination）的生物功能？",
+      "choices": [
+        "幫助染色體在減數分裂（meiosis）時的分離",
+        "增加基因多樣性（genetic diversity）",
+        "促進轉錄作用（transcription）",
+        "DNA 修復（DNA repair）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 28,
+      "text": "下列關於非競爭型抑制劑（uncompetitive inhibitor）的敘述，何者正確？",
+      "choices": [
+        "非競爭型抑制劑係結合於酵素的活性中心，使受質無法結合",
+        "非競爭型抑制劑與酵素結合後會改變酵素活性中心的結構，阻斷反應的進行",
+        "非競爭型抑制劑的存在會使酵素的Km 上升",
+        "酵素反應之Vmax 不受非競爭型抑制劑的影響"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 29,
+      "text": "下列維生素何者為輔酶A（coenzyme A）的結構成分？",
+      "choices": [
+        "Pantothenic acid",
+        "Ascorbic acid",
+        "Nicotinic acid",
+        "Folic acid"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 30,
+      "text": "下列何者主要是負責細胞還原生合成（reductive biosynthesis）反應之輔酶？",
+      "choices": [
+        "NADH",
+        "NADPH",
+        "FADH2",
+        "FMNH2"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 31,
+      "text": "有關DNA 與RNA 的敘述，下列何者錯誤？",
+      "choices": [
+        "DNA 由去氧核糖核酸組成，RNA 由核糖核酸組成",
+        "在弱鹼溶液中，RNA 較DNA 穩定",
+        "雙股DNA 大多以B form 二級結構存在",
+        "DNA 與RNA 皆用磷酸二酯鍵（phosphodiester bond）形成聚合體"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 32,
+      "text": "有關細菌的基因表現之敘述，下列何者錯誤？",
+      "choices": [
+        "細菌的protein coding gene 不含intron",
+        "細菌僅有一種RNA polymerase 進行轉錄作用",
+        "細菌的mRNA 的轉錄可和轉譯同步發生",
+        "細菌所有的RNA，均不須進行轉錄後processing"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 33,
+      "text": "三餐正常的人在午餐未進食前，下列那一項是血糖的主要來源？",
+      "choices": [
+        "蛋白質",
+        "肝臟中的肝醣（glycogen）",
+        "肌肉中的肝醣",
+        "脂肪組織的葡萄糖（glucose）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 34,
+      "text": "遺傳密碼子（genetic codon）的degeneracy 是指：",
+      "choices": [
+        "遺傳密碼子是由二個核苷酸（nucleotides）所構成",
+        "遺傳密碼子是由核苷酸重複使用所構成",
+        "多個遺傳密碼子可代表同一種胺基酸（amino acid）",
+        "同一遺傳密碼子在不同的生物體中代表不同種的胺基酸"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 35,
+      "text": "嘌呤的代謝異常會導致人類疾病，下列關於adenosine deaminase（ADA）deficiency 的敘述何者錯誤？",
+      "choices": [
+        "ADA 缺乏時會導致嚴重的免疫缺乏，讓T 淋巴球無法發揮正常防禦功能",
+        "ADA 缺乏時會促進dATP 的合成",
+        "ADA 缺乏時會導致細胞中累積100 倍以上的dATP",
+        "細胞中過多的dATP 會抑制核苷酸還原酶的作用，而無法產生其他的dNTP"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "all_correct": true,
+      "answer_note": "一律給分 ，",
+      "answer_source": "#"
+    },
+    {
+      "no": 36,
+      "text": "胰島素（insulin）調節下列何種分子的合成，進而活化phosphofructokinase-1 以促進糖解作用 （glycolysis）？",
+      "choices": [
+        "citrate",
+        "NADH",
+        "fructose 2,6-bisphosphate",
+        "ATP"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 37,
+      "text": "下列何種內分泌荷爾蒙其receptor 不是nuclear hormone receptor？",
+      "choices": [
+        "glucocorticoid",
+        "glucagon",
+        "thyroid hormone",
+        "progesterone"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 38,
+      "text": "劇烈運動中的肌細胞與靜止時之肌細胞相比，前者會產生下列何種現象？",
+      "choices": [
+        "lactate 形成之速率較高",
+        "gluconeogenesis 增加",
+        "glucose 之消耗較低",
+        "glycogenolysis 較低"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 39,
+      "text": "Tay-Sachs 是一種人類遺傳性疾病，下列相關敘述何者錯誤？",
+      "choices": [
+        "會導致ganglioside GM2 在腦及脾中的堆積",
+        "它是β-galactosidase 的缺乏",
+        "它是一種發育過程漸進式的肢體麻痺及失明",
+        "脂質類代謝的異常所引起"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 40,
+      "text": "下列何種分子是屬於glycerophospholipid 並參與細胞內訊息傳遞？",
+      "choices": [
+        "arachidonic acid",
+        "vitamin C",
+        "phosphatidylinositol",
+        "phosphatidylethanolamine"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 41,
+      "text": "free ammonia 在細胞內可藉由那一個酵素作用，將其轉化為無毒性的L-glutamine？",
+      "choices": [
+        "glutaminase",
+        "glutamine synthetase",
+        "glutamate dehydrogenase",
+        "aspartate aminotransferase"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 42,
+      "text": "有關家族性高膽固醇症（familial hypercholesterolemia）最主要的致病原因為何？",
+      "choices": [
+        "飲食中過度高油脂食物的攝取",
+        "HMG-CoA reductase 基因變異",
+        "正常LDL receptor 蛋白表現量過高",
+        "LDL receptor 基因變異"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 43,
+      "text": "澱粉樣變性病（amyloidosis）是一類由蛋白質摺疊錯誤所引發的疾病，何種蛋白質二級結構（secondary structure）與導致此類疾病的關係最為密切？",
+      "choices": [
+        "α-螺旋（α-helix）",
+        "β-摺板（β-sheet）",
+        "β-回轉（β-turn）",
+        "隨機線圈（random coil）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 44,
+      "text": "一位60 歲病患因腹部劇痛、輕度癱瘓被送來急診，尿液檢查呈酒紅色，基因分析發現：參與血紅素 （heme）合成的酵素發生錯義突變（missense mutation）。下列何者是最可能的診斷？",
+      "choices": [
+        "苯酮尿症（phenylketonuria）",
+        "楓糖漿尿症（maple syrup urine disease）",
+        "黑尿症（alkaptonuria）",
+        "紫質症（porphyria）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 45,
+      "text": "一位新生兒的血液篩檢發現有白胺酸（leucine）、異白胺酸（isoleucine）及纈胺酸（valine）的堆積， 懷疑是楓糖漿尿症（maple syrup urine disease）的患者，必須終身作嚴格的飲食控制。下列那個酵素 的功能障礙，最可能是這個疾病的原因？",
+      "choices": [
+        "胺甲醯磷酸鹽合成酶（carbamoyl phosphate synthetase）",
+        "黑尿酸氧化酶（homogentisic acid oxidase）",
+        "支鏈酮酸去氫酵素（branched-chain α–keto acid dehydrogenase）",
+        "苯丙胺酸羥化酶（phenylalanine hydroxylase）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 46,
+      "text": "puromycin 是一種抗生素（antibiotics），可以抑制細菌之蛋白質合成，是由於它可以：",
+      "choices": [
+        "抑制細菌之核糖體結合於mRNA 上",
+        "佔據mRNA 之起始密碼位置",
+        "促進核糖體之分解",
+        "結合在核糖體之A site，破壞胜肽鍵之生合成"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 47,
+      "text": "不孕症之治療可以注射gonadotropin-releasing hormone（GnRH），以促進排卵。下列有關GnRH receptor 的敘述何者錯誤？",
+      "choices": [
+        "GnRH receptor 是membrane receptor",
+        "GnRH receptor 是經G protein 傳遞訊息",
+        "GnRH receptor 接受ligand 後，會活化protein kinase A",
+        "GnRH receptor受ligand刺激後，細胞質內的Ca2+濃度會上升"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 48,
+      "text": "粒線體進行電子傳遞過程中容易產生下列何種對細胞有害的物質？",
+      "choices": [
+        "reactive oxygen species（ROS）",
+        "CO",
+        "NH3",
+        "O2"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 49,
+      "text": "下列關於訊息傳遞的敘述，何者錯誤？",
+      "choices": [
+        "β-adrenergic receptor 是經由cyclic AMP 進行細胞訊息傳遞",
+        "一氧化氮（nitric oxide）是經由膜型guanylyl cyclase 受體（membrane form guanylyl cyclase）進行 細胞訊息傳遞",
+        "細胞內鈣離子濃度受inositol-3-phosphate（IP3）調控",
+        "cyclic AMP（cAMP）是藉由allosteric regulation 的方式調控蛋白激酶A（protein kinase A）活性"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 50,
+      "text": "1871 年德國眼科醫師Theodor Leber 發現了一種家族性的神經眼科疾病Leber hereditary optic neuropathy，簡稱LHON，後來證實這是一種粒線體疾病。下列有關粒線體之敘述何者正確？",
+      "choices": [
+        "粒線體的DNA 與細胞核DNA 一樣，為環狀雙股結構",
+        "粒線體相關的遺傳病大多是自體隱性染色體遺傳（autosomal recessive）",
+        "粒線體相關的遺傳病大多是X-性聯染色體遺傳（X-linked recessive），所以大多發生在男性",
+        "粒線體DNA 突變情況較輕的病人，有時候只有眼睛神經病變，在接近成年的年齡時突然發生失明"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 51,
+      "text": "下列有關mifepristone（RU-486）的藥理作用描述，何者錯誤？",
+      "choices": [
+        "為一種具選擇性糖皮質激素受體拮抗劑（glucocorticoid receptor antagonist）",
+        "具有高度的抗孕激素活性（antiprogestin activity）作用，因此可以被用來當作一種避孕劑",
+        "會惡化庫欣氏症候群（Cushing’s syndrome）的臨床症狀",
+        "口服有效"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 52,
+      "text": "testosterone 在代謝過程中經過何者之作用轉化成estradiol？",
+      "choices": [
+        "5α-reductase",
+        "cytochrome P450s",
+        "3β-hydroxy steroid dehydrogenase",
+        "aromatase"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 53,
+      "text": "對insulin 具有耐受性的糖尿病患者因同時有水腫的問題需作治療改善，不宜使用下列何種利尿劑？",
+      "choices": [
+        "chlorothiazide",
+        "acetazolamide",
+        "furosemide",
+        "spironolactone"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 54,
+      "text": "下列何者不是cAMP 媒介之藥理作用？",
+      "choices": [
+        "vasopressin 促進腎臟對水分之再吸收",
+        "norepinephrine 促進血管收縮",
+        "epinephrine 促進肝醣分解",
+        "epinephrine 促進脂肪細胞分解三酸甘油酯"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 55,
+      "text": "下列有關藥物與血漿蛋白結合之敘述，何者錯誤？",
+      "choices": [
+        "大部分的藥物會與albumin 結合",
+        "鹼性藥物會與alpha1-acid glycoprotein結合",
+        "血漿蛋白結合率高的藥物，藥效作用時間會縮短",
+        "與血漿蛋白結合之藥物會暫時失去藥理活性"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 56,
+      "text": "市面上之威而鋼（sildenafil）治療陽痿的主要作用機轉為何？",
+      "choices": [
+        "增加NO 的合成",
+        "增加NO 的釋出",
+        "活化guanylate cyclase",
+        "抑制phosphodiesterase V"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 57,
+      "text": "下列有關於藥物與受體交互作用之敘述，何者錯誤？",
+      "choices": [
+        "full agonist 對與活化狀態受體（active form）結合後的反應最高",
+        "partial agonist 對與不活化狀態受體（inactive form）的結合後仍有部分反應",
+        "inverse agonist 對與不活化狀態受體（inactive form）的結合後產生抑制性反應",
+        "antagonist 對於活化狀態受體（active form）和不活化狀態受體（inactive form）結合後皆無任何反應"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 58,
+      "text": "下列何種藥物可以清除感染非洲睡眠症病人血液及淋巴結中之錐蟲？",
+      "choices": [
+        "nifurtimox",
+        "melarsoprol",
+        "pentamidine",
+        "suramin"
+      ],
+      "answer": "B",
+      "accepted_answers": [
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_note": "答B或C或D或BC或BD或CD或BCD者均給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 59,
+      "text": "Infliximab 單株抗體可用於Crohn’s disease 之緩解，其主要作用之標的為何？",
+      "choices": [
+        "interferon",
+        "IL-2",
+        "TNF-α",
+        "LTB4"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 60,
+      "text": "關於methadone 的敘述，下列何者錯誤？",
+      "choices": [
+        "止痛的效果較morphine 差",
+        "作用的半衰期較morphine 長",
+        "口服有效",
+        "所產生的戒斷作用較morphine 輕微"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 61,
+      "text": "有關succimer 之敘述中，下列何者正確？",
+      "choices": [
+        "又名DMPS（dimercaptopropanesulfornic acid）",
+        "要以肌肉注射給藥",
+        "可用於治療小孩之血中高鉛濃度",
+        "會有高血壓之副作用"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 62,
+      "text": "下列有關statin 敘述，何者錯誤？",
+      "choices": [
+        "主要作用於HMG-CoA reductase，抑制膽固醇生合成",
+        "引發高親和力LDL receptor 表現增加",
+        "atorvastatin 屬於prodrug，必須經腸道代謝成活性代謝物",
+        "可與cholestyramine 合用，達到降膽固醇之相加作用"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 63,
+      "text": "有關enalapril 對心衰竭病人治療作用之敘述，何者錯誤？",
+      "choices": [
+        "為慢性心衰竭治療之第一線治療藥物",
+        "使用digoxin 治療之慢性心衰竭病人可以enalapril 取代",
+        "可與利尿劑併用",
+        "腎動脈狹窄病人應避免使用"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 64,
+      "text": "下列有關heparin 和warfarin 之敘述，何者錯誤？",
+      "choices": [
+        "採用aPTT（activated partial thromboplastin time）來檢測heparin 之抗凝血活性",
+        "以prothrombin time 來檢測warfarin 之抗凝血活性",
+        "heparin 過量之拮抗劑為Factor VIIa",
+        "warfarin過量之拮抗劑為冷凍血漿和Vit. K1"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 65,
+      "text": "下列何種藥物用於治療嗜鉻細胞瘤（pheochromocytoma），但會產生錐體外路徑症狀之副作用？",
+      "choices": [
+        "labetalol",
+        "metyrosine",
+        "phenoxybenzamine",
+        "tamsulosin"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 66,
+      "text": "有關nicotinic cholinoceptor 之敘述，下列何者錯誤？",
+      "choices": [
+        "是一種G 蛋白耦合之受體",
+        "可被乙醯膽鹼活化",
+        "位於交感神經節節後神經細胞體上",
+        "活化後可使骨骼肌收縮"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 67,
+      "text": "男性禿頭專用毛髮增生劑finasteride 主要透過下列何種機轉來促進毛髮增生？",
+      "choices": [
+        "為黃體素（progesterone）的衍生物，透過抑制雄激素（antiandrogenic）及抑制促性腺激素 （antigonadotropic）的作用來產生促進毛髮增生",
+        "具有降低循環及前列腺內的二氫睪固酮（dihydrotestosterone）的產生，進而促進毛髮增生",
+        "具有抑制芳香環轉化酶（aromatase）的活性，進而促進毛髮增生",
+        "為一種合成的黃體素，透過活化黃體素受體來促進毛髮增生"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 68,
+      "text": "下列那一類藥物最適合用於治療患有Zollinger-Ellison syndrome 的病人？",
+      "choices": [
+        "antacids",
+        "H2 antagonists",
+        "proton pump inhibitors",
+        "anticholinergic agents"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 69,
+      "text": "下列何種治療氣喘的藥物之治療指數（therapeutic index）窄，使用時需特別小心？",
+      "choices": [
+        "nedocromil",
+        "ipratropium",
+        "terbutaline",
+        "theophylline"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 70,
+      "text": "下列何種NSAIDs 藥物，最容易引起血栓的副作用？",
+      "choices": [
+        "diclofenac",
+        "ibuprofen",
+        "rofecoxib",
+        "sulindac"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 71,
+      "text": "下列何者不是臨床上作基因治療的必要條件？",
+      "choices": [
+        "目前無合適治療法的疾病",
+        "疾病的突變基因之確定",
+        "疾病的突變基因與疾病具關聯性",
+        "In vitro 的偵測系統即足夠評估其療效（efficacy）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 72,
+      "text": "下列有關中樞神經興奮劑methylphenidate 的敘述，何者錯誤？",
+      "choices": [
+        "可以有效改善注意力不足/過動症候群（attention-deficit/hyperactivity syndrome）",
+        "具有阻斷norepinephrine 及dopamine 被再吸收到突觸前神經元的作用",
+        "具有促進食慾的作用",
+        "不適合使用於心血管疾病病史的病人"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 73,
+      "text": "下列有關抗癲癇藥物lamotrigine 的敘述，何者錯誤？",
+      "choices": [
+        "其主要作用於電位敏感的鈉離子通道，以安定神經膜及抑制興奮性神經傳導物的釋放作用",
+        "其對於局部癲癇、泛發性強直性陣攣性癲癇具有治療的效果",
+        "其對sodium valproate 合併使用時，其體內半衰期會縮短，因此使用劑量需要加倍",
+        "其可以用於雙極性疾患（bipolar disorder）之鬱症預防"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 74,
+      "text": "下列有關抗癲癇藥物carbamazepine 的描述，何者錯誤？",
+      "choices": [
+        "其口服效果不佳，需以靜脈注射的方式給藥",
+        "carbamazepine 具有延長鈉離子管道不反應期的作用",
+        "oxcarbazepine 的作用強度較carbamazepine 大",
+        "carbamazepine 會促進肝臟微粒體酵素的活性，因此會增加其他藥物的代謝作用"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "C"
+      ],
+      "answer_note": "答A或C或 AC者均給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 75,
+      "text": "下列降血壓藥物與其主要機轉配對何者正確？ 1",
+      "choices": [
+        "fenoldopam—可以釋放出一氧化氮（nitric oxide）",
+        "hydralazine—抑制鈣離子內流入血管平滑肌細胞",
+        "minoxidil—其代謝物可開啟血管平滑肌鉀離子通道",
+        "sodium nitroprusside—可以活化dopamine D 受體"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 76,
+      "text": "50 歲的男性死者，解剖時發現肝臟重量為2300 公克且外觀顏色較黃。生前血液檢查發現並無特別異 常。圖示是肝臟切片顯微鏡下的變化。下列何者與死者肝臟變化最有相關性？",
+      "choices": [
+        "酗酒",
+        "B 型肝炎病毒感染",
+        "自體免疫反應",
+        "服用Acetaminophen"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 77,
+      "text": "25 歲男性，因車禍意外造成左大腿骨折，經石膏固定治療，幾週來左腿無法自由行動，發現他左腿 變細。下列何者最能解釋肌肉的變化？",
+      "choices": [
+        "細胞凋亡（apoptosis）",
+        "萎縮（atrophy）",
+        "發育不良（hypoplasia）",
+        "營養不良（dystrophy）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 78,
+      "text": "羊水過少（oligohydramnios）與下列何種胎兒之疾病或變化最不相關？",
+      "choices": [
+        "腎未成形（renal agenesis）",
+        "臀產式（breech presentation）",
+        "腸閉鎖（intestinal atresia）",
+        "肺發育不全（pulmonary hypoplasia）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 79,
+      "text": "人類免疫缺乏病毒（HIV）感染流行病學調查顯示，具有其他性病（如軟性下疳等）的病人，也具 HIV 感染的危險性。據此有一假設：性行為時發炎之黏膜表面為傳染HIV 之理想地方。下列何細胞 是傳染HIV 病毒至CD4(+)細胞的重要媒介？",
+      "choices": [
+        "CD8(+)細胞",
+        "天然殺手細胞（natural killer cells）",
+        "樹突細胞（dendritic cells）",
+        "嗜中性白血球"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 80,
+      "text": "下列有關papillary renal cell carcinoma 的敘述，何者錯誤？",
+      "choices": [
+        "來自遠端集尿管的上皮細胞，有兩側性及多發性",
+        "腫瘤長大時會有出血及囊狀變化",
+        "部分病例與MET protooncogene 的mutational activation 有關係",
+        "與hepatocyte growth factor 有關係"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 81,
+      "text": "32 歲未婚婦女有月經痛的病史，3 天前開始下腹疼痛，超音波掃描檢查發現左側卵巢有一7 公分大 的腫瘤，經由手術取出腫瘤後切開檢查，為一囊狀病灶內含大量暗紅色液狀物，請問下列何種診斷 最為適當？",
+      "choices": [
+        "畸胎瘤（teratoma）",
+        "黏液性囊狀腺瘤（mucinous cystadenoma）",
+        "子宮內膜異位瘤（endometrioma）",
+        "過誤瘤（hamartoma）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 82,
+      "text": "60 歲女性，身材較為肥胖。因最近有不正常的陰道出血就醫。她已停經10 年且未曾生育。骨盆腔檢 查發現子宮大小正常，兩側卵巢並無腫瘤，子宮頸外觀正常。她有20 年的糖尿病與高血壓病史。下 列何種變化最可能出現在她的子宮？",
+      "choices": [
+        "腺癌（adenocarcinoma）",
+        "子宮腺肌症（adenomyosis）",
+        "絨毛膜癌（choriocarcinoma）",
+        "子宮肉瘤（leiomyosarcoma）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 83,
+      "text": "肺癌病人合併肋膜腔積水，細胞學檢查發現有肺癌細胞轉移，下列敘述何者最正確？",
+      "choices": [
+        "腫瘤細胞多半經由血液轉移",
+        "腫瘤細胞多半經由淋巴轉移",
+        "腫瘤細胞多半經由直接侵襲或播種方式轉移",
+        "以鱗狀細胞癌最常見"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "answer_note": "答A或B或C或AB或AC或BC或ABC者均給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 84,
+      "text": "下列有關大血管轉位（transposition of great vessels）先天性心臟病的敘述，何者最不適當？",
+      "choices": [
+        "主動脈連接右心室",
+        "肺動脈連接左心室",
+        "升主動脈位於肺動脈幹左後方",
+        "左心室壁會變較薄"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 85,
+      "text": "有關成人多囊性腎疾病（adult polycystic kidney disease）之敘述，下列何者錯誤？",
+      "choices": [
+        "多數與polycystin 1、2 基因突變有關",
+        "與腎小管上皮細胞不正常的生長及分化有關",
+        "很多病人直到腎臟衰竭時才被發現",
+        "約5%病人會合併肝臟的多囊性疾病"
+      ],
+      "answer": "C",
+      "accepted_answers": [
+        "C",
+        "D"
+      ],
+      "answer_note": "答 C或D或CD者均給分。",
+      "answer_source": "#"
+    },
+    {
+      "no": 86,
+      "text": "一位新生兒一出生就發生嚴重發紺（cyanosis）並被發現有一心室中隔缺損（ventricular septal defect）。 下列先天性心臟病中何者並不符合如此的臨床及病理表現？",
+      "choices": [
+        "tetralogy of Fallot",
+        "tricuspid atresia with hypoplasia of right ventricle",
+        "atrioventricular septal defect",
+        "truncus arteriosus"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 87,
+      "text": "45 歲男性換心手術6 個月後，定期接受心內膜心肌切片（endomyocardial biopsy）時發現有急性排斥， 此時病人心臟內最可能的病理變化是：",
+      "choices": [
+        "動脈血管硬化病變",
+        "間質淋巴球浸潤及心肌細胞損傷",
+        "多發性微小心肌梗塞壞死",
+        "間質纖維化"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 88,
+      "text": "下列有關白血病及髓異生症候群（myelodysplastic syndrome）之敘述，何者錯誤？",
+      "choices": [
+        "絕大部分之慢性髓性白血病（chronic myeloid leukemia, CML）均可偵測到費城染色體（Philadelphia chromosome）",
+        "急性白血病（acute leukemia）之分生變化單純是因為幹細胞之單株性增生外，多涉及分化障礙 （differentiation block）",
+        "CML 是一種髓性幹細胞之單株性增生",
+        "髓異生症候群是一種前白血病，一定會發展成白血病"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 89,
+      "text": "60 歲女性，主訴過去數星期以來經常有頭痛及暈眩現象。病人無發燒，但臉色紅潤而有多血或稍微 發紺，病人血壓正常，脾臟可觸摸到。血色素、血容積比、血小板及白血球皆明顯升高。血清中促 紅細胞生成素（erythropoietin）無法偵測到，鐵蛋白（ferritin）正常。下列何者為病人較常經歷的病程？",
+      "choices": [
+        "病人最後多因轉化成急性淋巴母細胞白血病（acute lymphoblastic leukemia）而死亡",
+        "病人最後多因轉化成急性髓母細胞白血病（acute myeloblastic leukemia）而死亡",
+        "發生骨髓纖維化，而在脾臟有顯著的髓外造血（extramedullary hematopoiesis）",
+        "病人常可不經任何治療而自然獲得緩解"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 90,
+      "text": "下列何者為B 型肝炎最獨特的病理表現？",
+      "choices": [
+        "荳蔻肝（nutmeg liver）",
+        "毛玻璃狀肝細胞（ground-glass hepatocytes）",
+        "馬洛里氏小體（Mallory bodies）",
+        "脂肪變性（steatosis）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 91,
+      "text": "下列何者不屬於肥大性胃病（hypertrophic gastropathy）？",
+      "choices": [
+        "Ménétrier 氏病（Ménétrier disease）",
+        "Zollinger-Ellison 症候群",
+        "胃增生性息肉（gastric hyperplastic polyp）",
+        "肥大性過度分泌性胃病（hypertrophic-hypersecretory gastropathy）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 92,
+      "text": "32 歲男性，靜脈注射藥癮患者。近一週來覺得噁心、嘔吐及尿液顏色變深。實驗室檢查發現膽紅素、 結合型膽紅素值、AST 及ALT 值明顯上升。肝炎病毒檢測結果如下：HBsAg 陽性，Anti-HBs 陰性， Anti-HBc 陽性，IgM-anti-HBc陰性，IgG-anti-HAV 陽性，IgM-anti-HAV陰性，Anti-HCV 陰性，Anti-HDV 陽性。最可能的診斷為何？",
+      "choices": [
+        "急性A 型肝炎病毒感染",
+        "急性B 型肝炎病毒感染",
+        "慢性C 型肝炎病毒感染",
+        "慢性B 型肝炎病毒感染併急性D 型肝炎病毒感染"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 93,
+      "text": "37 歲男子長年酗酒，最近3 年常噁心嘔吐。某晚喝酒完開始劇烈嘔吐，因大量吐血被送急診室。到 達醫院時脈搏增加，血壓下降，醫師檢查發現他的心音規則，心和肺都無雜音，腹部無壓痛或鼓脹， 糞便檢查並無潛血反應。下列何者是最符合的診斷？",
+      "choices": [
+        "Barrett 食道",
+        "食道的鱗狀細胞癌",
+        "Mallory-Weiss 症候群",
+        "食道狹窄"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 94,
+      "text": "五個月大男嬰，因哭鬧不停及出現粉紅色果凍樣大便（currant jelly stool）就醫，影像學檢查發現有 腸套疊。病人最可能出現下列何種病理變化？",
+      "choices": [
+        "腸道壞死",
+        "腸壁平滑肌肥厚",
+        "腸黏膜細胞增生",
+        "腸道血管增生"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 95,
+      "text": "40 歲男性，已知是B 型肝炎帶原者近20 年，最近由於全身倦怠就醫。去年他曾因上消化道出血住 院治療。身體檢查發現肝臟較小，實驗室檢查發現血中白蛋白值較低且凝血時間較長。下列何種身 體檢查結果最不可能出現？",
+      "choices": [
+        "蛇女頭（caput medusae）",
+        "男性女乳症（gynecomastia）",
+        "蜘蛛血管瘤（spider angioma）",
+        "裂片形出血（splinter hemorrhage）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 96,
+      "text": "3 歲小女生，因為陰道出血來門診求診，骨盆腔檢查發現在陰道口有一葡萄樣的突出物，其顯微鏡下 有成堆的細胞排列成cambium layer 特徵，則最可能的診斷為：",
+      "choices": [
+        "尿道脫垂（urethral prolapse）",
+        "尖圭濕疣（condyloma acuminatum）",
+        "胚胎性橫紋肌肉瘤（embryonal rhabdomyosarcoma）",
+        "陰道息肉（vaginal polyps）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 97,
+      "text": "40 歲女性，左腎上腺皮質發現一腫瘤。檢驗數據顯示血清ACTH 值並無異常，但血清腎素（renin）及 血鉀離子明顯下降。病理檢查發現腫瘤呈鮮黃色，顯微鏡下腫瘤細胞含多量脂質。腫瘤附近的腎上腺 皮質和對側腎上腺皮質並無萎縮現象。下列腎上腺腫瘤中，何者最符合此病人的臨床及病理特徵？",
+      "choices": [
+        "metastatic renal cell carcinoma",
+        "aldosterone-producing adenoma",
+        "cortisol-producing adenoma",
+        "pheochromocytoma"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 98,
+      "text": "下列那一項病變最常見出現類澱粉血管病（amyloid angiopathy）？",
+      "choices": [
+        "腎上腺白質營養不良（adrenoleukodystrophy）",
+        "髓母細胞瘤（medulloblastoma）",
+        "Alzheimer 氏病",
+        "Parkinson 氏病"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 99,
+      "text": "下列那一種顱內腫瘤多半具有一層薄的莢膜，而且比較不具浸潤性？",
+      "choices": [
+        "室管膜瘤（ependymoma）",
+        "腦膜瘤（meningioma）",
+        "神經膠母細胞瘤（glioblastoma）",
+        "寡突膠細胞瘤（oligodendroglioma）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 100,
+      "text": "神經細胞被稱為紅色神經原（red neurons）的原因是因為：",
+      "choices": [
+        "含血鐵素",
+        "含消耗色素",
+        "在缺血缺氧造成急性損傷",
+        "壞死後鈣鹽沈積"
+      ],
+      "answer": "C"
+    }
+  ]
+}

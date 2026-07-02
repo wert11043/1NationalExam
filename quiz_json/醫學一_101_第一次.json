@@ -1,0 +1,1163 @@
+{
+  "exam": "醫學一",
+  "year": "101",
+  "session": "第一次",
+  "questions": [
+    {
+      "no": 1,
+      "text": "乳腺內側的淋巴主要匯入：",
+      "choices": [
+        "肩胛下淋巴結（Subscapular lymph nodes）",
+        "前胸淋巴結（Anterior pectoral nodes）",
+        "鎖骨下淋巴結（Infraclavicular nodes）",
+        "旁胸淋巴結（Parasternal nodes）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 2,
+      "text": "沿腋中線在第9 肋間作胸腔穿刺，針尖所在的位置是：",
+      "choices": [
+        "肺門（hilum of the lung）",
+        "心切痕（cardiac notch）",
+        "肋橫膈隱窩（costodiaphragmatic recess）",
+        "肋縱膈隱窩（costomediastinal recess）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 3,
+      "text": "下列何者不是脊柱的運動方式？",
+      "choices": [
+        "曲（flexion）",
+        "伸（extension）",
+        "旋轉（rotation）",
+        "迴轉（circumduction）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 4,
+      "text": "下列何者是迷走神經所支配的器官？",
+      "choices": [
+        "卵巢",
+        "直腸",
+        "子宮",
+        "陰道"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 5,
+      "text": "下列何者直接連結膀胱的頂端（apex）？",
+      "choices": [
+        "懸韌帶",
+        "臍外韌帶",
+        "臍內韌帶",
+        "臍正中韌帶"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 6,
+      "text": "闊筋膜張肌（tensor fasciae latae）退化萎縮，可能因下列何者受損而造成？",
+      "choices": [
+        "臀上神經",
+        "臀下神經",
+        "閉孔神經",
+        "坐骨神經"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 7,
+      "text": "下列何者不屬於屈戌關節（hinge joint）？",
+      "choices": [
+        "肩關節（Shoulder joint）",
+        "踝關節（Ankle joint）",
+        "肘關節（Elbow joint）",
+        "指間關節（Interphalangeal joint）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 8,
+      "text": "肱骨內上髁（medial epicondyle）骨折最可能傷害下列何者？",
+      "choices": [
+        "肌皮神經",
+        "正中神經",
+        "橈神經",
+        "尺神經"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 9,
+      "text": "小腿骨折造成足踝無法背屈（dorsiflexion），下列何者最可能受傷？",
+      "choices": [
+        "股神經",
+        "腓神經",
+        "脛神經",
+        "坐骨神經"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 10,
+      "text": "下列有關手部神經支配的敘述，何者錯誤？",
+      "choices": [
+        "正中神經是負責手掌大拇指側感覺的主要神經",
+        "尺神經負責手掌內側的感覺",
+        "橈神經負責整個手背的感覺",
+        "尺神經受傷，會造成第四及第五指的遠端指間關節不能屈曲"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 11,
+      "text": "下列何者屬於肩旋轉肌群？",
+      "choices": [
+        "小圓肌",
+        "胸大肌",
+        "提肩胛肌",
+        "大菱形肌"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 12,
+      "text": "雙眼外側視野二分之一缺損（bilateral temporal hemianopia），最可能的損傷部位是：",
+      "choices": [
+        "視神經（optic nerve）",
+        "外側膝狀體（lateral geniculate body）",
+        "視徑（optic tract）",
+        "視交叉（optic chiasm）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 13,
+      "text": "胸骨旁，第五肋間深約1 公分的穿刺傷，造成大量出血，最可能受傷的動脈是：",
+      "choices": [
+        "最上肋間動脈（supreme intercostal artery）",
+        "內胸動脈（internal thoracic artery）",
+        "肌膈動脈（musculophrenic artery）",
+        "肋下動脈（subcostal artery）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 14,
+      "text": "腕關節（wrist joint）屬於下列何種關節？",
+      "choices": [
+        "髁狀關節（condyloid joint）",
+        "球窩關節（ball and socket joint）",
+        "鞍型關節（saddle joint）",
+        "屈戌關節（hinge joint）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 15,
+      "text": "30 歲男性工人，工作時被玻璃割傷，前臂腹面，離腕關節3 公分的小指側有一2 公分傷口，檢查時， 有血液湧出，請問最可能是下列何構造受損？",
+      "choices": [
+        "橈動脈",
+        "尺動脈",
+        "臂動脈",
+        "指動脈"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 16,
+      "text": "病人上臂骨折後，手腕無法伸展，最可能是下列何者受傷所造成？",
+      "choices": [
+        "正中神經",
+        "腋神經",
+        "尺神經",
+        "橈神經"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 17,
+      "text": "肝癌的治療可以經由血管打入藥物造成栓塞以殺死腫瘤細胞，臨床上最適合的路徑是把藥物打入：",
+      "choices": [
+        "肝靜脈",
+        "主動脈",
+        "門靜脈",
+        "肝動脈"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 18,
+      "text": "肝門靜脈高壓（portal hypertension）最不可能造成下列何種現象？",
+      "choices": [
+        "痔瘡",
+        "食道靜脈曲張",
+        "下肢靜脈曲張",
+        "脾靜脈壓力升高"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 19,
+      "text": "縱膈手術後，聲音沙啞且聲帶不動，下列何者的分支最可能損傷？",
+      "choices": [
+        "膈神經",
+        "副神經",
+        "迷走神經",
+        "交感神經叢"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 20,
+      "text": "下列何者阻塞時，最可能造成右側肢體無力及運動型失語症（Broca’s aphasia）？",
+      "choices": [
+        "前大腦動脈",
+        "中大腦動脈",
+        "後大腦動脈",
+        "椎動脈"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 21,
+      "text": "第三顱神經受損，最可能影響下列何種動作？",
+      "choices": [
+        "咀嚼",
+        "臉龐流汗",
+        "緊閉眼睛",
+        "上眼瞼上抬"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 22,
+      "text": "以手電筒照射病患左眼時，其左瞳孔收縮，右瞳孔無反應，其可能的原因為？",
+      "choices": [
+        "病患兩眼完全正常",
+        "右視神經失能",
+        "左視神經失能",
+        "右動眼神經受損"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 23,
+      "text": "神經傳遞物質的釋放過程與下列何離子有關？",
+      "choices": [
+        "鎂",
+        "鈣",
+        "鈉",
+        "鉀"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_note": "答A或B或C或D者給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 24,
+      "text": "有關顱內靜脈竇（venous sinuses）之敘述，何者錯誤？",
+      "choices": [
+        "上矢狀竇（superior sagittal sinus）內之血液流向竇匯（confluence of sinuses）",
+        "乙狀竇（sigmoid sinus）直接承接橫竇（transverse sinus）流過來之血液",
+        "岩下竇（inferior petrosal sinus）內之血液直接流向乙狀竇",
+        "下矢狀竇（inferior sagittal sinus）內之血液直接流向岩上竇（superior petrosal sinus）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 25,
+      "text": "下列有關顱神經（cranial nerve）的敘述，何者正確？",
+      "choices": [
+        "動眼神經支配第一對咽弓所衍生的結構",
+        "滑車神經源自同側神經核在上、下丘間出中腦",
+        "三叉神經眼枝支配提上眼瞼肌（superior levator palpebrae muscle）",
+        "外展神經核（abducent nucleus）接受對側動眼神經調節眼球運動"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 26,
+      "text": "下列何處是突觸後多巴胺一型和二型受器（D1/D2）的主要分布地方？",
+      "choices": [
+        "殼核（putamen）",
+        "底丘腦核（subthalamic nucleus）",
+        "蒼白球（globus pallidus）",
+        "黑質（substantia nigra）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 27,
+      "text": "車禍造成腓骨近側端骨折，下列何者最不可能出現？",
+      "choices": [
+        "垂足（foot-drop）",
+        "喪失足背感覺",
+        "喪失小腿前外側的感覺",
+        "第一蹠骨（metatarsal）頭部以後的內側足部感覺喪失"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 28,
+      "text": "嬰兒開始站立行走後，下列何者最為明顯？",
+      "choices": [
+        "頸彎曲",
+        "胸彎曲",
+        "腰彎曲",
+        "薦彎曲"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 29,
+      "text": "若孕婦羊水過少（oligohydramnios），則胎兒最有可能伴隨下列何缺陷？",
+      "choices": [
+        "無腦畸形（anencephaly）",
+        "食道閉鎖（esophageal atresia）",
+        "缺少臍動脈（umbilical artery）",
+        "腎臟未發育（renal agenesis）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 30,
+      "text": "下列何種藥物不會通過胎盤膜（placental membrane）？",
+      "choices": [
+        "四環素（tetracycline）",
+        "肝素（heparin）",
+        "視黃酸（retinoic acid）",
+        "胰島素（insulin）"
+      ],
+      "answer": "B",
+      "accepted_answers": [
+        "B",
+        "D"
+      ],
+      "answer_note": "答B或D或BD者均給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 31,
+      "text": "下列何者與薦尾畸胎瘤（sacrococcygeal teratoma）的形成有關？",
+      "choices": [
+        "脊索（notochord）的存留",
+        "原條（primitive streak）的殘存",
+        "脊索前板（prechordal plate）的發育",
+        "胚外中胚層的增生"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 32,
+      "text": "下列何者之血管形成臍動脈和臍靜脈？",
+      "choices": [
+        "羊膜（amnion）",
+        "絨毛膜（chorion）",
+        "卵黃囊（yolk sac）",
+        "尿囊（allantois）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 33,
+      "text": "為鑑定組織切片上某一蛋白質表現位置，最敏感且專一性的方法是：",
+      "choices": [
+        "蘇木精與伊紅染色法（hematoxylin and eosin）",
+        "過碘酸-席夫染色法（Periodic acid-Schiff）",
+        "免疫細胞化學法（immunocytochemistry）",
+        "組織化學法（histochemistry）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 34,
+      "text": "在血液抹片染色，下列何者是最大的血球？",
+      "choices": [
+        "紅血球",
+        "淋巴球",
+        "單核球",
+        "嗜中性球"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 35,
+      "text": "人體中數量最少的白血球是：",
+      "choices": [
+        "淋巴球（lymphocytes）",
+        "嗜中性球（neutrophils）",
+        "嗜伊紅球（eosinophils）",
+        "嗜鹼性球（basophils）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 36,
+      "text": "下列何者含有最少量的結締組織？",
+      "choices": [
+        "腎臟實質",
+        "肝臟實質",
+        "大腦實質",
+        "舌實質"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 37,
+      "text": "下列對於「心房利鈉尿肽（atrial natriuretic peptide）」之敘述，何者正確？",
+      "choices": [
+        "主要由心室之心肌細胞負責分泌",
+        "主要由內皮細胞負責分泌",
+        "主要功能為增加血壓",
+        "主要功能為調節電解質及降低血壓"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 38,
+      "text": "橫結腸的特徵不包括下列何者？",
+      "choices": [
+        "管狀腸腺（tubular intestinal glands）",
+        "黏膜肌層（muscularis mucosae）",
+        "結腸帶（taeniae coli）",
+        "腸絨毛（villi）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 39,
+      "text": "有關腎絲球內之環間細胞（mesangial cells），下列敘述何者錯誤？",
+      "choices": [
+        "胚胎發育上，此細胞源於單核吞噬系統（mononuclear phagocytotic system）之先驅細胞",
+        "當腎絲球受傷時，此細胞可以分泌白血球間質-1（interleukin-1）",
+        "此細胞具有吞噬能力（phagocytosis）以去除腎絲球過濾後之殘渣物",
+        "此細胞可以提供足細胞（podocyte）結構上的支持"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 40,
+      "text": "有關胎盤障蔽（placental barrier）的敘述，下列何者正確？",
+      "choices": [
+        "在懷孕第四個月開始時，胎盤障蔽開始逐漸變厚",
+        "胎盤障蔽的絨毛壁逐漸變薄，是由於合體滋養層（syncytiotrophoblast）退化所致",
+        "胎盤障蔽與肺之血空氣障蔽在組織結構與功能上極為相似",
+        "胎盤障蔽在最薄的部分，含有一層連續而完整的細胞滋養層（cytotrophoblast）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 41,
+      "text": "有關中耳（middle ear）的敘述，下列何者正確？",
+      "choices": [
+        "聽管（auditory or Eustachian tube）平時是開的，僅在吞嚥或喊叫才關閉",
+        "三塊聽骨為透明軟骨",
+        "中耳腔又稱鼓室（tympanic cavity）",
+        "聽小骨間藉由韌帶聯合而形成關節"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 42,
+      "text": "傷寒桿菌（Salmonella Typhi）的重要毒力因素，也被用以製成疫苗的Vi 抗原所含的成分是：",
+      "choices": [
+        "溶血素（hemolysin）",
+        "莢膜多糖體（capsular polysaccharides）",
+        "胜肽聚糖（peptidoglycan）",
+        "鞭毛素（flagellin）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 43,
+      "text": "臨床上患者呈現「Strawberry tongne」之特徵很可能是感染下列何種疾病？",
+      "choices": [
+        "Scarlet fever",
+        "Streptococcal toxin shock syndrome",
+        "Staphylococcal toxin shock syndrome",
+        "Rheumatic fever"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "all_correct": true,
+      "answer_note": "一律給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 44,
+      "text": "關於細菌基因形成operon 的敘述，何者錯誤？",
+      "choices": [
+        "通常由數個相關基因組成",
+        "由一個promoter 控制轉錄",
+        "轉錄時不能同時進行基因的轉譯",
+        "轉錄之RNA 通常包含數個基因"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 45,
+      "text": "下列何者對於預防外傷病人發生破傷風（tetanus）和氣性壞疽（gas gangrene）均極重要？",
+      "choices": [
+        "給予抗毒素",
+        "送入高壓氧艙",
+        "清除壞死組織",
+        "給予疫苗"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 46,
+      "text": "下列關於Bacillus anthracis 感染的敘述，何者錯誤？",
+      "choices": [
+        "經由皮膚感染是人類最罕見的傳染方式",
+        "在草食性動物最常見的感染途徑是食入孢子",
+        "吸入性傳染是在畜牧業從業人員常見的感染途徑",
+        "生化武器攻擊最常用的是吸入性的感染途徑"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 47,
+      "text": "某國小爆發數十名學童先後在5 日內發生下痢的事件，症狀包含腹瀉、發燒、嘔吐、裏急後重（tenesmus）。 由其中十多名患者的糞便中及該校師生用來洗手的地下水中，分離出一株不發酵乳糖、無運動性之 腸內桿菌科（Enterobacteriaceae）細菌。衛生單位對患者施以居家隔離，消毒地下水，並對全校師生 投予抗生素後，疫情幸未再擴大。下列菌屬中，何者最有可能是造成此次事件的元兇？",
+      "choices": [
+        "埃希氏菌屬（Escherichia）",
+        "沙門氏菌屬（Salmonella）",
+        "志賀氏菌屬（Shigella）",
+        "耶爾辛氏菌屬（Yersinia）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 48,
+      "text": "承上題，下列有關此菌屬的敘述，何者錯誤？",
+      "choices": [
+        "能造成吞噬細胞之凋亡（apoptosis）",
+        "人類是唯一的貯存宿主（reservoir）",
+        "易侵入病人血液，造成敗血症（sepsis）",
+        "常藉由人與人直接接觸而散播"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 49,
+      "text": "一人因胃部疼痛而求診，內視鏡檢查發現是胃潰瘍，經採胃部切片檢驗後發現為幽門桿菌感染，因 此醫師開了三種抗生素給患者服用，其一是clarithromycin。此抗生素之主要作用機轉為何？",
+      "choices": [
+        "抑制該菌之細胞壁合成",
+        "抑制該菌之核酸合成",
+        "抑制該菌之蛋白質合成",
+        "抑制該菌之細胞膜合成"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 50,
+      "text": "一位70 歲老先生，平常有抽菸的習慣，有經常性的咳嗽，直到日前咳嗽加劇且痰液變黃，並伴隨高 燒、寒顫、腹瀉、全身痠痛疲倦等症狀。一開始到一般診所就診，初步診斷為急性支氣管炎，服藥 後病情不但沒改善，反而加重變成了神智不清；後來轉送到大醫院住院。經檢查後，醫師告知是為 嗜肺性退伍軍人菌（Legionella pneumophila）感染之「退伍軍人症」。下列相關敘述，何者錯誤？",
+      "choices": [
+        "該致病菌是一種好氧的革蘭氏陰性桿菌",
+        "水是該致病菌的天然生長處",
+        "院內感染來源可能來自於空調系統的冷卻水塔",
+        "該菌主要藉人與人之間互相傳染"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 51,
+      "text": "單純疱疹病毒（Herpes simplex virus）之治療藥物樂威素（Acyclovir），其抑制病毒複製之機轉為何？",
+      "choices": [
+        "阻止病毒胸腺激酶（thymidine kinase）作用",
+        "阻止病毒DNA 之複製",
+        "阻止病毒附著於寄主細胞上",
+        "阻止病毒之解體（uncoating）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 52,
+      "text": "HIV-1 經由黏膜感染進入人體時，主要藉由何種細胞攜帶進入淋巴結？",
+      "choices": [
+        "NK cell",
+        "CD8 T cell",
+        "Dendritic cell",
+        "CD4 T cell"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 53,
+      "text": "下列那一種疾病不是由Epstein-Barr 病毒（EBV）引起的？",
+      "choices": [
+        "毛狀口腔白斑病（Hairy oral leukoplakia）",
+        "角膜結膜炎（Keratoconjunctivitis）",
+        "傳染性單核球增多症（Infectious mononucleosis）",
+        "伯奇氏淋巴瘤（Burkitt lymphoma）"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "all_correct": true,
+      "answer_note": "一律給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 54,
+      "text": "下列那一病毒感染，不經由抑制寄主腫瘤抑制基因之功能形成腫瘤？",
+      "choices": [
+        "腺病毒（Adenovirus）",
+        "人類嗜T 淋巴球病毒（HTLV-1）",
+        "人類乳突病毒（HPV）",
+        "多瘤病毒（SV40）"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "all_correct": true,
+      "answer_note": "一律給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 55,
+      "text": "一位有多位性伴侶之少女在陰道出現潰瘍性瘡傷，並有發癢、疼痛、排尿困難及全身性症狀，並持 續發燒10 天左右，Papanicolaou（Pap）抹片檢查顯示多核巨大細胞（syncytia）及Cowdry A 型包涵 體，此少女之病徵是由何病毒感染所引起的？",
+      "choices": [
+        "單純疱疹病毒（Herpes simplex virus）",
+        "人類乳突病毒（HPV）",
+        "細小病毒B19（Parvovirus B19）",
+        "德國麻疹病毒（Rubella virus）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 56,
+      "text": "某醫院育嬰室之25 歲護士，回家後出現流鼻水、輕微咳嗽及稍微發燒現象，此狀況延續了數天，咳 嗽變的更嚴重，並發出“吠”的聲音，激動時會有喘鳴聲。除此之外，該護士看來無異樣，除了一直 咳嗽，經X 光檢查發現頸部內下聲門明顯變窄。此症狀由下列何種病毒感染所引起？",
+      "choices": [
+        "副流行性感冒病毒（Parainfluenza virus）",
+        "流行性感冒病毒（Influenza virus）",
+        "呼吸道細胞融合病毒（Respiratory syncytial virus）",
+        "鼻病毒（Rhinovirus）"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "C"
+      ],
+      "answer_note": "答A或C或AC者均 給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 57,
+      "text": "構成真菌細胞壁之主要成分為何？",
+      "choices": [
+        "幾丁質（Chitin）以及α-1-4-葡萄聚醣（α-1-4-glucan）",
+        "幾丁質以及β-1-3-葡萄聚醣（β-1-3-glucan）",
+        "肽醣（Peptidoglycan）以及β-1-4-葡萄聚醣",
+        "幾丁質以及α-1-6-葡萄聚醣（α-1-6-glucan）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 58,
+      "text": "Azoles 抗真菌藥物，由構造上可分成Imidazoles 及Triazoles 兩大類。下列何者屬於Imidazoles？",
+      "choices": [
+        "Fluconazole",
+        "Ketoconazole",
+        "Itraconazole",
+        "Voriconazole"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 59,
+      "text": "一位微生物實驗室助理吳小姐25 歲，右手食指指甲發展成類似灰指甲（Onychomycosis）症狀有6 個月，但感染指甲周邊皮膚並沒有脫皮、起水泡或搔癢。吳小姐自小學起就有咬指甲之習慣，最近發現 指甲變得很醜，於是到醫院皮膚科就診。皮膚科醫師以指甲剪取樣，其中一部分在門診以10% KOH 處 理並且以顯微鏡觀察，結果顯示指甲中有酵母菌（Yeast）、及長短不一之菌絲（Hyphae）。兩星期 後指甲培養之結果出來，感染之病原菌很可能是一種平滑（Smooth）菌落、乳白色（Creamy）、出 芽型酵母菌（Budding yeast）；有假菌絲（Pseudohyphae）及芽管（Germ tube）產生，PCR 分析也 證明該菌之種類。於是醫師就開Terbinafine 口服處方，兩個月後吳小姐的指甲也就復原。該菌最可 能是下列那一病原？",
+      "choices": [
+        "Trichophyton rubrum",
+        "Epidermophyton floccosum",
+        "Microsporum canis",
+        "Candida albicans"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 60,
+      "text": "下列那一類抗生素是藉由干擾細菌RNA 合成的機制，且可用來治療結核桿菌及痲瘋分枝桿菌的感染， 但口服後尿液會呈橘紅色？",
+      "choices": [
+        "isoniazid",
+        "ethionamide",
+        "cycloserine",
+        "rifampin"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 61,
+      "text": "下列何種疾病之病原菌非藉由節肢動物為傳播媒介？",
+      "choices": [
+        "萊姆病（Lyme disease）",
+        "梅毒（Syphilis）",
+        "落磯山斑疹熱（Rocky mountain spotted fever）",
+        "斑疹傷寒（Murine endemic typhus）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 62,
+      "text": "進入血液中的抗原會在何處被抗原呈獻細胞（antigen-presenting cell, APC）呈獻給T 淋巴細胞辨識， 而活化宿主的特異性免疫反應（specific immunity）？",
+      "choices": [
+        "骨髓（Bone marrow）",
+        "黏膜淋巴組織（Mucosa-associated lymphoid tissue；MALT）",
+        "心臟（heart）",
+        "脾臟（spleen）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 63,
+      "text": "Toll-like 受器（TLRs）執行訊息傳遞，下列那一種存在於細胞膜上，能接受細菌之lipopolysaccharide （LPS）刺激？",
+      "choices": [
+        "TLR-3",
+        "TLR-4",
+        "TLR-5",
+        "TLR-7"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 64,
+      "text": "一個曾經被流感病毒感染過的人，其體內最具中和性保護力的抗體，應具有辨識那一種病毒蛋白質 的能力？",
+      "choices": [
+        "血球凝集素（hemagglutinin, HA）",
+        "基質（matrix, M）蛋白",
+        "核套蛋白（nucleocapsid, NP）",
+        "非結構（nonstructural, NS）蛋白"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 65,
+      "text": "40 餘歲女性出現眼睛疼痛、疲憊、消瘦、雙手顫抖等症狀，檢查結果為甲狀腺功能過高，且出現促 甲狀腺荷爾蒙受體（TSH receptor）抗體的葛瑞夫氏症（Graves’ disease）。這個疾病的成因為何？",
+      "choices": [
+        "感染症破壞甲狀腺體，引起功能過高",
+        "產生出自體抗體的自體免疫疾病",
+        "攝取碘質過多，引起甲狀腺功能過高",
+        "電解質代謝失常，引起甲狀腺功能過高"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 66,
+      "text": "胸腺中，那一種細胞可表現主要組織抗原（MHC）以促進正選擇（positive selection）？",
+      "choices": [
+        "皮質表皮細胞（cortical epithelial cell）",
+        "髓質表皮細胞（medullary epithelial cell）",
+        "巨噬細胞（macrophage）",
+        "樹突細胞（dendritic cell）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 67,
+      "text": "Plasmacytoid dendritic cell 主要藉由分泌何類細胞激素來對抗病毒？",
+      "choices": [
+        "Type Ⅰ interferons",
+        "IFN-γ",
+        "TNF-α",
+        "IL-2"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 68,
+      "text": "記憶性CD8+ T 細胞的分化與功能維持，需要CD4+ T 細胞的幫忙，以目前研究所知，那些分子訊息 參與這個過程？",
+      "choices": [
+        "CD28 與IFN-γ",
+        "CD40 與IFN-γ",
+        "CD40 與IL-2",
+        "CD28 與IL-2"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 69,
+      "text": "下列那一項是免疫球蛋白受器（Fc receptor）的主要功能？",
+      "choices": [
+        "直接與抗原結合",
+        "與T 細胞受體（T cell receptor）結合",
+        "增進吞噬功能（phagocytosis）",
+        "刺激產生介白素-2（interleukin-2）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 70,
+      "text": "抗體與抗原分子結合時的反應力不包含下列那一項？",
+      "choices": [
+        "共價鍵結（covalent bond）",
+        "氫鍵結（hydrogen bond）",
+        "疏水性反應力（hydrophobic force）",
+        "凡得瓦力（van der Waals force）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 71,
+      "text": "小新得到喉嚨感染，醫師為他做了喉頭細菌培養發現鏈狀排列的格蘭氏陽性菌。小新三週以後出現 心臟衰竭而住院。醫師發現他有新出現的心雜音，診斷為風濕性心臟病。關於此病患的疾病，下列 敘述，何者正確？",
+      "choices": [
+        "他的心衰竭主要是腎炎引發的高血壓所引起",
+        "細菌在心臟瓣膜上繁殖而引起疾病",
+        "他可能也會發生關節腫痛的症狀",
+        "病患的免疫系統對細菌產生免疫容忍而無法清除細菌"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 72,
+      "text": "志玲每次戴了含鎳的項鍊或耳環表演後幾天就會在接觸的地方產生癢疹。皮膚科醫師認為是免疫反 應產生的過敏性皮膚炎。這些認識含鎳抗原的免疫細胞是在何處產生敏感化（sensitization），在何 處執行其免疫功能（effector function）？",
+      "choices": [
+        "敏感化：皮膚，執行功能：淋巴結",
+        "敏感化：淋巴結，執行功能：皮膚",
+        "敏感化和執行功能都在皮膚",
+        "敏感化和執行功能都在淋巴結"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 73,
+      "text": "抗體之效能作用（effector functions）由其分子中那一個部位決定？",
+      "choices": [
+        "重鏈（heavy chain）之變異區（variable region）",
+        "重鏈之不變區（constant region）",
+        "輕鏈（light chain）之變異區",
+        "輕鏈之不變區"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 74,
+      "text": "李媽媽腎臟衰竭到了末期，接受透析治療一段時間後，接受了腎臟移植。由一陌生的車禍腦死捐贈 者得到一枚腎臟。李媽媽與捐贈者的主要組織抗原（Major Histocompatibility Complex）測試定型是 完全相同的。但是李媽媽腎臟移植之後仍出現排斥反應，其原因可能為何？",
+      "choices": [
+        "目前主要組織抗原測試定型的精確度尚有不足。而且次要組織抗原（Minor Histocompatibility Antigens）不同也會引起排斥反應",
+        "李媽媽長期透析治療，引起過高的異體免疫反應（alloreactivity）",
+        "腎臟移植手術時，種入之腎臟中帶有捐贈者之免疫細胞而引起之植入物抗宿主（graft versus host）免 疫反應",
+        "因捐贈者為B 肝帶原（HBsAg positive），植入之腎臟中之HBsAg 引起連串免疫反應進行導致排 斥反應"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 75,
+      "text": "在臺灣，虎皮蛙（Rana rugulosa）及金線蛙（Rana plancyi）是下列何種人類寄生蟲的保蚴宿主（paratenic host）？",
+      "choices": [
+        "廣東住血線蟲（Angiostrongylus cantonensis）",
+        "菲律賓毛線蟲（Capillaria philippinensis）",
+        "廣節裂頭絛蟲（Diphyllobothrium latum）",
+        "衛氏肺吸蟲（Paragonimus westermani）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 76,
+      "text": "下列何種人體寄生蟲感染常引起嗜伊紅性腦膜炎或腦膜腦炎（eosinophilic meningitis or meningoencephalitis）？",
+      "choices": [
+        "日本血吸蟲（Schistosoma japonicum）",
+        "旋毛蟲（Trichinella spiralis）",
+        "廣東住血線蟲（Angiostrongylus cantonensis）",
+        "有鉤絛蟲（Taenia solium）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 77,
+      "text": "李先生參加農耕隊服務於巴西，回國後腳部皮膚有出疹現象，診斷為泳者之癢（swimmer’s itch）， 請問下列敘述何者正確？",
+      "choices": [
+        "止癢劑（antipruritic）及抗組織胺（antihistamine）可舒緩症狀",
+        "使用mebendazole 可治療痊癒",
+        "在皮下組織一段時間後會在骨骼肌中形成包囊",
+        "是因人類血吸蟲尾動幼蟲（cercaria）感染而引起"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 78,
+      "text": "日本血吸蟲（Schistosoma japonicum）那一發育時期的蟲體會感染人？",
+      "choices": [
+        "蟲卵",
+        "纖毛幼蟲（miracidium）",
+        "尾動幼蟲（cercaria）",
+        "囊狀幼蟲（metacercaria）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 79,
+      "text": "下列有關瘧疾的敘述，何者正確？",
+      "choices": [
+        "西非的黑人及其後裔，血型多為Duffy 陰性，不會感染間日瘧",
+        "卵形瘧原蟲的滋養體在血液抹片上之鑑定特徵，是看其是否有帶狀型滋養體（band form trophozoites）",
+        "三日瘧原蟲較喜侵入網織紅血球（reticulocytes）中分裂增殖",
+        "全球各地的惡性瘧都已出現chloroquine-resistance"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "all_correct": true,
+      "answer_note": "一律給分。",
+      "answer_source": "#"
+    },
+    {
+      "no": 80,
+      "text": "下列有關阿米巴的敘述，何者錯誤？",
+      "choices": [
+        "寄生人體的阿米巴類，大多數的種類無致病性",
+        "寄生人體的阿米巴類都會形成囊體",
+        "腸道寄生的阿米巴可以用hematoxylin 及trichrome stain 來染色",
+        "細胞核的形態是阿米巴的分類依據之一"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 81,
+      "text": "錐鼻蟲（reduviid bug）可以媒介下列何種寄生蟲病？",
+      "choices": [
+        "查加斯氏病（Chagas’ disease）",
+        "利什曼症（Leishmaniasis）",
+        "睡眠病（Sleeping sickness）",
+        "黑熱病（Kala-azar）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 82,
+      "text": "下列何者為傳播人畜共通萊姆病（Lyme disease）之病媒？",
+      "choices": [
+        "鹿蜱（Ixodes dammini）",
+        "鼠蚤（Xenopsylla cheopis）",
+        "體蝨（body louse）",
+        "臭蟲（bedbug）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 83,
+      "text": "評估醫療品質，常用Donabedian 所提出的三個構面來檢視，其中，落實醫事人員證照制度，是在改 善那一個構面？",
+      "choices": [
+        "背景",
+        "結構",
+        "過程",
+        "結果"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 84,
+      "text": "有關醫療社會化（medical socialization）之可能結果，請由下列選項中選出最適當的組合關係？①造 成醫療價格高漲 ②非醫療需求者亦需負擔醫療費用 ③易引起醫療供給者之反彈 ④易引起高所 得者之不滿與不安",
+      "choices": [
+        "①②③④",
+        "②③④",
+        "①②③",
+        "①②④"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 85,
+      "text": "醫療法規定下列何種醫療機構應提撥年度結餘的百分之二十以上作為營運基金？",
+      "choices": [
+        "公立醫療機構",
+        "財團法人醫療機構",
+        "社團法人醫療機構",
+        "教學醫院"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 86,
+      "text": "全民健康保險為求健全財務結構，並降低民眾過度使用資源，最有效的可行方法？",
+      "choices": [
+        "提高藝人保費",
+        "實施部分負擔",
+        "限制投保對象",
+        "落實醫藥分業"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 87,
+      "text": "健康的決定因子中，下列那一項最具影響力？",
+      "choices": [
+        "生物遺傳",
+        "醫療照護",
+        "社經狀況",
+        "環境與生活方式"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 88,
+      "text": "從公共衛生之預防觀點，政府推動拒菸活動是屬於那一個階段的工作？",
+      "choices": [
+        "殘障控制",
+        "健康促進",
+        "健康維護",
+        "疾病診治"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 89,
+      "text": "通常由醫師對病人進行衛教，效果比較好，其原因為何？",
+      "choices": [
+        "病人降服於醫師的權威之下",
+        "病人信賴醫師的專業能力",
+        "病人擔心不接受衛教會影響醫病關係",
+        "病人比較容易瞭解醫師講解的內容"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 90,
+      "text": "下列那一項是對呼吸系統及眼部黏膜具刺激性之空氣污染物？",
+      "choices": [
+        "CO2",
+        "CO",
+        "O3",
+        "CH4"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 91,
+      "text": "日本移民的胃癌研究中，較有可能影響胃癌死亡率的因子為：",
+      "choices": [
+        "環境因子",
+        "遺傳因子",
+        "法規制度因子",
+        "個人行為因子"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 92,
+      "text": "機關團體的集體食物中毒屬於何種流行？",
+      "choices": [
+        "共同傳染流行（common source epidemic）",
+        "連鎖傳染流行（progressive epidemic）",
+        "區域性流行（epidemic）",
+        "大流行（pandemic）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 93,
+      "text": "目前所訂定的鉛中毒標準，對小孩族群之保護遠比對成人嚴格，主要來自下列那一系統或器官的毒 性效應？",
+      "choices": [
+        "呼吸系統",
+        "周圍神經系統",
+        "造血系統",
+        "肝"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 94,
+      "text": "實驗性研究（experimental study）與觀察性研究（observational study）的主要不同點，在於實驗性研 究有下列何種特色，而觀察性研究則無？",
+      "choices": [
+        "以有病的患者為對象",
+        "可以進行前瞻性的觀察",
+        "只能研究對人體健康有益的因子",
+        "由研究者分配暴露因子"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 95,
+      "text": "甲醫院手術治療某種疾病，抽樣100 個病人有80 個治療成功，成功率的95%信賴區間（95% Confidence Interval）為（0.72, 0.88）。如果一般全國平均治療這種病人成功率為90%，我們想以此資料來做假 說檢定，檢定甲醫院治療此病成功率是否比90%低，顯著水準設為α＝0.05，下列何者正確？",
+      "choices": [
+        "無法推翻虛無假說，結論是甲醫院的治療成功率與90%一樣",
+        "推翻虛無假說，結論是甲醫院的治療成功率比90%低",
+        "無法推翻虛無假說，結論是甲醫院的治療成功率比90%低",
+        "推翻虛無假說，結論是甲醫院的治療成功率與90%一樣"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 96,
+      "text": "下列何項不適宜作為因果關係的判斷基準？",
+      "choices": [
+        "具正確的時序性",
+        "有較高的相對危險性（Relative risk）",
+        "從不同的研究或不同的族群，得到不同的結果",
+        "呈現劑量-效應關係"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 97,
+      "text": "某大型臨床試驗研究每日服用低劑量Aspirin 藥物與日後發生心肌梗塞的關係。隨機分配10000 人到 Aspirin 組，另外分配10000 人到安慰劑組（Placebo）。追蹤一段時間後Aspirin 組有100 人發生心 肌梗塞，安慰劑組有180 人發生心肌梗塞。下列何者錯誤？",
+      "choices": [
+        "Aspirin 組比安慰劑組的相對風險比（Relative risk）大於1",
+        "可採Chi square test 檢定服用Aspirin 是否與得心肌梗塞有關",
+        "可採Fisher exact test 檢定服用Aspirin 是否與得心肌梗塞有關",
+        "可採Two-sample z test 檢定兩組得心肌梗塞的風險是否不一樣"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 98,
+      "text": "下列資料代表6 個接受髖關節置換手術病人的住院天數（天）：4, 3, 3, 5, 4, 和20，那一個集中趨勢 統計量最適合描述此資料？",
+      "choices": [
+        "平均值",
+        "全距",
+        "眾數",
+        "中位數"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 99,
+      "text": "某小型臨床試驗評估一個新化療治療淋巴癌的療效，若事實上此新化療有較好的療效，但本研究沒 發現顯著的五年存活率差異，無法偵測此新治療效果的原因為何？",
+      "choices": [
+        "檢力（power）太大",
+        "抽樣誤差",
+        "型一誤差（type I error）",
+        "型二誤差（type II error）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 100,
+      "text": "依下表數據計算下列各指標，下列何者錯誤？ 疾病真實狀況 有 無 Total 有 68 6 74 疾 病 診 斷 結 果 無 12 114 126 Total 80 120 200",
+      "choices": [
+        "敏感度為85%",
+        "特異度為95%",
+        "陽性預測值為85%",
+        "陰性預測值為90.5%"
+      ],
+      "answer": "C"
+    }
+  ]
+}

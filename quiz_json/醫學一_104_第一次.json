@@ -1,0 +1,1150 @@
+{
+  "exam": "醫學一",
+  "year": "104",
+  "session": "第一次",
+  "questions": [
+    {
+      "no": 1,
+      "text": "下列有關大腦皮質運動區的敘述，何者錯誤？",
+      "choices": [
+        "初級運動皮質可發出皮質脊髓徑支配下運動神經元（lower motor neuron）",
+        "premotor area 與supplementary motor area 參與複雜動作之計畫與順序性",
+        "下運動神經元（lower motor neuron）皆由對側大腦皮質所發出之corticospinal tract 或corticobulbar tract 支配",
+        "大腦皮質運動區接受丘腦之訊息"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 2,
+      "text": "下列有關杏仁體（amygdaloid body）的敘述，何者錯誤？",
+      "choices": [
+        "接受嗅覺訊息",
+        "與邊緣系統有關",
+        "與大腦前額葉區（prefrontal area）有密切聯繫",
+        "在臨床或生理功能上，杏仁體是基底核的一部分"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 3,
+      "text": "下列有關丘腦下核（subthalamic nucleus）之敘述，何者錯誤？",
+      "choices": [
+        "參與基底核迴路中的indirect loop",
+        "丘腦下核損傷可能導致不自主運動（involuntary movement）",
+        "丘腦下核位於中腦",
+        "丘腦下核的神經元使用興奮性神經傳遞物質"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 4,
+      "text": "下列何者由腦幹神經核發出後會交叉到對側？",
+      "choices": [
+        "動眼神經",
+        "滑車神經",
+        "舌下神經",
+        "顏面神經"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 5,
+      "text": "下列何者與聽覺無關？",
+      "choices": [
+        "外側蹄系（lateral lemniscus）",
+        "下橄欖核（inferior olivary nucleus）",
+        "螺旋神經節（spiral ganglion）",
+        "內側膝狀體（medial geniculate body）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 6,
+      "text": "右側眼睛照光造成左側眼睛瞳孔縮小，下列何者不參與其傳導？",
+      "choices": [
+        "視徑（optic tract）",
+        "睫狀神經節（ciliary ganglion）",
+        "內縱束（medial longitudinal fasciculus）",
+        "動眼神經（oculomotor nerve）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 7,
+      "text": "下列何處是嬰兒最常進行腦池穿刺（cisternal puncture）以獲取腦脊髓液（CSF）的地方？",
+      "choices": [
+        "大腦腳間池（interpeduncular cistern）",
+        "小腦延髓後池（posterior cerebellomedullary cistern）",
+        "四疊體池（quadrigeminal cistern）",
+        "橋腦池（pontine cistern）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 8,
+      "text": "位於大腦鎌（falx cerebri）與小腦天幕（tentorium cerebelli）交接處的構造是：",
+      "choices": [
+        "下矢狀竇（inferior sagittal sinus）",
+        "直竇（straight sinus）",
+        "匯竇（confluence of sinuses）",
+        "枕竇（occipital sinus）"
+      ],
+      "answer": "B",
+      "accepted_answers": [
+        "B",
+        "C"
+      ],
+      "answer_note": "答B或C或BC者均給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 9,
+      "text": "下列何者不走在翼腭窩（pterygopalatine fossa）內？",
+      "choices": [
+        "顴神經（zygomatic n.）",
+        "蝶腭動脈（sphenopalatine a.）",
+        "後上齒槽動脈（posterior superior alveolar a.）",
+        "前上齒槽神經（anterior superior alveolar n.）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 10,
+      "text": "角膜的痛覺由下列何者傳導？",
+      "choices": [
+        "滑車上神經（supratrochlear nerve）",
+        "眶下神經（infraorbital nerve）",
+        "鼻睫神經（nasociliary nerve）",
+        "視神經（optic nerve）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 11,
+      "text": "血塊造成右肺動脈（right pulmonary artery）栓塞（embolism），此血塊最可能來自下列何處？",
+      "choices": [
+        "右肺靜脈（right pulmonary vein）",
+        "左肺靜脈（left pulmonary vein）",
+        "左股靜脈（left femoral vein）",
+        "左心室（left ventricle）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 12,
+      "text": "乳房外側的淋巴液回流至下列何者？",
+      "choices": [
+        "腋淋巴結",
+        "胸骨旁淋巴結",
+        "橫膈下淋巴結",
+        "對側乳房的淋巴結"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 13,
+      "text": "肝臟的裸區（bare area）位於其：",
+      "choices": [
+        "橫膈面（diaphragmatic surface）",
+        "脾壓跡（splenic impression）",
+        "肋骨壓跡（costal impression）",
+        "腎壓跡（renal impression）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 14,
+      "text": "下列何者不走在小網膜（lesser omentum）內或構成其一部分？",
+      "choices": [
+        "肝胃韌帶（hepatogastric ligament）",
+        "肝十二指腸韌帶（hepatoduodenal ligament）",
+        "肝門靜脈（hepatic portal vein）",
+        "脾動脈（splenic artery）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 15,
+      "text": "因神經受損而使得闊筋膜張肌（tensor fasciae latae）退化萎縮，下列何者可能也會受影響？",
+      "choices": [
+        "臀大肌",
+        "臀中肌",
+        "梨狀肌",
+        "上孖肌"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 16,
+      "text": "下列何者直接位於子宮的後方？",
+      "choices": [
+        "卵巢",
+        "膀胱",
+        "直腸",
+        "輸卵管"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 17,
+      "text": "前列腺動脈（prostatic artery）主要源自下列何處？",
+      "choices": [
+        "膀胱下動脈（inferior vesical artery）",
+        "膀胱上動脈（superior vesical artery）",
+        "睪丸動脈（testicular artery）",
+        "直腸下動脈（inferior rectal artery）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 18,
+      "text": "副交感神經興奮時，最可能造成下列何者收縮？",
+      "choices": [
+        "前列腺（prostate）",
+        "迫尿肌（detrusor muscle）",
+        "輸精管（vas deferens）",
+        "儲精囊（seminal vesicle）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 19,
+      "text": "在骨盆腔內下列何者跨過輸尿管？",
+      "choices": [
+        "輸卵管（ovarian tube）",
+        "輸精管（vas deferens）",
+        "陰道動脈（vaginal artery）",
+        "陰部內動脈（internal pudendal artery）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 20,
+      "text": "下列那一構造不參與精漿（seminal plasma）的製成？",
+      "choices": [
+        "睪丸（testis）",
+        "儲精囊（seminal vesicle）",
+        "尿道球腺（bulbourethral gland）",
+        "前列腺（prostate）"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "all_correct": true,
+      "answer_note": "一律給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 21,
+      "text": "陰部神經（pudendal nerve）受損對下列何者的影響最小？",
+      "choices": [
+        "尿道",
+        "子宮",
+        "陰道",
+        "肛管"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 22,
+      "text": "閉孔神經（obturator nerve）前支損傷最可能造成下列何者無力？",
+      "choices": [
+        "閉孔內肌（obturator internus）",
+        "閉孔外肌（obturator externus）",
+        "內收長肌（adductor longus）",
+        "內收大肌（adductor magnus）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 23,
+      "text": "下列何者通過鼠蹊韌帶（inguinal ligament）與恥骨之間？",
+      "choices": [
+        "髂腹下神經（iliohypogastric nerve）",
+        "髂腹股溝神經（ilioinguinal nerve）",
+        "股神經（femoral nerve）",
+        "閉孔神經（obturator nerve）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 24,
+      "text": "橈神經（radial nerve）受損時，手指無法進行下列何種動作？",
+      "choices": [
+        "屈曲（flexion）",
+        "伸直（extension）",
+        "內收（adduction）",
+        "外展（abduction）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 25,
+      "text": "下列何者受損最可能導致斜方肌（trapezius）無力，肩膀下垂，手臂無法高舉過頭？",
+      "choices": [
+        "長胸神經（long thoracic nerve）",
+        "胸背神經（thoracodorsal nerve）",
+        "肩胛背神經（dorsal scapular nerve）",
+        "副神經（accessory nerve）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 26,
+      "text": "膝關節韌帶受傷造成整隻小腿可以往前拖出（anterior draw），下列何者最可能斷裂？",
+      "choices": [
+        "前十字韌帶（anterior cruciate ligament）",
+        "後十字韌帶（posterior cruciate ligament）",
+        "脛側副韌帶（tibial collateral ligament）",
+        "腓側副韌帶（fibular collateral ligament）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 27,
+      "text": "脛神經（tibial nerve）走在下列那兩塊肌肉之間？",
+      "choices": [
+        "腓腸肌（gastrocnemius）與比目魚肌（soleus）",
+        "比目魚肌（soleus）與脛後肌（tibialis posterior）",
+        "脛後肌（tibialis posterior）與脛前肌（tibialis anterior）",
+        "腓長肌（fibularis longus）與腓短肌（fibularis brevis）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 28,
+      "text": "下列何者伴行脛後動脈（posterior tibial artery）且支配脛後肌（tibialis posterior）？",
+      "choices": [
+        "脛神經（tibial nerve）",
+        "隱神經（saphenous nerve）",
+        "腓深神經（deep fibular nerve）",
+        "腓淺神經（superficial fibular nerve）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 29,
+      "text": "橫膈（diaphragm）的那一部分最容易產生先天性缺損？",
+      "choices": [
+        "前內側（anteromedial）",
+        "前外側（anterolateral）",
+        "後內側（posteromedial）",
+        "後外側（posterolateral）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 30,
+      "text": "鰓竇（branchial sinus）形成的原因，肇因於胚胎時期下列何者閉鎖不全？",
+      "choices": [
+        "咽囊（pharyngeal pouch）",
+        "咽弓（pharyngeal arch）",
+        "頸竇（cervical sinus）",
+        "口咽膜（oropharyngeal membrane）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 31,
+      "text": "下列有關心房間隔（interatrial septum）的敘述，何項正確？",
+      "choices": [
+        "第一中隔（septum primum）比第二中隔（septum secundum）為厚",
+        "第一中隔（septum primum）上會發生穿孔而形成第一孔（foramen primum）",
+        "第一中隔（septum primum）與第二中隔（septum secundum）發育生長的方向均從腹側向背側",
+        "第二中隔（septum secundum）在左右心房間的不完全分隔，形成卵圓孔（oval foramen）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 32,
+      "text": "下列那一對腦神經為前腦（prosencephalon）衍生形成？",
+      "choices": [
+        "視神經（optic nerve）",
+        "動眼神經（oculomotor nerve）",
+        "三叉神經（trigeminal nerve）",
+        "前庭耳蝸神經（vestibulocochlear nerve）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 33,
+      "text": "胰臟外分泌細胞是屬於何種分泌（secretion）方式？",
+      "choices": [
+        "部分分泌（merocrine）",
+        "頂漿分泌（apocrine）",
+        "全漿分泌（holocrine）",
+        "擴散方式（diffusion）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 34,
+      "text": "胸膜壁層（parietal pleura）的上皮屬於下列何者？",
+      "choices": [
+        "單層扁平上皮（simple squamous epithelium）",
+        "單層柱狀上皮（simple columnar epithelium）",
+        "單層立方上皮（simple cuboidal epithelium）",
+        "移形上皮（transitional epithelium）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 35,
+      "text": "骨骺板（epiphyseal plate）中，下列何者的軟骨細胞會進行細胞凋亡（apoptosis）？",
+      "choices": [
+        "軟骨鈣化區（zone of calcified cartilage）",
+        "軟骨肥大區（zone of hypertrophy）",
+        "軟骨增生區（zone of proliferation）",
+        "軟骨儲備區（zone of reserve cartilage）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 36,
+      "text": "下列何者是心肌細胞和平滑肌細胞皆有的構造？",
+      "choices": [
+        "三聯體（triad）",
+        "緻密體（dense body）",
+        "緊密接合（tight junction）",
+        "間隙接合（gap junction）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 37,
+      "text": "下列有關大靜脈的敘述，何者正確？",
+      "choices": [
+        "大靜脈的外膜（tunica adventitia）比中膜（tunica media）厚",
+        "與彈性動脈比較，大靜脈的中膜（tunica media）有較多彈性板（elastic lamellae）",
+        "大靜脈的外膜（tunica adventitia）缺少平滑肌細胞（smooth muscle cells）分布",
+        "大靜脈的滋養管（vasa vasorum）主要位於中膜（tunica media），供應血管壁養分"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 38,
+      "text": "周細胞（pericytes）主要位於何種血管壁？",
+      "choices": [
+        "連續性微血管（continuous capillaries）",
+        "中型靜脈（medium veins）",
+        "肌型動脈（muscular arteries）",
+        "小動脈（arterioles）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 39,
+      "text": "下列消化道中，那一部位黏膜為非角化複層扁平上皮（nonkeratinized stratified squamous epithelium）？",
+      "choices": [
+        "十二指腸",
+        "盲腸",
+        "胃",
+        "食道"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 40,
+      "text": "可被鉻鹽溶液染上的細胞是：",
+      "choices": [
+        "腎上腺皮質細胞（adrenocortical cells）",
+        "腎上腺髓質細胞（adrenomedullary cells）",
+        "副甲狀腺主細胞（chief cells of parathyroid gland）",
+        "副甲狀腺嗜酸性細胞（oxyphil cells of parathyroid gland）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 41,
+      "text": "閉鎖黃體（atretic corpus luteum）為下列何者衍生而來？",
+      "choices": [
+        "顆粒層細胞（cells of the stratum granulosum）",
+        "內鞘細胞（cells of the theca interna）",
+        "外鞘細胞（cells of the theca externa）",
+        "濾泡細胞（follicular cells）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 42,
+      "text": "下列有關Kanagawa hemolysin 之敘述，何者錯誤？",
+      "choices": [
+        "由Vibrio parahaemolyticus 所分泌",
+        "是一種對熱穩定的毒素",
+        "在羊血培養基呈β 溶血現象",
+        "會導致水瀉（watery diarrhea）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 43,
+      "text": "為何鼠疫桿菌（Yersinia pestis）被認為是較有潛能的生物戰劑？",
+      "choices": [
+        "這細菌廣泛存在於歐亞大陸，易於分離",
+        "現無有效的抗生素可以抑制它",
+        "很容易經由蚊子叮咬，而傳播到許多人",
+        "肺鼠疫易於傳染，且死亡率高"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 44,
+      "text": "產生腸毒素的大腸桿菌，其對熱穩定的毒素，有下列何種作用機制？",
+      "choices": [
+        "溶解脂肪，打破細胞膜",
+        "抑制蛋白質的合成",
+        "活化發炎反應（inflammation）",
+        "活化次級信號分子"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 45,
+      "text": "關於Actinomyces 之敘述，下列何者正確？",
+      "choices": [
+        "為兼性或絕對厭氧菌",
+        "具有細胞核膜及粒線體",
+        "主要以抗黴菌藥物治療",
+        "常引起人與人之間傳染"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 46,
+      "text": "下列那種細菌毒素的作用機制是抑制蛋白質的合成？",
+      "choices": [
+        "志賀毒素（shiga toxin）",
+        "霍亂毒素（cholera toxin）",
+        "破傷風毒素（tetanospasmin）",
+        "肉毒桿菌毒素（botulinum toxin）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 47,
+      "text": "關於Staphylococcus aureus 的特徵，下列何者錯誤？",
+      "choices": [
+        "Gram-positive cocci",
+        "β-hemolysis",
+        "Catalase-positive",
+        "Coagulase-negative"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 48,
+      "text": "下列有關Streptococcus pyogenes 的敘述，那一項錯誤？",
+      "choices": [
+        "Group-specific carbohydrate 又稱Lancefield group 抗原是用來區分毒性及非毒性Group A Streptococcus 的分類標準",
+        "M protein 是用來區分不同種類Group A Streptococcus 的抗原之一",
+        "M-like surface proteins 因菌種不同而表現也不一致",
+        "並非每一支不同亞型的Group A Streptococcus 都會產生莢膜（capsule）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 49,
+      "text": "一名69 歲住院接受血癌（leukemia）治療的病人，住院後第三天發生尿道感染，醫師即刻施以廣效 型抗生素治療一週，並於治療前所取得的尿液檢體中檢出大腸桿菌（Escherichia coli）。住院兩週後，病 人突發高燒並寒顫，24 小時內血壓即下降，並出現壞死性膿瘡性皮膚病變。此時，由病人血液中檢出 一株革蘭氏陰性，不發酵醣類，且產生螢光色素的細菌。下列何者最有可能是此致病菌？",
+      "choices": [
+        "綠膿桿菌（Pseudomonas aeruginosa）",
+        "傷寒桿菌（Salmonella Typhi）",
+        "創傷弧菌（Vibrio vulnificus）",
+        "炭疽桿菌（Bacillus anthracis）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 50,
+      "text": "承上題，下列有關此菌的敘述，何者正確？",
+      "choices": [
+        "此菌為一種厭氧菌（anaerobe）",
+        "此菌廣泛存在於環境中",
+        "此菌罕由傷口感染人體",
+        "可施打疫苗以預防此菌之感染"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 51,
+      "text": "下列那一種感染原是屬於“obligate intracellular bacteria”？",
+      "choices": [
+        "Chlamydia trachomatis",
+        "Treponema pallidum",
+        "Clostridium botulinum",
+        "Pseudomonas aeruginosa"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "B"
+      ],
+      "answer_note": "答A或B或AB者均給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 52,
+      "text": "下列關於傳染性紅斑症（erythema infectiosum）的敘述，何者錯誤？",
+      "choices": [
+        "臉部紅疹出現在類感冒症狀之後",
+        "由Parvovirus B19 引起",
+        "此病毒在成人可能會引發關節炎",
+        "病毒偏好感染白血球前期細胞"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 53,
+      "text": "嬰兒玫瑰疹（roseola infantum）或稱exanthem subitum 在發疹前會突然出現幾天的高燒，請問下列何 種病毒會造成此疾病？",
+      "choices": [
+        "Parvovirus B19",
+        "Human herpesvirus-6",
+        "Rubella virus",
+        "Varicella-zoster virus"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 54,
+      "text": "下列病毒與其自然宿主之配對，何者錯誤？",
+      "choices": [
+        "黃熱病病毒（Yellow fever virus）與鳥類",
+        "登革熱病毒（Dengue virus）與人類、猴子",
+        "日本腦炎病毒（Japanese encephalitis virus）與鳥類、豬",
+        "聖路易斯腦炎病毒（St. Louis encephalitis virus）與鳥類"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 55,
+      "text": "下列何者為德國麻疹病毒（Rubella virus）的致病機制？",
+      "choices": [
+        "經消化道感染柱狀上皮細胞",
+        "先在呼吸道增殖，再感染網狀內皮系統",
+        "經蚊子叮咬直接產生病毒血症",
+        "先在肌肉增殖，並擴散到中樞神經"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 56,
+      "text": "下列關於progressive multifocal leukoencephalopathy（PML）的敘述，何者錯誤？",
+      "choices": [
+        "常發生於免疫不全的病人",
+        "由BK 病毒所引起",
+        "是一種脫髓鞘（demyelination）的疾病",
+        "病人大部分2 年內會死亡"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 57,
+      "text": "下列何者會造成多個細胞的膜融合（syncytia），形成多核細胞？",
+      "choices": [
+        "Herpesvirus",
+        "Bunyavirus",
+        "Flavivirus",
+        "Rotavirus"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 58,
+      "text": "從事醫院臨床工作者為避免遭受B 型肝炎病毒的感染，常用的預防方法為何？",
+      "choices": [
+        "施打B 型肝炎疫苗",
+        "注射干擾素",
+        "注射B 型肝炎免疫球蛋白",
+        "主動感染B 型肝炎病毒"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 59,
+      "text": "下列何種黴菌主要感染途徑不是吸入感染？",
+      "choices": [
+        "Coccidioides immitis",
+        "Candida glabrata",
+        "Histoplasma capsulatum",
+        "Blastomyces dermatitidis"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 60,
+      "text": "關於Pneumocystis jirovecii（carinii）之敘述，下列何者正確？",
+      "choices": [
+        "目前分類為原蟲",
+        "屬於Archiascomycetes",
+        "於人工培養基生長緩慢",
+        "經常感染肺結核病病人"
+      ],
+      "answer": "B",
+      "accepted_answers": [
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_note": "答B或C或D或BC或BD或CD或BCD者均給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 61,
+      "text": "關節孢子（arthroconidia）是下列何種黴菌之鑑定特徵？",
+      "choices": [
+        "Coccidioides immitis",
+        "Fusarium solani",
+        "Histoplasma capsulatum",
+        "Malassezia furfur"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 62,
+      "text": "當抗原穿過皮膚進入組織時，B 細胞及T 細胞免疫反應在何處發生？",
+      "choices": [
+        "皮下組織",
+        "骨髓",
+        "淋巴結",
+        "脾臟"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 63,
+      "text": "下列何者是毒殺型T 細胞（cytotoxic T cell）的共同接受器（co-receptor）？",
+      "choices": [
+        "CD2",
+        "CD3",
+        "CD4",
+        "CD8"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 64,
+      "text": "一段抗原蛋白片段被T 細胞辨識時，不會與下列那一個分子直接接觸？",
+      "choices": [
+        "CD3 複合體分子",
+        "主要組織相容性複合體（MHC）分子",
+        "T 細胞受體（TCR）α 鏈",
+        "T 細胞受體（TCR）β 鏈"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 65,
+      "text": "T 細胞受體之β 鏈（T cell receptor β-chain, TCRβ）基因之胚原序列（germline sequence）可存在於下 列那種細胞中？",
+      "choices": [
+        "CD4+CD8+ T 細胞",
+        "輔助型T 細胞（helper T cell）",
+        "毒殺型T 細胞（cytotoxic T cell）",
+        "B 細胞"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 66,
+      "text": "下列有關mixed lymphocyte reaction（MLR）的敘述何者錯誤？",
+      "choices": [
+        "MLR 可以用來偵測器官移植時，捐贈者與接受者組織不相容之情形",
+        "MLR 可以用來偵測CD4+ T 細胞增生之情形",
+        "MLR 會加入[3H]-thymidine 來偵測DNA 合成之情況",
+        "[3H]-thymidine 的量越多表示細胞增生程度越好，捐贈者的器官越容易被接受"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 67,
+      "text": "關於T 輔助細胞在B 細胞活化過程中所提供協助的敘述，下列那一項錯誤？",
+      "choices": [
+        "兩種細胞必須辨識同一種抗原（linked recognition），才能有效刺激抗體生成",
+        "T 輔助細胞分泌細胞激素（cytokines）協助B 細胞的複製與活化",
+        "T 輔助細胞表面表現CD40L 分子，可協助B 細胞第2 訊號的傳遞",
+        "T 輔助細胞表面表現B7，是主要的協同刺激因子（co-stimulatory molecule）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 68,
+      "text": "上皮內淋巴細胞（intraepithelial lymphocytes, IELs）主要包含二群CD8+ T 細胞，一群為CD8 α:α T 細 胞，另一群為CD8 α:β T 細胞，下列有關這二群細胞之敘述，何者正確？",
+      "choices": [
+        "二者皆可利用perforin 及granzyme 毒殺受感染的上皮細胞",
+        "二者皆利用T 細胞受體與呈現抗原的MHC class I 分子結合",
+        "二者皆主要以naïve T 細胞型式存在上皮細胞之間",
+        "二者的T 細胞受體變異性（TCR diversity）皆很小"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 69,
+      "text": "有關皮膚與黏膜的防禦作用，下列敘述何者錯誤？",
+      "choices": [
+        "皮膚的外層細胞角質化，可增強對病原體的防禦能力",
+        "胃黏膜的強酸性胃液，可摧毀大部分細菌",
+        "皮脂腺分泌的油脂可阻止細菌繁殖",
+        "皮膚表面的鹼性狀態，可阻止微生物在皮膚繁殖"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 70,
+      "text": "關於先天性免疫力（innate immunity）相關的基因突變會導致嚴重的原發性免疫缺損疾病的敘述，下 列何者正確？",
+      "choices": [
+        "NEMO 的突變不會影響先天性免疫力",
+        "慢性肉芽腫病的病患易受肝炎病毒感染",
+        "白血球黏著分子缺損可能會導致新生兒臍帶傷口延遲癒合",
+        "Toll-like receptor 的缺損不會導致對病毒的免疫缺損"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 71,
+      "text": "有關第三型過敏免疫反應，最正確的敘述為何？",
+      "choices": [
+        "抗體辨識與結合細胞表面抗原，造成細胞壞死所產生的過度免疫反應",
+        "主要參與反應的抗體為IgE",
+        "大量過度活化TH1 與CD8 T 細胞所致",
+        "常因持續性病原菌感染所引發"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 72,
+      "text": "過敏原和抗原特異性的IgE 結合後如何活化肥大細胞（mast cells）？",
+      "choices": [
+        "經由補體接受體被吞噬到肥大細胞內",
+        "經由B 細胞表面的抗體刺激B 細胞產生更多IgE",
+        "經由肥大細胞表面的IgE 接受體傳訊息到細胞內",
+        "黏著到樹突細胞上的MHC 分子刺激T 細胞產生IL-4"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 73,
+      "text": "下列有關adoptive T-cell transfer 用於腫瘤免疫治療的敘述，那一項錯誤？",
+      "choices": [
+        "自健康人體內純化T 細胞在體外刺激後打回癌症病人的療法",
+        "T 細胞體外活化需要IL-2 細胞激素刺激",
+        "T 細胞可以經由抗原呈獻細胞（antigen presenting cells）活化",
+        "T 細胞活化後仍保有記憶性（memory）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 74,
+      "text": "關於移植體對抗宿主疾病（graft-versus-host disease, GVHD），下列何者錯誤？",
+      "choices": [
+        "需要接受者的抗原呈獻細胞（antigen presenting cells）啟動",
+        "可運用混合淋巴球反應（mixed lymphocyte reaction）檢測",
+        "因接受者的T 細胞過多造成",
+        "可以去除移植體的T 細胞而減緩其反應"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 75,
+      "text": "藉由改善飲用水系統最能達到防治下列何種寄生蟲之感染？",
+      "choices": [
+        "旋毛蟲（Trichinella spiralis）",
+        "麥地那線蟲（Dracunculus medinensis）",
+        "廣節裂頭絛蟲（Diphyllobothrium latum）",
+        "廣東住血線蟲（Angiostrongylus cantonensis）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 76,
+      "text": "低蛋白血症（hypoproteinemia）最常發生於感染下列何種寄生蟲的病患？",
+      "choices": [
+        "廣東住血線蟲（Angiostrongylus cantonensis）",
+        "菲律賓毛線蟲（Capillaria philippinensis）",
+        "旋毛蟲（Trichinella spiralis）",
+        "犬蛔蟲（Toxocara canis）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 77,
+      "text": "下列為人體感染犬複殖器絛蟲（Dipylidium caninum）的途徑，那些是錯誤的？①誤食蟲卵 ②誤食 狗身上的帶蟲跳蚤 ③誤食生殖節片（gravid proglottid）",
+      "choices": [
+        "僅①①",
+        "僅①①",
+        "僅①①",
+        "①①①"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 78,
+      "text": "有關埃及血吸蟲（Schistosoma haematobium）的感染，下列敘述那些正確？①病患常有血尿（hematuria） ②病患尿液中常出現嗜酸性白血球（eosinophilic leukocyturia） ③慢性感染的病患因成蟲刺激而可能誘 發膀胱癌",
+      "choices": [
+        "僅①①",
+        "僅①①",
+        "僅①①",
+        "①①①"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 79,
+      "text": "下列有關瘧原蟲之敘述中，何者正確？",
+      "choices": [
+        "感染人類之瘧疾中，以卵形瘧（ovale malaria）的地理分布最廣",
+        "臺灣近年有境外移入諾氏瘧原蟲（Plasmodium knowlesi）感染的病例",
+        "間日瘧原蟲（Plasmodium vivax）喜侵入較成熟的紅血球，且受感染的紅血球會有脹大的現象",
+        "惡性瘧（malignant tertian malaria）的復發（relapse）源自患者肝細胞中潛藏之休眠體（hypnozoites）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 80,
+      "text": "下列致病原與其導致疾病之配對中，何者正確？",
+      "choices": [
+        "微小阿米巴（Endolimax nana）－腹瀉（diarrhea）",
+        "大腸纖毛蟲（Balantidium coli）－赤痢（dysentery）",
+        "福氏內格里阿米巴（Naegleria fowleri）－阿米巴肉芽腫性腦炎（granulomatous amebic encephalitis）",
+        "波列基阿米巴（Entamoeba polecki）－肝膿瘍（amebic liver abscess）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 81,
+      "text": "白蛉（sandfly）可以媒介下列何種寄生蟲感染症？",
+      "choices": [
+        "黑水熱（blackwater fever）",
+        "斷骨熱（break-bone fever）",
+        "黑熱病（kala-azar）",
+        "黑死病（black death）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 82,
+      "text": "下列有關恙蟲病（scrub typhus）之敘述，何者錯誤？",
+      "choices": [
+        "其致病原在自然界中以鼠類為主要儲菌宿主（reservoir host）",
+        "臺閩地區之病媒蟎種主要為地里恙蟎（Leptotrombidium deliense）",
+        "恙蟲病為一種廣泛世界性分布之人畜共通傳染病",
+        "人類感染而未能及時治療之死亡率約1～60%"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 83,
+      "text": "若已知國內男性抽菸盛行率為20%，隨機抽三位男性，三位都抽菸的機率為何？",
+      "choices": [
+        "0.067",
+        "0.008",
+        "0.6",
+        "0.08"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 84,
+      "text": "有關中央極限定理（Central limit theorem）的敘述，何者錯誤？",
+      "choices": [
+        "只要樣本數夠大，樣本平均數的分布就會趨近常態分布",
+        "只要樣本數夠大，樣本平均數分布的期望值會很接近母體平均數",
+        "只要樣本數超過 1，樣本平均數分布的標準差都會小於母體標準差",
+        "母體分布只有在常態分布時，樣本數夠大時樣本平均數的分布才會趨近常態分布"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 85,
+      "text": "某一國家人口6000 萬人，該年新發肺結核病患5000 人，肺結核病患共2 萬人，當年死亡人數為60 萬人，其中因為肺結核死亡者有500 人。該年肺結核死因分率是多少？",
+      "choices": [
+        "500/2 萬",
+        "500/60 萬",
+        "500/6000 萬",
+        "500/5000"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 86,
+      "text": "下面有關假說檢定之型一錯誤（type I error）與型二錯誤（type II error）的敘述何者正確？",
+      "choices": [
+        "型一錯誤發生的機率加上型二錯誤發生的機率等於1",
+        "檢定力（power）= 1-型一錯誤的機率",
+        "型一錯誤與型二錯誤有可能會同時發生",
+        "固定型一錯誤的機率，增加樣本數可以降低型二錯誤發生的機率"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 87,
+      "text": "在因果相關中，因一定要出現在果之前，也就是說致病因子應該在疾病發生之前，侵襲到研究對象， 而且從受侵襲到發病之間的時間間隔，必須要較疾病的誘導期或潛伏期長。上列敘述屬於判斷因果 關係的那一個條件？",
+      "choices": [
+        "生物贊同性",
+        "相關的一致性",
+        "相關的強度",
+        "相關的時序性"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 88,
+      "text": "某研究為分析降血壓藥的效果，採用病例對照設計（case-control study），欲分析病例對照兩組樣本 服降血壓藥3 個月前後測量之血壓值差異是否有明顯不同，研究者應該使用何種統計方法最合適？",
+      "choices": [
+        "配對 t 檢定（Paired t-test）",
+        "單一樣本 Z 檢定（One sample Z-test）",
+        "Pearson 卡方檢定（Pearson Chi-square test）",
+        "獨立樣本 t 檢定（Independent t-test）"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "D"
+      ],
+      "answer_note": "答A或D或AD者均給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 89,
+      "text": "下列那個測量值較不易受到資料極端值的影響？",
+      "choices": [
+        "平均值",
+        "中位數",
+        "全距",
+        "標準差"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 90,
+      "text": "臨床上希望利用兒童年齡推估頭圍大小，透過2～5 歲兒童樣本的分析得到迴歸方程式為Y=4+0.75X，Y 為頭圍長度（以公分為單位），X 為兒童年齡（以月為單位），判定係數為0.70，下列描述何者錯 誤？",
+      "choices": [
+        "該迴歸方程式假設兒童月齡與頭圍呈直線關係",
+        "3 歲的兒童，其頭圍平均值應為31 公分",
+        "每增加1 歲，頭圍平均增加 0.75 公分",
+        "這條迴歸方程式可以解釋兒童樣本中頭圍變異量的70%"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 91,
+      "text": "下列對於隨機分派（randomization）的描述何者錯誤？",
+      "choices": [
+        "可透過亂數表進行研究對象的分組",
+        "目的是讓世代研究之暴露組與非暴露組的研究對象有相同背景",
+        "為避免干擾，原則上不讓研究對象、資料蒐集者知道分組的情形",
+        "病例對照研究法無法進行隨機分派"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 92,
+      "text": "人因工學建議，需站立工作者之工作檯高度，依工作別分：①精密工作（Precision work） ②輕工 作（Light work） ③較重工作（Heavier work），相對高低排序（由高到低）為何？",
+      "choices": [
+        "①①①",
+        "①①①",
+        "①①①",
+        "①①①"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 93,
+      "text": "一般而言，廢水三級處理的正常順序為何？",
+      "choices": [
+        "物理、化學、生物",
+        "生物、化學、物理",
+        "化學、生物、物理",
+        "物理、生物、化學"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 94,
+      "text": "下列關於危害評估的敘述，何者錯誤？",
+      "choices": [
+        "危害評估包含質性研究（Qualitative Study）與危害辨識（Hazard Identification）兩部分",
+        "危害辨識之資料可經由國際間各種毒理資料庫及研究文獻之收集、查詢獲得",
+        "危害辨識定義為決定某一物質是否會增加某種健康狀態的盛行率過程",
+        "危害辨識主要針對毒性化學物質的固有毒性進行確認"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 95,
+      "text": "空氣污染指標（Pollutant standard index, PSI）在多少以上，會對身體不好且較敏感的人，使其健康症 狀更加惡化？",
+      "choices": [
+        "50",
+        "100",
+        "150",
+        "200"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 96,
+      "text": "經由有組織的社區力量，致力於增進並維護個人與整個社會群眾的心理健康，預防心理異常或精神 疾病，減輕因疾病帶來對個人與社區不良影響。屬於下列何種定義？",
+      "choices": [
+        "健康心理",
+        "公共心理衛生",
+        "健康促進",
+        "精神衛生"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 97,
+      "text": "下列那一個概念不在健康信念模式的架構中？",
+      "choices": [
+        "自覺行動障礙",
+        "自覺罹患性",
+        "自我再評價",
+        "自我效能"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 98,
+      "text": "衛生福利部食品藥物管理署推廣的「天天5 蔬果，健康又樂活」是屬於公共衛生預防原則的那一段 那一級預防？",
+      "choices": [
+        "初段一級",
+        "初段二級",
+        "次段三級",
+        "三段四級"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 99,
+      "text": "下列那一種健康保險支付制度，比較不會誘導醫師篩選病情較輕的病人？",
+      "choices": [
+        "論質計酬",
+        "論量計酬",
+        "論人計酬",
+        "論病例計酬"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 100,
+      "text": "依照醫師法規定，下列那個國家不能以外國學歷直接參加醫師資格考試，應先經教育部學歷甄試通 過，始得參加考試？",
+      "choices": [
+        "香港",
+        "日本",
+        "南非",
+        "中國大陸"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "all_correct": true,
+      "answer_note": "一律給分。",
+      "answer_source": "#"
+    }
+  ]
+}

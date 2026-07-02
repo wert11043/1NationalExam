@@ -1,0 +1,1180 @@
+{
+  "exam": "醫學一",
+  "year": "100",
+  "session": "第二次",
+  "questions": [
+    {
+      "no": 1,
+      "text": "當懷疑病人有下肢周邊血管阻塞疾病時，可觸摸檢查以下血管脈搏，何者例外？",
+      "choices": [
+        "膕動脈（popliteal artery）",
+        "脛後動脈（posterior tibial artery）",
+        "腓動脈（fibular artery）",
+        "足背動脈（pedis dorsalis artery）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 2,
+      "text": "32 歲男性，左小腿前側被他人以刀子刺入，他感覺到左足背側第一趾與第二趾之間有麻麻的感覺， 這可能是那一條神經受到損傷？",
+      "choices": [
+        "腓深神經（deep fibular nerve）",
+        "腓淺神經（superficial fibular nerve）",
+        "脛神經（tibial nerve）",
+        "隱神經（saphenous nerve）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 3,
+      "text": "承上題，此病人是在小腿前側遭到刀子刺入，可能是前區隔（anterior compartment）受到傷害，但不 包括下列何肌？",
+      "choices": [
+        "脛前肌（tibialis anterior）",
+        "伸拇長肌（extensor hallucis longus）",
+        "伸趾長肌（extensor digitorum longus）",
+        "脛後肌（tibialis posterior）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 4,
+      "text": "承上題，此病人被送到醫院，傷口經沖洗、止血，神經、肌肉縫合之後，傷口縫起來，前區隔（anterior compartment）內的肌肉很重要，它主要的功能是什麼？",
+      "choices": [
+        "足蹠屈（plantarflex the foot）",
+        "膝屈（knee flexion）",
+        "足背屈（dorsiflex the foot）",
+        "拇屈（flex the great toe）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 5,
+      "text": "下列何者受坐骨神經（sciatic nerve）支配？",
+      "choices": [
+        "內收長肌（adductor longus）",
+        "恥骨肌（pectineus）",
+        "股薄肌（gracilis）",
+        "內收大肌（adductor magnus）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 6,
+      "text": "下列何者沒有發出分支構成膝關節動脈吻合網（genicular anastomosis）？",
+      "choices": [
+        "股動脈（femoral artery）",
+        "膕動脈（popliteal artery）",
+        "腓動脈（fibular artery）",
+        "脛前動脈（anterior tibial artery）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 7,
+      "text": "盂肱關節（glenohumeral joint）中連接肱骨大、小結節同時固定肱二頭肌長頭之肌腱的韌帶為何？",
+      "choices": [
+        "上盂肱韌帶（superior glenohumeral ligament）",
+        "下盂肱韌帶（inferior glenohumeral ligament）",
+        "喙肱韌帶（coracohumeral ligament）",
+        "肱骨橫韌帶（transverse humeral ligament）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 8,
+      "text": "肩胛棘（scapular spine）的內側相當於下列何者的高度？",
+      "choices": [
+        "第一胸椎",
+        "第三胸椎",
+        "第五胸椎",
+        "第七胸椎"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 9,
+      "text": "如何辨識位於頸部的頸內動脈與頸外動脈？",
+      "choices": [
+        "頸內動脈有分支，頸外動脈無分支",
+        "頸內動脈與頸外動脈皆有分支，但分支數目不同",
+        "頸內動脈無分支，頸外動脈有分支",
+        "由兩者之口徑不同判別"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 10,
+      "text": "顏面神經若受傷不會產生下列何項症狀？",
+      "choices": [
+        "嘴角下垂",
+        "食物堆積在口腔前庭",
+        "微笑表情障礙",
+        "提上眼瞼肌無力"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 11,
+      "text": "下列何者不構成手臂四角形空間（quadrangular space）的邊緣？",
+      "choices": [
+        "小菱形肌（rhomboid minor）",
+        "肱骨（humerus）",
+        "大圓肌（teres major）",
+        "肱三頭肌的長頭（long head of triceps brachii）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 12,
+      "text": "肛門外括約肌由下列何者直接支配？",
+      "choices": [
+        "腹下神經",
+        "陰部神經",
+        "肛門下神經",
+        "骨盆內臟神經"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 13,
+      "text": "下列何者不是黑質網狀部（pars reticulata of the substantia nigra）GABAergic 神經元之直接投射區域？",
+      "choices": [
+        "蒼白核（globus pallidus）",
+        "上丘（superior colliculus）",
+        "橋腦大腦腳核（pedunculopontine nucleus）",
+        "丘腦（thalamus）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 14,
+      "text": "下列何者為骨盆橫膈的一部分？",
+      "choices": [
+        "梨狀肌",
+        "提肛肌",
+        "閉孔內肌",
+        "會陰淺橫肌"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 15,
+      "text": "下列何者為連接卵巢與子宮的構造？",
+      "choices": [
+        "懸韌帶",
+        "卵巢繫膜",
+        "卵巢韌帶",
+        "子宮圓韌帶"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 16,
+      "text": "下列何者位於儲精囊內側？",
+      "choices": [
+        "膀胱",
+        "直腸",
+        "前列腺",
+        "輸精管"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 17,
+      "text": "橫膈（diaphragm）上相對於第十胸椎的裂口是下列何結構？",
+      "choices": [
+        "主動脈裂口（aortic hiatus）",
+        "食道裂口（esophageal hiatus）",
+        "腔靜脈裂口（caval opening）",
+        "奇靜脈裂口（azygal opening）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 18,
+      "text": "下列何者與右冠狀動脈的邊緣枝（marginal branch）併走？",
+      "choices": [
+        "心前靜脈（anterior cardiac vein）",
+        "心大靜脈（great cardiac vein）",
+        "心中靜脈（middle cardiac vein）",
+        "心小靜脈（small cardiac vein）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 19,
+      "text": "下列何肌在呼吸時有穩固肋骨的作用？",
+      "choices": [
+        "腰大肌（psoas major）",
+        "腰小肌（psoas minor）",
+        "腰方肌（quadratus lumborum）",
+        "髂肌（iliacus）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 20,
+      "text": "下列有關顳下頜關節（temporomandibular joint）之敘述，何者錯誤？",
+      "choices": [
+        "翼內肌（medial pterygoid muscle）協助張口",
+        "翼內肌與翼外肌皆協助將下頜骨（mandible）移向對側邊（contralateral side）",
+        "部分翼外肌附著於顳下頜關節之關節盤（articular disc）",
+        "顳下頜關節位於下頜窩（mandibular fossa）及下頜骨之髁突（condylar process）之間"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 21,
+      "text": "右肺門的肺動脈位在支氣管的：",
+      "choices": [
+        "上方",
+        "下方",
+        "前方",
+        "後方"
+      ],
+      "answer": "B",
+      "accepted_answers": [
+        "B",
+        "C"
+      ],
+      "answer_note": "答B或C或BC者均給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 22,
+      "text": "鼻樑（bridge of nose）上皮膚之感覺由下列何神經傳導？",
+      "choices": [
+        "眼神經（ophthalmic nerve）",
+        "上頜神經（maxillary nerve）",
+        "面神經（facial nerve）",
+        "視神經（optic nerve）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 23,
+      "text": "下列關於面部危險三角區域（danger triangle of the face）之面靜脈（facial vein）敘述何者錯誤？",
+      "choices": [
+        "面靜脈與翼突靜脈叢（pterygoid venous plexus）可相交通",
+        "面靜脈有良好的瓣膜系統可阻止血液回流",
+        "面靜脈發炎可能引發海綿竇血栓靜脈炎（thrombophlebitis of cavernous sinus）",
+        "危險三角區域的感染或發炎可沿著面靜脈蔓延到大腦靜脈系統"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 24,
+      "text": "下列關於胸腔穿刺（thoracentesis）敘述何者錯誤？",
+      "choices": [
+        "需避開肋骨下緣之肋間神經、血管（intercostal nerve, vessel）",
+        "穿刺時需在吐氣（expiration）時進行",
+        "一般在第九肋間穿刺最適當",
+        "常在鎖骨中線（midclavicular line）位置進行穿刺"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 25,
+      "text": "若病人出現縮瞳（miosis），一側面部出汗減少（anhydrosis），上眼瞼下垂（ptosis）等Horner 徵候 群，其三種典型臨床症狀皆出現時，最不可能為下列何種疾病所引發？",
+      "choices": [
+        "頸總動脈剝離（common carotid artery dissection）",
+        "頸外動脈（external carotid artery）損傷",
+        "腦幹栓塞性中風（brainstem infarction）",
+        "頸上神經節（superior cervical ganglion）損傷"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 26,
+      "text": "下列何者並非脈絡叢（choroid plexus）的結構形成物？",
+      "choices": [
+        "平滑肌肉層（smooth muscle layer）",
+        "基底膜層（basement membrane）",
+        "腦室管膜細胞層（ependymal cells of ventricle）",
+        "微血管內皮細胞層（endothelium of capillary）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 27,
+      "text": "下列有關脊髓後外側溝（posterolateral sulcus）的敘述，何者正確？",
+      "choices": [
+        "僅存在於上胸段（upper thoracic level）以上",
+        "為後根神經纖維（posterior root fibers）進入脊髓處",
+        "將後側脊髓（dorsal spinal cord）分成左、右兩半",
+        "為脊髓後角（posterior horn）與前角（anterior horn）分界處"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 28,
+      "text": "下列何者參與下肢本體覺的傳遞？",
+      "choices": [
+        "外側頸核（lateral cervical nucleus）",
+        "薄核（gracile nucleus）",
+        "楔狀核（cuneate nucleus）",
+        "弓狀核（arcuate nucleus）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 29,
+      "text": "下列肺發育期間，呼吸細支氣管（respiratory bronchiole）何時出現？",
+      "choices": [
+        "偽腺期（Pseudoglandular stage）",
+        "小管期（Canalicular stage）",
+        "末囊期（Terminal sac stage）",
+        "肺泡期（Alveolar stage）"
+      ],
+      "answer": "B",
+      "accepted_answers": [
+        "B",
+        "C",
+        "D"
+      ],
+      "answer_note": "答B或C或D或BC或BD或CD或BCD者 均給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 30,
+      "text": "下列由遺傳因素造成的畸形中，何者是因染色體數目的異常所致？",
+      "choices": [
+        "亨丁頓氏舞蹈症（Huntington chorea）",
+        "軟骨發育不全（achondroplasia）",
+        "克萊恩費爾特氏徵候群（Klinefelter syndrome）",
+        "血友病（hemophilia）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 31,
+      "text": "誘發胚胎先天畸形的敏感時期是在受精後：",
+      "choices": [
+        "第1-2 週",
+        "第3-8 週",
+        "第9-12 週",
+        "第13-16 週"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 32,
+      "text": "在脊柱形成時，胚胎初期出現的脊索（notochord）最後的發育結果是：",
+      "choices": [
+        "骨化並成為椎骨的一部分",
+        "轉變為滑液關節（synovial joint）",
+        "構成軟骨關節",
+        "退化並侷限在椎間盤內"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 33,
+      "text": "具有緊密接合（tight junction）並形成血－睪障壁（blood-testis barrier）的細胞是：",
+      "choices": [
+        "萊迪氏細胞（Leydig cell）",
+        "塞托利氏細胞（Sertoli cell）",
+        "管周邊細胞（peritubular cell）",
+        "產精細胞（spermatogenic cell）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 34,
+      "text": "下列何者不具有過渡型上皮細胞（transitional epithelium）？",
+      "choices": [
+        "輸尿管（ureter）",
+        "膀胱（urinary bladder）",
+        "前列腺段尿道（prostatic urethra）",
+        "陰莖段尿道（penile urethra）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 35,
+      "text": "有關眼球之角膜（cornea），下列敘述何項錯誤？",
+      "choices": [
+        "角膜不具有神經末梢（nerve ending）",
+        "角膜的所有代謝交換（metabolic exchange）主要發生於角膜內皮（corneal endothelium）",
+        "角膜包括五層結構，其中Descemet’s membrane 與Bowman’s membrane 屬於非細胞層",
+        "角膜上皮（corneal epithelium）細胞具有很高之再生能力（regenerative capacity）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 36,
+      "text": "腎素（renin）主要由下列那一細胞產生與釋放？",
+      "choices": [
+        "緻密斑細胞（macula densa cells）",
+        "絲球體外環間細胞（extraglomerular mesangial cells）",
+        "足細胞（podocytes）",
+        "絲球體旁細胞（juxtaglomerular cells）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 37,
+      "text": "下列各消化管道當中，何者之上皮含最多杯狀細胞？",
+      "choices": [
+        "胃",
+        "結腸",
+        "食道",
+        "十二指腸"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 38,
+      "text": "下列有關破骨細胞（osteoclasts）的敘述何者正確？",
+      "choices": [
+        "是多核細胞",
+        "位於骨膜內（periosteum）",
+        "分泌骨基質",
+        "細胞質為強嗜鹼性"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 39,
+      "text": "對中型靜脈的敘述，下列何者錯誤？",
+      "choices": [
+        "其瓣膜為半月狀",
+        "瓣膜由平滑肌構成",
+        "瓣膜主要由結締組織形成軸心，外覆蓋內皮細胞",
+        "腿部的中型靜脈常具瓣膜"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 40,
+      "text": "黏著小帶（zonula adherens）的細胞膜內側，有何種主要細胞骨架附著？",
+      "choices": [
+        "微絲（microfilaments）",
+        "中間絲（intermediate filaments）",
+        "微小管（microtubule）",
+        "膠原纖維（collagen fibers）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 41,
+      "text": "林先生32 歲，剛剛在國內完成博士學位，因為他是念地質學，所以需要到處採集地質標本。兩個月前 他有機會到美國加州接近墨西哥邊界沙漠地區整整一個月時間在該地區進行調查，甚至包括一些洞 穴。回國以後林先生開始發燒、畏寒、夜間盜汗、乾咳，持續4 個星期，這段期間林先生開始以為是 感冒，醫師也開過抗生素治療，但病情持續無法改善。全身檢查結果除了右胸有約3 cm 較硬腫塊外， 在鼠蹊及腋下也有較小約1 cm 淋巴腫，血液樣本在25℃培養，找到具有分節孢子（Arthrospores） 之絲狀真菌，分節孢子斷裂呈現桶狀（Barrel-shaped）。組織學則呈現寄生性spherules，內含內孢 子（endospores）。林先生最可能感染那一種病原菌？",
+      "choices": [
+        "Histoplasma capsulatum",
+        "Blastomyces dermatitidis",
+        "Paracoccidioides brasiliensis",
+        "Coccidioides immitis"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 42,
+      "text": "有關神經元細胞體的位置，下列敘述何者正確？①灰質 ②白質 ③神經節 ④周邊神經纖維",
+      "choices": [
+        "①④",
+        "①③",
+        "②③",
+        "②④"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 43,
+      "text": "Amphotericin B 屬於一種Polyenes 抗真菌藥物，直接與麥角固醇（Ergosterol）結合破壞真菌細胞膜， 但在治療新型隱球菌已出現抗藥性，抗藥菌株最可能改變產生何種固醇，取代敏感性的麥角固醇？",
+      "choices": [
+        "Cholesterol",
+        "Sitosterol",
+        "Lanosterol",
+        "Fecosterol"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 44,
+      "text": "王醫師為婦科疾病的權威醫師，他的門診病患中感染何型人類乳突病毒（HPV），會導致罹患子宮 頸癌風險大幅提高？",
+      "choices": [
+        "Type 9",
+        "Type 6",
+        "Type 18",
+        "Type 11"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 45,
+      "text": "器官移植後的病人出現肺炎併發症，應首先懷疑下列何種病毒感染是導致肺炎併發症的原因？",
+      "choices": [
+        "單純疱疹病毒（herpes simplex virus）",
+        "EB 病毒（Epstein-Barr virus）",
+        "腺病毒（adenovirus）",
+        "巨細胞病毒（cytomegalovirus）"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 46,
+      "text": "下列有關呼吸道細胞融合病毒（Respiratory syncytial virus）之敘述，何者正確？",
+      "choices": [
+        "屬於正黏液病毒（Orthomyxovirus）",
+        "侵入呼吸道後會引起支氣管上皮細胞壞死、黏液分泌、發炎細胞浸潤、黏膜下層水腫",
+        "感染後可終身免疫",
+        "核酸為正股RNA"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 47,
+      "text": "在B 型肝炎病毒造成急性感染之患者身上，下列何種抗體最早出現？",
+      "choices": [
+        "Anti-HBc",
+        "Anti-PreS",
+        "Anti-HBs",
+        "Anti-HBe"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 48,
+      "text": "下列那一種症狀不是由克沙奇A 型病毒（Coxsackie A virus）所引起的？",
+      "choices": [
+        "疱疹性咽峽炎（herpangina）",
+        "心臟炎（carditis）",
+        "胸膜痛（pleurodynia）",
+        "腦膜炎（meningitis）"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "all_correct": true,
+      "answer_note": "一律給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 49,
+      "text": "Amantadine 及Rimantadine 藥物常被用來治療流行性感冒病毒A 型，其抑制病毒入侵之機轉為何？",
+      "choices": [
+        "阻止病毒之入侵及解體（uncoating）",
+        "阻止病毒在宿主內合成DNA",
+        "阻止病毒在宿主內合成RNA",
+        "阻止病毒在宿主內合成蛋白質"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 50,
+      "text": "下列何者是常見於發生在後期愛滋病患者，尤其是該患者CD4+的T lymphocyte數目少於10 cells/mm3 時的分枝桿菌（Mycobacterium）感染？",
+      "choices": [
+        "M. leprae",
+        "M. avium complex",
+        "M. bovis",
+        "M. kansasii"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 51,
+      "text": "一位男性因其陰莖出現潰瘍而就醫，經醫師診察後發現其潰瘍處界限分明，表面呈肉紅色糜爛，觸 摸時可感覺皮下似埋有一鈕扣，是為硬性下疳的症狀，且患者無壓痛感，但壓時有清澈之滲出液溢 出，經VDRL 試驗呈陽性反應，表示該病人可能患有何種疾病？",
+      "choices": [
+        "梅毒（syphilis）",
+        "疱疹（herpes）",
+        "淋病（gonorrhea）",
+        "生殖器濕疣（anogenital warts）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 52,
+      "text": "下列真菌疾病中，那些是兩型性真菌（Dimorphic fungi）？",
+      "choices": [
+        "Aspergillus niger and Rhizopus stolonifer",
+        "Candida albicans and Rhizopus stolonifer",
+        "Sporothrix schenckii and Candida albicans",
+        "Sporothrix schenckii and Penicillium marneffei"
+      ],
+      "answer": "C",
+      "accepted_answers": [
+        "C",
+        "D"
+      ],
+      "answer_note": "答C或D或CD者均給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 53,
+      "text": "一位70 歲的老婦人在整理自家花園時不慎被埋在土裡樹枝上的細刺扎到，當時不以為意，但一週後 出現說話、吞嚥、呼吸困難等情形，且有胸痛，兩天後並發生頸部僵硬和呼吸衰竭，急送某醫學中 心，醫師立即將她送入加護病房進行氣管切開並接上人工呼吸器。病人被診斷為破傷風（tetanus）， 下列何者是診斷此病最主要的依據？",
+      "choices": [
+        "臨床症狀",
+        "由血液中分離出破傷風菌",
+        "在血液中偵測到破傷風毒素",
+        "在由傷口取得的檢體中以顯微鏡觀察到破傷風菌"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 54,
+      "text": "承上題，下列何者不宜用來處理破傷風病人？",
+      "choices": [
+        "給予破傷風抗毒素",
+        "擴創術（debridement）",
+        "給予青黴素（penicillin）",
+        "給予破傷風疫苗"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 55,
+      "text": "黴漿菌（Mycoplasma）與L form 細菌同樣都缺乏細胞壁結構，其二者最大的差異為何？",
+      "choices": [
+        "黴漿菌細胞膜上含有固醇，而L form 細菌則無",
+        "L form 細菌細胞膜上含有固醇，而黴漿菌則無",
+        "在適當的生長條件下，黴漿菌可形成細胞壁結構，而L form 細菌則否",
+        "黴漿菌對β-lactam 類藥物敏感，而L form 細菌則有抗性"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 56,
+      "text": "有一些細菌對trimethoprim 產生抗性，其主要原因為何？",
+      "choices": [
+        "此菌株的核糖體與trimethoprim 的結合力降低",
+        "此菌株的dihydrofolate reductase 與trimethoprim 的結合力降低",
+        "Trimethoprim 與此類菌之rRNA 的結合力下降",
+        "Trimethoprim 與此類菌之transpeptidase 的結合力下降"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 57,
+      "text": "腸內菌屬（Enterobacteriaceae）的Lipopolysaccharide（LPS）分子中那一個部分的變異最大，可以用 來區別同一種（species）菌種不同的血清型分類（serotype）？",
+      "choices": [
+        "Lipid A",
+        "Core polysaccharide",
+        "O antigen",
+        "整體結構"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 58,
+      "text": "下列那種細菌以家禽、家畜為其貯存宿主（reservoir）？",
+      "choices": [
+        "空腸彎曲菌（Campylobacter jejuni）",
+        "霍亂弧菌（Vibrio cholerae）",
+        "百日咳桿菌（Bordetella pertussis）",
+        "腦膜炎奈瑟氏菌（Neisseria meningitidis）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 59,
+      "text": "不產芽孢厭氧菌（non-sporeforming anaerobes）感染人體，最常造成下列那種形式的病變？",
+      "choices": [
+        "食物中毒（food poisoning）",
+        "溶血性貧血（hemolytic anemia）",
+        "組織壞死和膿瘍（abscess）",
+        "自體免疫病（autoimmune diseases）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 60,
+      "text": "艱難梭菌（Clostridium difficile）感染所造成的疾病之確診係根據下列那一項？",
+      "choices": [
+        "由病人糞便中分離到此菌",
+        "在病人糞便中偵測到此菌所分泌的細胞毒素或腸毒素",
+        "由病人血液中分離到此菌",
+        "在病人血清中偵測到此菌所分泌的細胞毒素或腸毒素"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 61,
+      "text": "有關細菌DNA 複製的敘述，那一項錯誤？",
+      "choices": [
+        "可從不特定的DNA 序列開始",
+        "可從多個起始點開始",
+        "有不同的機轉並可雙向進行",
+        "是由多種DNA polymerases 來負責"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 62,
+      "text": "葉教授的實驗室進行結核菌研究，所以實驗室的學生都需進行結核菌素測驗。一位暑期研究同學在 測驗後50 小時產生陽性反應。如果對這位同學進行皮膚切片觀察其中的反應，最可能會看到的結果 為何？",
+      "choices": [
+        "皮膚水腫，無白血球聚集",
+        "T 細胞及巨噬細胞聚集",
+        "B 細胞及漿細胞聚集",
+        "嗜伊紅性白血球及肥大細胞聚集"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 63,
+      "text": "化膿性鏈球菌（Streptococcus pyogenes）感染之後，有時會引起關節炎、心肌炎、心臟瓣膜破壞，其 原因為何？",
+      "choices": [
+        "由於化膿性鏈球菌抗原與上述的組織抗原有分子類似性（molecular mimicry），而導致自體免疫反應",
+        "治療化膿性鏈球菌感染所用的抗生素引起的藥物危害",
+        "化膿性鏈球菌感染後，引起FoxP3 基因活化，調節型T 細胞（Treg 細胞）增加所致",
+        "化膿性鏈球菌過度增長，直接破壞組織所致"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 64,
+      "text": "在評估病患的免疫能力時，發現病患的免疫球蛋白濃度只有同年齡人平均值的五分之一。為了瞭解 病患血液白血球中B 細胞的百分比是否正常，應該採用何種方法來檢查？",
+      "choices": [
+        "將羊紅血球與病患紅血球混和後檢查血球凝集",
+        "用帶螢光的抗人類免疫球蛋白抗體處理病患白血球後以流式細胞儀偵測",
+        "將白血球以抗CD3 刺激後觀察細胞分裂",
+        "用Epstein-Barr 病毒刺激白血球後觀察細胞分裂"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 65,
+      "text": "為了預防流行性感冒病毒感染，建議老人及兒童每年施打流感疫苗。需要每年施打的正確理由為何？",
+      "choices": [
+        "疫苗依據前一年流行的病毒株設計，無法涵蓋新出現的突變病毒",
+        "疫苗為單一病毒株，無法涵蓋引起感染的病毒",
+        "疫苗無多醣成分，引起長期免疫記憶的能力差",
+        "疫苗為活病毒，在身上存活的時間短"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 66,
+      "text": "關於過敏病患抽血進行特異性過敏原測試，下列敘述何者正確？",
+      "choices": [
+        "目的是測試血液中的吞噬細胞數目是否正常",
+        "目的是測試血液中的嗜伊紅性白血球細胞數目是否正常",
+        "測試方法是定量白血球對過敏原刺激的分裂反應",
+        "測試方法為偵測對特定抗原的抗體是否存在"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 67,
+      "text": "相較於引發產生抗體的初次反應（primary response），同一個蛋白質抗原所引起的二次反應（secondary response）的特性為何？",
+      "choices": [
+        "通常需要較長的時間才能開始有大量的抗體生成",
+        "有記憶性淋巴細胞的參與",
+        "主要是製造並分泌大量IgM",
+        "所產生的抗體力價（titer）與初次反應相當"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 68,
+      "text": "下列那一種細胞表面通常不會表現免疫球蛋白IgE 受器？",
+      "choices": [
+        "活化的嗜鹼性球（basophil）",
+        "活化的嗜酸性球（eosinophil）",
+        "活化的巨噬細胞（macrophage）",
+        "肥大細胞（mast cell）"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "all_correct": true,
+      "answer_note": "一律給 分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 69,
+      "text": "有關細胞激素的功能，下列敘述何者錯誤？",
+      "choices": [
+        "TNF-α、IL-1、IL-6 與發燒及急性期蛋白（acute phase protein）的升高有關",
+        "第二型輔助性T細胞（TH2）之所以能造成第一型過敏反應，是因為能分泌IFN-γ，而IFN-γ可以活 化macrophage及CD8+ T細胞",
+        "IFN-α/β 會增加細胞的MHC class I 及class II 表現量，可以幫助對抗病毒",
+        "GM-CSF 可以幫助樹突細胞的分化與生長"
+      ],
+      "answer": "B",
+      "accepted_answers": [
+        "B",
+        "C"
+      ],
+      "answer_note": "答B或C或BC者均給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 70,
+      "text": "一位患有尋常天疱瘡（Pemphigus vulgaris）的孕婦，剛剛平安產下3000 公克的小男嬰，但是隨即發 現小男嬰身上及四肢分布有紅斑，有些紅斑上有小水疱，因此迅速被送入新生兒加護病房治療。他 的病因為何？",
+      "choices": [
+        "母親的自體免疫疾病之抗體，抗desmoglein 3 抗體（anti-desmoglein 3 antibody）通過胎盤，暫時引 起之病徵",
+        "母親的自體免疫疾病之抗體，抗dsDNA 抗體（anti-dsDNA antibody）通過胎盤，引起之胎兒皮膚 系統之自體免疫病",
+        "母親治療自體免疫疾病的用藥，在他身上引起不良反應",
+        "母親的自體免疫疾病之遺傳，而且他一出生即發病"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 71,
+      "text": "免疫球蛋白（Immunoglobulin, Ig）的分子結構中，那一個區域不會與抗原接觸？",
+      "choices": [
+        "CDR",
+        "Fc",
+        "VL",
+        "VH"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 72,
+      "text": "能引起體內產生較強抗體反應的蛋白質抗原，一般具有何特性？",
+      "choices": [
+        "分子量很小（MW < 2500）",
+        "結構簡單、複雜度不高",
+        "與反應個體的體內分子差異大",
+        "進入體內可以很快完全釋放"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 73,
+      "text": "淋巴結的發生中心（germinal center）是B 細胞發育場所，但不包含下列那一項作用？",
+      "choices": [
+        "抗原受器基因重組（antigen receptor gene rearrangement）",
+        "抗體類型轉變（immunoglobulin class switching）",
+        "體細胞超突變（somatic hypermutation）",
+        "形成記憶細胞（memory cells）"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 74,
+      "text": "共同髓原先驅細胞（common myeloid progenitor cell）可以分化成不同種類之血球成員，但不包含下 列那一種？",
+      "choices": [
+        "血小板（platelets）",
+        "自然殺手細胞（natural killer cells）",
+        "單核細胞（monocytes）",
+        "多核狀顆粒細胞（polymorphonuclear granulocytes）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 75,
+      "text": "生活史中皆沒有囊體期（cyst stage）的寄生蟲是：",
+      "choices": [
+        "梨形鞭毛蟲（Giardia lamblia）及陰道滴蟲（Trichomonas vaginalis）",
+        "大腸纖毛蟲（Balantidium coli）及齒齦阿米巴（Entamoeba gingivalis）",
+        "雙核阿米巴（Dientamoeba fragilis）及陰道滴蟲（Trichomonas vaginalis）",
+        "嗜碘阿米巴（Iodamoeba bütschlii）及口腔滴蟲（Trichomonas tenax）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 76,
+      "text": "下列有關隱翅蟲之敘述，何者錯誤？",
+      "choices": [
+        "臺灣地區最常見的是褐毒隱翅蟲（Paederus fusca）",
+        "隱翅蟲的毒害是由蟲體螫咬人體所致",
+        "隱翅蟲素（pederin）附著皮膚後會產生緩慢痊癒的壞死性紅斑",
+        "待病灶痊癒後，若未再接觸隱翅蟲素，一般不用擔心復發的問題"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 77,
+      "text": "下列有關奎寧（quinine）的敘述，何者錯誤？",
+      "choices": [
+        "以奎寧治療時，病人會產生低血糖的現象，因此必須監測血糖",
+        "現今已有對奎寧產生抗藥性的瘧原蟲出現",
+        "若使用奎寧後，病人有黑水熱（blackwater fever）的現象，應立即停用奎寧",
+        "奎寧對孕婦雖有致使流產的副作用，但是在嚴重的惡性瘧疾時，為顧及媽媽及胎兒的安全，仍應 使用奎寧治療"
+      ],
+      "answer": "C",
+      "accepted_answers": [
+        "C",
+        "D"
+      ],
+      "answer_note": "答C或D或CD者均給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 78,
+      "text": "地癢疹（ground itch）是由下列何種人類寄生蟲感染所引起？",
+      "choices": [
+        "日本血吸蟲（Schistosoma japonicum）",
+        "美洲鉤蟲（Necator americanus）",
+        "班氏絲狀蟲（Wuchereria bancrofti）",
+        "廣東住血線蟲（Angiostrongylus cantonensis）"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 79,
+      "text": "有一絲蟲病（filariasis）患者住院診療，全天每隔2 小時採血檢查，每mm3血液微絲蟲（microfilariae）數 量，記錄如右下之圖形，該病患最可能感染何種絲蟲？ 時間 2 4 6 8 10 12 14 16 18 20 22 24 0 1 2 3 4 5 x103",
+      "choices": [
+        "羅阿絲蟲（Loa loa）",
+        "蟠尾絲蟲（Onchocerca volvulus）",
+        "班氏絲蟲（Wuchereria bancrofti）",
+        "犬心絲蟲（Dirofilaria immitis）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 80,
+      "text": "牛羊肝吸蟲是草食性動物常見寄生蟲，請問下列敘述何者正確？",
+      "choices": [
+        "“halzoun＂是因生食感染牛羊肝吸蟲成蟲的動物肝臟而造成",
+        "幼蟲經由膽管逆流而進入總膽管寄生，所以不會破壞肝組織",
+        "牛羊肝吸蟲病以口服praziquantel 為最佳治療",
+        "人類係因食入動物肝臟中之囊狀幼蟲而感染"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "all_correct": true,
+      "answer_note": "一律給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 81,
+      "text": "下列何種阿米巴原蟲對人體不具致病性？",
+      "choices": [
+        "痢疾阿米巴（Entamoeba histolytica）",
+        "棘阿米巴（Acanthamoeba spp.）",
+        "迪斯帕阿米巴（Entamoeba dispar）",
+        "福氏耐格利阿米巴（Naegleria fowleri）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 82,
+      "text": "在高度蛔蟲感染流行區，下列何種年齡層是蛔蟲（Ascaris lumbricoides）感染的高危險族群？",
+      "choices": [
+        "1～4 歲",
+        "5～9 歲",
+        "10～15 歲",
+        "15 歲以上"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 83,
+      "text": "下列何者不是臺灣全民健康保險籌措保費之原則？",
+      "choices": [
+        "使用者付費",
+        "公平性",
+        "充足性",
+        "效率性"
+      ],
+      "answer": "A",
+      "accepted_answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "all_correct": true,
+      "answer_note": "一律給分，",
+      "answer_source": "#"
+    },
+    {
+      "no": 84,
+      "text": "下列何者是醫學過度專科化最可能產生之現象？",
+      "choices": [
+        "專科醫師的培訓過程自然而然會考量病人的所有問題",
+        "病人與專科醫師間的溝通會更順暢無礙",
+        "大型教學醫院的專科醫師常須從事一般性門診服務",
+        "診所的開業醫師必須提供尖端醫療科技服務"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 85,
+      "text": "下列有關醫療需求價格彈性之敘述，何者正確？",
+      "choices": [
+        "住院服務價格彈性較門診為高",
+        "牙醫服務價格彈性較西醫為高",
+        "護理之家價格彈性較急性住院服務為低",
+        "醫療服務價格彈性較一般服務為高"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 86,
+      "text": "下列那一項是最能證明愛滋病預防教育執行成功的指標？",
+      "choices": [
+        "民眾從事安全性行為（使用保險套）的比率提高",
+        "愛滋病患的病情在臨床上獲得有效控制",
+        "醫院發出愛滋病預防教育單張的數量增加",
+        "參加愛滋病衛生教育活動的人數增多"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 87,
+      "text": "衛生教育的「衝擊評價（impact evaluation）」是指下列那一種做法？",
+      "choices": [
+        "檢視民眾是否出席衛教活動",
+        "檢視教學者有無衛教企劃書",
+        "檢視民眾的知識和態度是否改變",
+        "檢視民眾的疾病死亡率是否下降"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 88,
+      "text": "接觸或暴露於重金屬之危害已陸續被發現與許多健康效應有關。下列各項組合中那一組之因果相關 性最低？",
+      "choices": [
+        "錳－巴金森氏徵候群",
+        "汞－水俁病",
+        "砷－烏腳病",
+        "鉻－致畸胎"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 89,
+      "text": "食物中黴菌毒素之特性為何？",
+      "choices": [
+        "通常穩定且耐熱",
+        "極易在酸性下破壞",
+        "經加溫70℃即可破壞",
+        "高溫至100℃即可破壞"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 90,
+      "text": "戴奧辛在各項環境介質中的污染及其對國人健康造成的影響深受關注。下列何者為國內戴奧辛排放 量最高之污染來源？",
+      "choices": [
+        "廢棄物焚化爐",
+        "金屬冶煉業",
+        "農田露天燃燒",
+        "有機氯農藥製造"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 91,
+      "text": "下列何者屬於正向心理健康的表現？",
+      "choices": [
+        "尊重接納他人",
+        "忽視身體傷病",
+        "壓抑負面情緒",
+        "刻板社會角色"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 92,
+      "text": "工作場所中的物理性危害多來自於下列那一項？",
+      "choices": [
+        "產品材料",
+        "勞工長工時",
+        "特殊機具使用",
+        "工廠佈置"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 93,
+      "text": "信賴區間的寬度（the width of a confidence interval）不受下列那一項因素所影響？",
+      "choices": [
+        "樣本數大小",
+        "信賴水準的大小",
+        "母群體受試者間的變異",
+        "樣本平均值和母群體平均值間的差異"
+      ],
+      "answer": "D"
+    },
+    {
+      "no": 94,
+      "text": "假設10 年前25%的心肌梗塞病人在發病24 小時內死亡，這個比例稱為個案致死率（case fatality）， 有位研究者想了解10 年來心肌梗塞病人的個案致死率是否有顯著的改變，在他收集的15 位新的心 肌梗塞病人，5 位24 小時內死亡，此研究者應該使用何種統計方法來回答他的研究問題？",
+      "choices": [
+        "單一樣本z 檢定",
+        "單一樣本t 檢定",
+        "單一樣本二項比例檢定",
+        "兩個樣本二項比例檢定"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 95,
+      "text": "疾病篩檢以系列檢定（Sequential Testing）為之，對篩檢效度有何影響？",
+      "choices": [
+        "淨敏感度（Net sensitivity）增加",
+        "淨特異度（Net specificity）增加",
+        "淨特異度（Net specificity）減少",
+        "偽陽性率（False positive rate）增加"
+      ],
+      "answer": "B"
+    },
+    {
+      "no": 96,
+      "text": "某學者探討甲族群環境暴露危害所造成的癌症死亡是否比一般未暴露族群高，計算得標準化死亡比 （Standardized mortality ratio, SMR）為4。另外一個學者對乙族群所做的類似研究則計算得SMR 為 2。下列何者錯誤？",
+      "choices": [
+        "甲族群該環境暴露的癌症死亡風險比一般未暴露族群高",
+        "乙族群該環境暴露的癌症死亡風險比一般未暴露族群高",
+        "甲族群該環境暴露的癌症死亡風險是乙族群的2 倍",
+        "SMR 可以使用第三個族群丙當參考族群"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 97,
+      "text": "有一位研究者想了解抽菸和肥胖間的相關，肥胖程度用身體質量指數測量，身體質量指數（BMI） ＝體重（公斤）÷身高2（公尺），此研究者想描述抽菸者和非抽菸者的BMI集中趨勢，下列何者統計 量最適合？",
+      "choices": [
+        "平均值",
+        "全距",
+        "百分比",
+        "眾數"
+      ],
+      "answer": "A"
+    },
+    {
+      "no": 98,
+      "text": "下列有關個案對照研究（case-control study）「配對（matching）」的敘述，何者錯誤？",
+      "choices": [
+        "在個案對照法可增加效率",
+        "以密度取樣法是以時間配對取對照組",
+        "配對可增加各受測者資料量",
+        "配對之目的在增加研究設計之效度"
+      ],
+      "answer": "C",
+      "accepted_answers": [
+        "C",
+        "D"
+      ],
+      "answer_note": "答C或D或CD者均給分。",
+      "answer_source": "#"
+    },
+    {
+      "no": 99,
+      "text": "若某工廠外洩毒性物質引起呼吸道傷害個案數呈現陡升陡降，此現象較符合何種流行曲線？",
+      "choices": [
+        "混合流行（mixed epidemic）",
+        "連鎖流行（propagated epidemic）",
+        "共同病源流行（common source epidemic）",
+        "週期循環流行（cyclic epidemic）"
+      ],
+      "answer": "C"
+    },
+    {
+      "no": 100,
+      "text": "有關公共衛生、基層醫療、尖端醫療科技三者之關係密切，相互影響，從國民健康投資報酬率的觀 點，下列三者之關係，何者最正確？",
+      "choices": [
+        "公共衛生＞基層醫療＞尖端醫療科技",
+        "基層醫療＞公共衛生＝尖端醫療科技",
+        "尖端醫療科技＞基層醫療＞公共衛生",
+        "基層醫療＝公共衛生＝尖端醫療科技"
+      ],
+      "answer": "A"
+    }
+  ]
+}

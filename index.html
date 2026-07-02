@@ -630,17 +630,25 @@ function setReviewFilter(f,el){
 }
 
 function renderReviewAll(){
-  const errors=getErrors();
-  let items=Object.values(errors);
-  if(_reviewFilter==='wrong') items=items.filter(e=>!isCorrectAnswer(resolveStoredQuestion(e),e.lastUserAnswer));
-  if(_reviewFilter==='uncertain'){ /* show uncertain instead */ }
-  if(!items.length){
-    document.getElementById('review-all-list').innerHTML=emptyState('暫無錯題');
+  const listEl=document.getElementById('review-all-list');
+
+  if(_reviewFilter==='uncertain'){
+    const uncs=getUncertain();
+    const items=Object.values(uncs).sort((a,b)=>b.count-a.count);
+    listEl.innerHTML=items.length
+      ? items.map(e=>buildReviewItemHtml(resolveStoredQuestion(e),e.lastUserAnswer,true,e.count)).join('')
+      : emptyState('暫無不確定題目');
     return;
   }
+
+  const errors=getErrors();
+  let items=Object.values(errors);
+  if(_reviewFilter==='wrong')
+    items=items.filter(e=>e.lastUserAnswer&&!isCorrectAnswer(resolveStoredQuestion(e),e.lastUserAnswer));
   items.sort((a,b)=>b.count-a.count);
-  document.getElementById('review-all-list').innerHTML=
-    items.map(e=>buildReviewItemHtml(resolveStoredQuestion(e),e.lastUserAnswer,false,e.count)).join('');
+  listEl.innerHTML=items.length
+    ? items.map(e=>buildReviewItemHtml(resolveStoredQuestion(e),e.lastUserAnswer,false,e.count)).join('')
+    : emptyState(_reviewFilter==='wrong'?'暫無答錯題目':'暫無錯題');
 }
 
 function renderReviewUncertain(){

@@ -151,6 +151,14 @@ button{cursor:pointer;font-family:inherit}
 .modal-btns{display:flex;gap:.5rem;justify-content:flex-end}
 textarea.import-ta{width:100%;min-height:120px;border:1.5px solid var(--border);border-radius:.5rem;padding:.6rem .75rem;font-size:.8rem;font-family:monospace;resize:vertical;margin-bottom:.75rem;line-height:1.5}
 
+/* ── cloud sync ── */
+.sync-bar{display:flex;align-items:center;gap:.6rem;padding:.45rem .75rem;background:var(--card);border:1.5px solid var(--border);border-radius:.6rem;margin-bottom:.75rem;font-size:.78rem}
+#sync-status{flex:1;color:var(--muted)}
+.sync-btn-mini{font-size:.72rem;padding:.22rem .65rem;border:1.5px solid var(--border2);border-radius:999px;background:none;cursor:pointer;font-weight:600;color:var(--muted);white-space:nowrap;transition:.12s}
+.sync-btn-mini:hover{border-color:var(--primary);color:var(--primary)}
+.sync-inp{width:100%;padding:.45rem .65rem;border:1.5px solid var(--border);border-radius:.5rem;font-family:monospace;font-size:.82rem;box-sizing:border-box;margin-bottom:.6rem}
+.sync-msg{min-height:1.4rem;font-size:.82rem;margin:.35rem 0}
+
 /* ── misc ── */
 .gap{gap:.5rem;display:flex;flex-wrap:wrap}
 .mt{margin-top:.75rem}
@@ -191,6 +199,11 @@ hr.div{border:none;border-top:1px solid var(--border);margin:.85rem 0}
     <button class="btn btn-outline btn-sm" onclick="showManageModal()">管理題庫</button>
   </div>
   <p class="import-hint">提示：點「批次匯入全部」→ 選取 quiz_json 資料夾內全部 .json 即可一次匯入。</p>
+
+  <div class="sync-bar">
+    <span id="sync-status">☁️ 未設定同步</span>
+    <button class="sync-btn-mini" onclick="showSyncModal()">設定 / 同步</button>
+  </div>
 
   <hr class="div">
   <p class="sec-title">選擇年份</p>
@@ -549,6 +562,7 @@ function submitExam(){
     year:meta.year||'',
     session:meta.session||'',
     date:new Date().toLocaleString('zh-TW'),
+    ts:Date.now(),
     correct,total,pct,
     wrong:wrongList.length,
     uncertain:uncList.length,
@@ -585,6 +599,7 @@ function submitExam(){
   });
   save(SK.uncert,uncs);
 
+  GH_SYNC.autoPush();   // 作答完成後自動推送到雲端
   showResults(session,wrongList,uncList);
 }
 
@@ -1020,6 +1035,176 @@ function emptyState(msg){
 // ═══════════════════════════════════════════════════════════════
 // INIT
 // ═══════════════════════════════════════════════════════════════
+// ═══════════════════════════════════════════════════════════════
+// CLOUD SYNC — GitHub Gist
+// ═══════════════════════════════════════════════════════════════
+const GH_SYNC = {
+  FILE: 'nqkb_quiz_data.json',
+
+  token()  { return localStorage.getItem('nqkb_gh_token')||''; },
+  gistId() { return localStorage.getItem('nqkb_gh_gist') ||''; },
+  ts()     { return localStorage.getItem('nqkb_sync_ts') ||''; },
+  setToken(v) { localStorage.setItem('nqkb_gh_token', v); },
+  setGistId(v){ localStorage.setItem('nqkb_gh_gist',  v); },
+  setTs()  { localStorage.setItem('nqkb_sync_ts', new Date().toISOString()); },
+  ready()  { return !!(this.token() && this.gistId()); },
+
+  hdrs(){ return {
+    'Authorization': 'token '+this.token(),
+    'Accept':        'application/vnd.github.v3+json',
+    'Content-Type':  'application/json'
+  }; },
+
+  collect(){ return { errors:getErrors(), uncertain:getUncertain(), sessions:getSessions() }; },
+
+  merge(remote){
+    // errors & uncertain：保留 count 較高者
+    for(const [sk,rk] of [[SK.errors,'errors'],[SK.uncert,'uncertain']]){
+      const loc=load(sk,{}), rem=remote[rk]||{}, merged={...loc};
+      for(const [k,v] of Object.entries(rem))
+        if(!merged[k]||(v.count||0)>(merged[k].count||0)) merged[k]=v;
+      save(sk, merged);
+    }
+    // sessions：以 ts（或 date+exam+year+session 指紋）去重
+    const locS=getSessions(), remS=remote.sessions||[];
+    const fp=s=>s.ts||(s.date+'|'+s.exam+'|'+s.year+'|'+s.session);
+    const seen=new Set(locS.map(fp)), merged=[...locS];
+    for(const s of remS){ const k=fp(s); if(!seen.has(k)){merged.push(s);seen.add(k);} }
+    merged.sort((a,b)=>(b.ts||0)-(a.ts||0));
+    save(SK.sessions, merged);
+  },
+
+  async pull(){
+    if(!this.ready()) return {ok:false, msg:'未設定'};
+    try{
+      const r=await fetch(`https://api.github.com/gists/${this.gistId()}`,{headers:this.hdrs()});
+      if(!r.ok) return {ok:false, msg:`HTTP ${r.status}`};
+      const data=await r.json();
+      const raw=data.files?.[this.FILE]?.content;
+      if(!raw) return {ok:false, msg:'Gist 內無資料'};
+      this.merge(JSON.parse(raw));
+      this.setTs();
+      return {ok:true};
+    }catch(e){ return {ok:false, msg:e.message}; }
+  },
+
+  async push(){
+    if(!this.token()) return {ok:false, msg:'未設定 Token'};
+    const payload=JSON.stringify(this.collect());
+    try{
+      let r, gid=this.gistId();
+      if(!gid){
+        // 第一次：建立新 Gist
+        r=await fetch('https://api.github.com/gists',{method:'POST',headers:this.hdrs(),
+          body:JSON.stringify({description:'NQKB Quiz Sync',public:false,
+            files:{[this.FILE]:{content:payload}}})});
+        if(!r.ok) return {ok:false, msg:`建立失敗 ${r.status}`};
+        const d=await r.json(); this.setGistId(d.id);
+      } else {
+        r=await fetch(`https://api.github.com/gists/${gid}`,{method:'PATCH',headers:this.hdrs(),
+          body:JSON.stringify({files:{[this.FILE]:{content:payload}}})});
+        if(!r.ok) return {ok:false, msg:`更新失敗 ${r.status}`};
+      }
+      this.setTs(); return {ok:true};
+    }catch(e){ return {ok:false, msg:e.message}; }
+  },
+
+  async autoPush(){
+    if(!this.ready()) return;
+    const r=await this.push();
+    updateSyncStatus();
+  }
+};
+
+// ── Sync UI helpers ─────────────────────────────────────────────
+function syncStatusText(){
+  if(!GH_SYNC.token())  return '☁️ 未設定同步';
+  if(!GH_SYNC.gistId()) return '☁️ 已設 Token，尚未推送';
+  const ts=GH_SYNC.ts();
+  if(!ts) return '☁️ 從未同步';
+  const sec=Math.floor((Date.now()-new Date(ts))/1000);
+  const ago=sec<60?'剛剛':sec<3600?`${Math.floor(sec/60)} 分鐘前`
+    :sec<86400?`${Math.floor(sec/3600)} 小時前`:`${Math.floor(sec/86400)} 天前`;
+  return `☁️ 已同步（${ago}）`;
+}
+function updateSyncStatus(txt){
+  const el=document.getElementById('sync-status');
+  if(el) el.textContent=txt||syncStatusText();
+}
+
+function showSyncModal(){
+  document.getElementById('modal-bg').hidden=false;
+  document.getElementById('modal-title').textContent='☁️ 雲端同步設定（GitHub Gist）';
+  const ts=GH_SYNC.ts();
+  document.getElementById('modal-body').innerHTML=`
+    <p style="font-size:.82rem;color:var(--muted);line-height:1.7;margin-bottom:.85rem">
+      所有裝置共用同一個 <b>私人 Gist</b> 儲存作答資料。<br>
+      需要 GitHub 帳號，並建立只有 <code>gist</code> 權限的
+      <a href="https://github.com/settings/tokens/new?scopes=gist&description=NQKB+Quiz+Sync"
+         target="_blank" rel="noopener" style="color:var(--primary)">Personal Access Token（點此建立）</a>。
+    </p>
+    <label style="font-weight:700;font-size:.82rem;display:block;margin-bottom:.2rem">GitHub Token</label>
+    <input id="si-token" class="sync-inp" type="password" placeholder="ghp_…" value="${GH_SYNC.token()}">
+    <label style="font-weight:700;font-size:.82rem;display:block;margin-bottom:.2rem">
+      Gist ID
+      <span style="font-weight:400;color:var(--muted)">（首次留空，推送後自動產生；換裝置時貼入）</span>
+    </label>
+    <input id="si-gist" class="sync-inp" type="text" placeholder="0123456789abcdef…" value="${GH_SYNC.gistId()}">
+    <p style="font-size:.76rem;color:var(--muted);margin:.1rem 0 .5rem">
+      上次同步：${ts?new Date(ts).toLocaleString('zh-TW'):'從未同步'}</p>
+    <div id="si-msg" class="sync-msg"></div>`;
+  document.getElementById('modal-btns').innerHTML=`
+    <button class="btn btn-outline" onclick="syncModalSave()">儲存設定</button>
+    <button class="btn btn-outline" onclick="syncModalPull()">⬇ 拉取</button>
+    <button class="btn btn-primary"  onclick="syncModalPush()">⬆ 推送</button>
+    <button class="btn btn-outline" onclick="closeModal()">關閉</button>`;
+}
+
+function _siMsg(txt,ok){
+  const el=document.getElementById('si-msg');
+  if(el){el.textContent=txt;el.style.color=ok?'var(--correct)':'var(--warn)';}
+}
+function syncModalSave(){
+  const t=document.getElementById('si-token').value.trim();
+  const g=document.getElementById('si-gist').value.trim();
+  if(!t){_siMsg('請輸入 Token',false);return;}
+  GH_SYNC.setToken(t); if(g) GH_SYNC.setGistId(g);
+  _siMsg('✓ 設定已儲存',true); updateSyncStatus();
+}
+async function syncModalPush(){
+  const t=document.getElementById('si-token').value.trim();
+  const g=document.getElementById('si-gist').value.trim();
+  GH_SYNC.setToken(t); if(g) GH_SYNC.setGistId(g);
+  if(!t){_siMsg('請輸入 Token',false);return;}
+  _siMsg('推送中…',true);
+  const r=await GH_SYNC.push();
+  if(r.ok){
+    document.getElementById('si-gist').value=GH_SYNC.gistId();
+    _siMsg('✓ 推送成功！請複製上方 Gist ID 到其他裝置',true);
+  } else _siMsg('✗ '+r.msg,false);
+  updateSyncStatus();
+}
+async function syncModalPull(){
+  const t=document.getElementById('si-token').value.trim();
+  const g=document.getElementById('si-gist').value.trim();
+  GH_SYNC.setToken(t); if(g) GH_SYNC.setGistId(g);
+  if(!GH_SYNC.gistId()){_siMsg('請先填入 Gist ID（或先推送一次）',false);return;}
+  _siMsg('拉取中…',true);
+  const r=await GH_SYNC.pull();
+  _siMsg(r.ok?'✓ 拉取成功，資料已合併！':'✗ '+r.msg, r.ok);
+  if(r.ok){updateSyncStatus();renderHome();}
+}
+
+// ── Auto pull on page load ──────────────────────────────────────
+(async()=>{
+  updateSyncStatus();
+  if(!GH_SYNC.ready()) return;
+  updateSyncStatus('☁️ 同步中…');
+  const r=await GH_SYNC.pull();
+  updateSyncStatus();
+  if(r.ok) renderHome();
+})();
+
 // ──[AUTO-EMBED-BEGIN]──
 // 自動嵌入題庫（由 inject_questions.py 產生，共 62 份）
 (function(){

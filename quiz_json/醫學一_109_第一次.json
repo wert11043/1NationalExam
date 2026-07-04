@@ -847,13 +847,12 @@
     },
     {
       "no": 77,
-      "text": "下列關於維生素E（vitamin",
+      "text": "下列關於維生素E（vitamin E）的敘述，何者正確？",
       "choices": [
         "維生素E為單碳代謝（one-carbon metabolism）反應中重要的輔酶",
         "維生素E為醌（quinone）的衍生物",
         "食物中維生素E的成分含有tocopherols與tocotrienols",
-        "人體在接受陽光照射後，可自行合成維生素E",
-        "的敘述，何者正確？"
+        "人體在接受陽光照射後，可自行合成維生素E"
       ],
       "answer": "C"
     },

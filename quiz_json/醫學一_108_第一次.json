@@ -741,10 +741,10 @@
     },
     {
       "no": 66,
-      "text": "下列何者最不常作為腎⼩管之管腔內氫離⼦的酸鹼緩衝物質？ - 2-",
+      "text": "下列何者最不常作為腎小管之管腔內氫離子的酸鹼緩衝物質？",
       "choices": [
-        "HCO3",
-        "HPO4",
+        "HCO3-",
+        "HPO42-",
         "NH3",
         "C3H7COO-"
       ],
@@ -873,9 +873,9 @@
     },
     {
       "no": 78,
-      "text": "維⽣素A（vitamin",
+      "text": "維生素A（vitamin A）會與細胞中下列那一類蛋白質直接結合，以調控基因表達？",
       "choices": [
-        "會與細胞中下列那⼀類蛋⽩質直接結合，以調控基因表達？ calcitriol receptor",
+        "calcitriol receptor",
         "receptor tyrosine kinases",
         "nuclear retinoid receptors",
         "G protein-coupled receptors"

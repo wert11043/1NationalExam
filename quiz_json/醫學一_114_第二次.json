@@ -740,8 +740,8 @@
       "text": "下列關於腎小管水分再吸收之敘述，何者錯誤？ - +",
       "choices": [
         "亨氏管下降枝（descending limb of loop of Henle）主要因具有第一型水通道（aquaporin-1）而對水分 有高度通透性",
-        "亨氏管上升段粗枝（thick ascending limb of loop of Henle）主要因具有鈉－氯協同運輸蛋白（Na +-Cl cotransporter）故能再吸收水分",
-        "亨氏管上升段粗枝的基底外側膜（basolateral membrane）主要因具有鈉－鉀腺苷三磷酸酶（Na +-K ATPase），故能帶動鈉離子及水分再吸收",
+        "亨氏管上升段粗枝（thick ascending limb of loop of Henle）主要因具有鈉－氯協同運輸蛋白（Na+-Cl- cotransporter）故能再吸收水分",
+        "亨氏管上升段粗枝的基底外側膜（basolateral membrane）主要因具有鈉－鉀腺苷三磷酸酶（Na+-K+ ATPase），故能帶動鈉離子及水分再吸收",
         "腎小管內液在離開亨氏管上升段粗枝（thick ascending limb of loop of Henle）進入遠端小管時呈現低 張（hypotonic）狀況"
       ],
       "answer": "B"
@@ -1062,12 +1062,12 @@
     },
     {
       "no": 96,
-      "text": "下列有關蛋白激酶A（protein kinase",
+      "text": "下列有關蛋白激酶A（protein kinase A）活化的描述，何者正確？",
       "choices": [
-        "活化的描述，何者正確？ 需要cAMP 結合其R 次單元",
-        "需要cAMP 結合其C 次單元",
-        "需要鈣離子結合其R 次單元",
-        "需要鈣離子結合其C 次單元"
+        "需要cAMP結合其R次單元",
+        "需要cAMP結合其C次單元",
+        "需要鈣離子結合其R次單元",
+        "需要鈣離子結合其C次單元"
       ],
       "answer": "A"
     },

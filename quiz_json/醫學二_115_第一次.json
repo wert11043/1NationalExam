@@ -621,9 +621,9 @@
     },
     {
       "no": 57,
-      "text": "下列藥物中，何者最適合用於治療第八凝血因子缺乏之血友病（hemophilia",
+      "text": "下列藥物中，何者最適合用於治療第八凝血因子缺乏之血友病（hemophilia A）？",
       "choices": [
-        "？ deferoxamine",
+        "deferoxamine",
         "desmopressin",
         "oprelvekin",
         "ferumoxytol"

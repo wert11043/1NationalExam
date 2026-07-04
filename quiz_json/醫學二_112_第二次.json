@@ -390,9 +390,8 @@
     },
     {
       "no": 36,
-      "text": "一般在進行隨機對照試驗（randomized controlled trial, RCT）前必須先估算樣本數。若要執行一RCT比較兩種 藥物（A,",
+      "text": "一般在進行隨機對照試驗（randomized controlled trial, RCT）前必須先估算樣本數。若要執行一RCT比較兩種藥物（A,B）降血壓（單位：mmHg）之效果，令虛無假設：兩種藥物降血壓效果相同 vs. 對立假設：兩種藥物降血壓效果不同，採用雙樣本t檢定（two-sample t-test）方式估計總樣本數（假設兩組樣本數相同），在其他條件不變下，下列何種條件的改變會使估計之樣本數增加？",
       "choices": [
-        "降血壓（單位：mmHg）之效果，令虛無假設：兩種藥物降血壓效果相同 vs. 對立假設：兩種藥 物降血壓效果不同，採用雙樣本t檢定（two-sample t-test）方式估計總樣本數（假設兩組樣本數相同），在其 他條件不變下，下列何種條件的改變會使估計之樣本數增加？",
         "設定之型一誤差（type 1 error）由0.05增加到0.1",
         "兩種藥物降低之平均血壓值預期差異或效應值（effect size）由5 mmHg增加到10 mmHg",
         "預期血壓之標準差（standard deviation）由12 mmHg增加到16 mmHg",
@@ -906,9 +905,8 @@
     },
     {
       "no": 82,
-      "text": "下列何種疾病通常會增加部分凝血活酶時間（partial thromboplastin time）？①A型血友病（Hemophilia",
+      "text": "下列何種疾病通常會增加部分凝血活酶時間（partial thromboplastin time）？①A型血友病（Hemophilia A） ②栓塞性血小板低下紫斑（Thrombotic thrombocytopenic purpura） ③Von Willebrand disease ④Glanzmann thrombasthenia",
       "choices": [
-        "②栓塞性血小板低下紫斑（Thrombotic thrombocytopenic purpura） ③Von Willebrand disease ④Glanzmann thrombasthenia",
         "僅①②",
         "僅①③",
         "僅①④",

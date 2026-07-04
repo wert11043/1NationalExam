@@ -127,11 +127,11 @@
     },
     {
       "no": 12,
-      "text": "藉由血清學的方式無法檢驗出正常的prion（PrP",
+      "text": "藉由血清學的方式無法檢驗出正常的prion（PrP C）與異常的prion（PrP SC）的差異。一種新的檢驗方式稱作「real-time quaking-induced conversion（RT-QuIC）」，可以快速檢驗出檢體內是否含有PrP SC。這是利用prion的那一種特性？",
       "choices": [
         "PrP C會聚集成纖絲（prion fibril）",
         "PrP SC會聚集成纖絲（prion fibril）",
-        "與異常的prion（PrP SC）的差異。一種新的檢驗方式稱作 “real-time quaking-induced conversion（RT-QuIC）”，可以快速檢驗出檢體內是否含有PrP SC。這是利 用prion 的那一種特性？ PrP C會將PrP SC轉換成PrP C",
+        "PrP C會將PrP SC轉換成PrP C",
         "PrP SC的蛋白質半衰期較PrP C短"
       ],
       "answer": "B"

@@ -324,7 +324,7 @@
     },
     {
       "no": 30,
-      "text": "股骨骨折導致大轉子（greater trocha",
+      "text": "股骨骨折導致大轉子（greater trochanter）斷裂，下列何者的功能最不受影響？",
       "choices": [
         "上孖肌（superior gemellus）",
         "閉孔內肌（obturator internus）",
@@ -335,21 +335,21 @@
     },
     {
       "no": 31,
-      "text": "下列何者的肌腱，不會通過跗骨隧道（",
+      "text": "下列何者的肌腱，不會通過跗骨隧道（tarsal tunnel）？",
       "choices": [
         "脛前肌（tibialis anterior）",
         "脛後肌（tibialis posterior）",
-        "屈 長肌（flexor hallucis longus",
-        "屈趾長肌（flexor digitorum longus"
+        "屈拇長肌（flexor hallucis longus）",
+        "屈趾長肌（flexor digitorum longus）"
       ],
       "answer": "A"
     },
     {
       "no": 32,
-      "text": "女性在青春期時，體內何種激素（horm",
+      "text": "女性在青春期時，體內何種激素（hormone）的釋放量，會在排卵前與排卵後，分別出現一次高峰？",
       "choices": [
-        "濾泡刺激激素（follicle-stimulatin",
-        "黃體成長激素（luteinizing hormone",
+        "濾泡刺激激素（follicle-stimulating hormone）",
+        "黃體成長激素（luteinizing hormone）",
         "動情素（estrogen）",
         "黃體酮（progesterone）"
       ],
@@ -357,7 +357,7 @@
     },
     {
       "no": 33,
-      "text": "胚胎發育至何種時期，會突破透明層（",
+      "text": "胚胎發育至何種時期，會突破透明層（zona pellucida）而孵化（hatching）？",
       "choices": [
         "受精卵（zygote）",
         "八細胞時期（eight-cell stage）",
@@ -368,18 +368,18 @@
     },
     {
       "no": 34,
-      "text": "下列關於染色體數目異常的敘述，何者",
+      "text": "下列關於染色體數目異常的敘述，何者正確？",
       "choices": [
-        "孕婦的年齡不影響染色體21 三倍體（",
-        "性染色體三倍症（trisomy of sex ch",
-        "透納氏症（Turner syndrome）多為男",
-        "具有染色體四倍體（tetrasomy）的胎"
+        "孕婦的年齡不影響染色體21 三倍體（trisomy 21）的發生率",
+        "性染色體三倍症（trisomy of sex chromosomes），常在青春期時才發現",
+        "透納氏症（Turner syndrome）多為男性，且具有性腺及第二性徵的發育",
+        "具有染色體四倍體（tetrasomy）的胎兒不易流產，仍可足月生產"
       ],
       "answer": "B"
     },
     {
       "no": 35,
-      "text": "下列何種構造之來源不是外胚層（ecto",
+      "text": "下列何種構造之來源不是外胚層（ectoderm）？",
       "choices": [
         "皮脂腺（sebaceous gland）",
         "汗腺（sweat gland）",
@@ -654,18 +654,18 @@
     },
     {
       "no": 60,
-      "text": "有關腦部循環與血流調控之敘述，何者",
+      "text": "有關腦部循環與血流調控之敘述，何者最為適當？",
       "choices": [
-        "腦部之流量自動控制（flow autoregu 血管擴張",
-        "肝臟之流量自動控制（flow autoregu 血管擴張",
-        "腦部之流量自動控制（flow autoregu 血管收縮",
-        "肝臟之流量自動控制（flow autoregu 血管收縮"
+        "腦部之流量自動控制（flow autoregulation）機制較肝臟顯著，腦部動脈血中二氧化碳濃度升高時會引起血管擴張",
+        "肝臟之流量自動控制（flow autoregulation）機制較腦部顯著，腦部動脈血中二氧化碳濃度升高時會引起血管擴張",
+        "腦部之流量自動控制（flow autoregulation）機制較肝臟顯著，腦部動脈血中二氧化碳濃度升高時會引起血管收縮",
+        "肝臟之流量自動控制（flow autoregulation）機制較腦部顯著，腦部動脈血中二氧化碳濃度升高時會引起血管收縮"
       ],
       "answer": "A"
     },
     {
       "no": 61,
-      "text": "內肋間肌（internal intercostal mus",
+      "text": "內肋間肌（internal intercostal muscle）主要在何時會收縮？",
       "choices": [
         "平靜吸氣",
         "平靜呼氣",
@@ -676,23 +676,23 @@
     },
     {
       "no": 62,
-      "text": "當肺內某區域的肺小動脈（pulmonary",
+      "text": "當肺內某區域的肺小動脈（pulmonary arteriole）發生局部血管阻塞時，最可能會導致下列何種反應？",
       "choices": [
-        "此區域的肺泡內二氧化碳分壓（",
-        "此區域的肺泡內二氧化碳分壓（",
-        "此區域的肺泡內二氧化碳分壓（",
-        "此區域的肺泡內二氧化碳分壓（"
+        "此區域的肺泡內二氧化碳分壓（ ）升高，進入此區域肺泡之通氣量（ventilation, VA）增加",
+        "此區域的肺泡內二氧化碳分壓（ ）升高，進入此區域肺泡之通氣量（ventilation, VA）減少",
+        "此區域的肺泡內二氧化碳分壓（ ）降低，進入此區域肺泡之通氣量（ventilation, VA）增加",
+        "此區域的肺泡內二氧化碳分壓（ ）降低，進入此區域肺泡之通氣量（ventilation, VA）減少"
       ],
       "answer": "D"
     },
     {
       "no": 63,
-      "text": "關於胃壁細胞（parietal cells）的運",
+      "text": "關於胃壁細胞（parietal cells）的運輸器在細胞膜表現位置，下列敘述何者最為適當？",
       "choices": [
-        "H +-K +-ATPase 位於細胞膜的底側面（b",
-        "anion exchanger 位於細胞膜的底側面",
-        "cystic fibrosis transmembrane con membrane）",
-        "peptide transporter 1（PepT1）位於 體靜壓為36 毫米汞柱，血漿蛋白質造成之滲透壓 組織間液蛋白質造成之滲透壓為3 毫米汞柱，該 者最為適當？ ulation）機制較肝臟顯著，腦部動脈血中二氧化 ulation）機制較腦部顯著，腦部動脈血中二氧化 ulation）機制較肝臟顯著，腦部動脈血中二氧化 ulation）機制較腦部顯著，腦部動脈血中二氧化 scle）主要在何時會收縮？ arteriole）發生局部血管阻塞時，最可能會導 ）升高，進入此區域肺泡之通氣量（ventilat ）升高，進入此區域肺泡之通氣量（ventilat ）降低，進入此區域肺泡之通氣量（ventilat ）降低，進入此區域肺泡之通氣量（ventilat 運輸器在細胞膜表現位置，下列敘述何者最為適當 asolateral membrane） 面（basolateral membrane） nductance regulator（CFTR）位於細胞膜的底側 於細胞膜的的頂端面（apical membrane） 為26 毫米汞柱，微血 該微血管之淨過濾壓值 化碳濃度升高時會引起 化碳濃度升高時會引起 化碳濃度升高時會引起 化碳濃度升高時會引起 致下列何種反應？ ion, VA）增加 ion, VA）減少 ion, VA）增加 ion, VA）減少 當？ 側面（basolateral"
+        "H+-K+-ATPase位於細胞膜的底側面（basolateral membrane）",
+        "anion exchanger位於細胞膜的底側面（basolateral membrane）",
+        "cystic fibrosis transmembrane conductance regulator（CFTR）位於細胞膜的底側面（basolateral membrane）",
+        "peptide transporter 1（PepT1）位於細胞膜的的頂端面（apical membrane）"
       ],
       "answer": "B"
     },

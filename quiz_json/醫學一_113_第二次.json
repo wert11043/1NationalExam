@@ -1083,11 +1083,11 @@
     },
     {
       "no": 99,
-      "text": "磷脂酶C（phospholipase",
+      "text": "磷脂酶C（phospholipase C）水解phosphatidylinositol 4,5-bisphosphate（PIP2），直接產生的次級訊息傳遞者（second messenger）包括下列何者？",
       "choices": [
         "二醯基甘油（diacylglycerol）",
         "磷脂醯肌醇（phosphatidylinositol）",
-        "水解phosphatidylinositol 4,5-bisphosphate（PIP2），直接產生的次級訊 息傳遞者（second messenger）包括下列何者？ cAMP",
+        "cAMP",
         "cGMP"
       ],
       "answer": "A"

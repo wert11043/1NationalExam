@@ -874,10 +874,10 @@
     },
     {
       "no": 77,
-      "text": "乙醯輔酶A（acetyl coenzyme",
+      "text": "乙醯輔酶A（acetyl coenzyme A）分子中，乙醯基與coenzyme A之鍵結為：",
       "choices": [
-        "分子中，乙醯基與coenzyme A之鍵結為： amide",
-        "Schiff 's base",
+        "amide",
+        "Schiff's base",
         "acid anhydride",
         "thioester"
       ],

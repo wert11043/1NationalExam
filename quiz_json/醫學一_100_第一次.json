@@ -857,12 +857,12 @@
     },
     {
       "no": 73,
-      "text": "某些人類白血球抗原（Human Leukocyte Antigens, HLA）基因在某自體免疫疾病患者中的存在有較為 增高現象，是為有較高的「相較性的危險值」（relative risk）引起自體免疫致病性。有關這些相關性 下列那一項敘述正確？ B27 B27 B27 B27",
+      "text": "某些人類白血球抗原（Human Leukocyte Antigens, HLA）基因在某自體免疫疾病患者中的存在有較為 增高現象，是為有較高的「相較性的危險值」（relative risk）引起自體免疫致病性。有關這些相關性 下列那一項敘述正確？",
       "choices": [
-        "對於第一型糖尿病（type 1 diabetes mellitus）",
-        "對於葛瑞夫氏症（Graves’ disease）",
-        "對於尋常天疱瘡（pemphigus vulgaris）",
-        "對於僵直性脊椎炎（Ankylosing spondylitis）"
+        "B27 對於第一型糖尿病（type 1 diabetes mellitus）",
+        "B27 對於葛瑞夫氏症（Graves’ disease）",
+        "B27 對於尋常天疱瘡（pemphigus vulgaris）",
+        "B27 對於僵直性脊椎炎（Ankylosing spondylitis）"
       ],
       "answer": "D"
     },
@@ -1156,10 +1156,10 @@
       "no": 97,
       "text": "如果白人小孩的平均血漿醛固酮（plasma-aldosterone）為400 pmol/L，標準差為200 pmol/L，假設血 漿醛固酮為常態分布，有多少百分比的白人小孩其血漿醛固酮≤300 pmol/L？（Pr(Z 0.5)）＝0.3085 ≥ 30 .85 19 .15 69 .15 38 .30",
       "choices": [
-        "[選項 A 文字未擷取]",
-        "[選項 B 文字未擷取]",
-        "[選項 C 文字未擷取]",
-        "[選項 D 文字未擷取]"
+        "30.85",
+        "19.15",
+        "69.15",
+        "38.30"
       ],
       "answer": "A"
     },
@@ -1178,10 +1178,10 @@
       "no": 99,
       "text": "某種疾病的篩選方法研究結果如下表，則下列那一個是假陽性率（false positivity）？ 疾病 篩檢 有 無 陽性 a c 陰性 b d",
       "choices": [
-        "a/(a+b) a/(a+c)",
+        "a/(a+b)",
+        "a/(a+c)",
         "d/(b+d)",
-        "c/(c+d)",
-        "[選項 D 文字未擷取]"
+        "c/(c+d)"
       ],
       "answer": "D"
     },

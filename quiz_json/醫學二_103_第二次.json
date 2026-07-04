@@ -221,12 +221,12 @@
     },
     {
       "no": 19,
-      "text": "正常休息狀況下，下列何者最接近心輸出量（cardiac output）除以腎血流量（renal blood flow）的比值？ 4 40 400 4000",
+      "text": "正常休息狀況下，下列何者最接近心輸出量（cardiac output）除以腎血流量（renal blood flow）的比值？",
       "choices": [
-        "[選項 A 文字未擷取]",
-        "[選項 B 文字未擷取]",
-        "[選項 C 文字未擷取]",
-        "[選項 D 文字未擷取]"
+        "4",
+        "40",
+        "400",
+        "4000"
       ],
       "answer": "A"
     },
@@ -445,12 +445,12 @@
     },
     {
       "no": 38,
-      "text": "紅血球內之葡萄糖利用糖解作用（glycolysis）產生丙酮酸（pyruvate），它進一步會氧化成下列何種 分子？ 2",
+      "text": "紅血球內之葡萄糖利用糖解作用（glycolysis）產生丙酮酸（pyruvate），它進一步會氧化成下列何種 分子？",
       "choices": [
-        "CO Ethanol",
+        "CO2",
+        "Ethanol",
         "Lactate",
-        "Citrate",
-        "[選項 D 文字未擷取]"
+        "Citrate"
       ],
       "answer": "A",
       "accepted_answers": [
@@ -957,9 +957,9 @@
     },
     {
       "no": 81,
-      "text": "2 歲男童出生時外觀正常，目前出現生長遲緩、頭顱變大、濃眉、鼻梁塌陷、手臂粗短彎曲、關節變 形僵硬、腹部突出等情形，身體檢查發現肝脾腫大。肝臟、脾臟、骨髓切片檢查發現許多胞體膨脹 的血管內皮細胞、纖維母細胞、巨噬細胞，其細胞質澄清且充滿periodic acid-Schiff（PAS）染色陽 性的物質。下列何者是造成此疾病與病變最可能的成因？ α",
+      "text": "2 歲男童出生時外觀正常，目前出現生長遲緩、頭顱變大、濃眉、鼻梁塌陷、手臂粗短彎曲、關節變 形僵硬、腹部突出等情形，身體檢查發現肝脾腫大。肝臟、脾臟、骨髓切片檢查發現許多胞體膨脹 的血管內皮細胞、纖維母細胞、巨噬細胞，其細胞質澄清且充滿periodic acid-Schiff（PAS）染色陽 性的物質。下列何者是造成此疾病與病變最可能的成因？",
       "choices": [
-        "-半乳糖苷酵素（α-galactosidase）基因缺陷，造成醣脂質（galactosylceramides）無法進行分解",
+        "α-半乳糖苷酵素（α-galactosidase）基因缺陷，造成醣脂質（galactosylceramides）無法進行分解",
         "分解黏多醣體（mucopolysaccharides）之水解酵素（lysosomal hydrolases）缺乏",
         "分解神經節苷脂（gangliosides）之水解酵素（hexosaminidase）缺乏",
         "葡萄糖-6-磷酸酵素（glucose-6-phosphatase）基因缺陷，造成肝醣儲積"

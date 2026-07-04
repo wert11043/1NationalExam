@@ -40,7 +40,7 @@
       "no": 4,
       "text": "聽覺毛細胞（auditory hair cells）去極化時，最初始的離子流動現象為何？ +",
       "choices": [
-        "influx of K",
+        "influx of K+",
         "outflux of K+",
         "influx of Na+",
         "outflux of Ca2+"
@@ -124,9 +124,9 @@
     },
     {
       "no": 11,
-      "text": "一位50 歲男性，其心輸出量（cardiac output）為每分鐘5 L，心跳速率每分鐘80 次。若測得其全身 周邊血管總阻力為22 mmHg/L/min，假設其收縮壓為150 毫米汞柱（mmHg），其舒張壓的值最接近 多少mmHg？ 70",
+      "text": "一位50 歲男性，其心輸出量（cardiac output）為每分鐘5 L，心跳速率每分鐘80 次。若測得其全身 周邊血管總阻力為22 mmHg/L/min，假設其收縮壓為150 毫米汞柱（mmHg），其舒張壓的值最接近 多少mmHg？",
       "choices": [
-        "[選項 A 文字未擷取]",
+        "70",
         "80",
         "90",
         "110"
@@ -453,9 +453,9 @@
     },
     {
       "no": 39,
-      "text": "Neuraminidase 是某些流感病毒的重要酵素之一，此酵素可以切除宿主細胞膜上醣複合物上的那一種 糖基？ N",
+      "text": "Neuraminidase 是某些流感病毒的重要酵素之一，此酵素可以切除宿主細胞膜上醣複合物上的那一種 糖基？",
       "choices": [
-        "-acetylglucosamine",
+        "N-acetylglucosamine",
         "gluconic acid",
         "galactose",
         "sialic acid"
@@ -818,7 +818,7 @@
     },
     {
       "no": 70,
-      "text": "承上題，引起心律不整的原因，主要是由於阻斷下列何種通道？ +",
+      "text": "承上題，引起心律不整的原因，主要是由於阻斷下列何種通道？",
       "choices": [
         "Na",
         "K+",
@@ -1002,7 +1002,7 @@
       "no": 85,
       "text": "從受傷或死亡的心肌細胞釋放於血液中某些成分可用於判定心肌梗塞的發生，下列蛋白質何者為心 肌缺氧性損傷最具特異性的標示物質（biomarker）？ C",
       "choices": [
-        "-reactive protein",
+        "C-reactive protein",
         "creatine kinase muscle dimer",
         "lactate dehydrogenase",
         "troponin T and troponin I"

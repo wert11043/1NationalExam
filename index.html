@@ -21,7 +21,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue","P
 button{cursor:pointer;font-family:inherit}
 
 /* ── top bar ── */
-#topbar{position:sticky;top:0;z-index:100;background:var(--card);border-bottom:1px solid var(--border);padding:.6rem 1rem;display:flex;align-items:center;gap:.6rem}
+#topbar{position:sticky;top:0;z-index:100;background:var(--card);border-bottom:1px solid var(--border);padding:.6rem 1rem;display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;row-gap:.4rem}
 #topbar h1{font-size:1rem;font-weight:800;color:var(--primary);flex:1}
 #topbar .tb-btn{padding:.35rem .8rem;border:1.5px solid var(--border);border-radius:999px;background:none;font-size:.78rem;font-weight:600;color:var(--muted);transition:.15s}
 #topbar .tb-btn:hover{border-color:var(--primary);color:var(--primary)}
@@ -53,7 +53,6 @@ button{cursor:pointer;font-family:inherit}
 .btn-outline{background:none;border:1.5px solid var(--border2);color:var(--text)}.btn-outline:hover{border-color:var(--primary);color:var(--primary)}
 .btn-warn{background:var(--warn);color:#fff}.btn-warn:hover{filter:brightness(.92)}
 .btn-sm{padding:.4rem .8rem;font-size:.78rem}
-.import-hint{font-size:.78rem;color:var(--muted);margin-top:.5rem}
 
 /* ── exam ── */
 #exam-header{display:flex;align-items:center;gap:.5rem;margin-bottom:.65rem;flex-wrap:wrap}
@@ -112,6 +111,8 @@ button{cursor:pointer;font-family:inherit}
 .filter-tab{padding:.38rem .8rem;border:1.5px solid var(--border);border-radius:999px;background:var(--card);font-size:.78rem;font-weight:600;color:var(--muted);transition:.15s}
 .filter-tab:hover{border-color:var(--primary);color:var(--primary)}
 .filter-tab.act{background:var(--primary);color:#fff;border-color:var(--primary)}
+.year-chip{display:inline-flex;align-items:center;gap:.3rem;border:1.5px solid var(--border);border-radius:999px;padding:.25rem .65rem;font-size:.78rem;cursor:pointer;user-select:none}
+.year-chip input{margin:0}
 .review-item{padding:.9rem 1rem;background:var(--card);border:1.5px solid var(--border);border-radius:.6rem;margin-bottom:.6rem}
 .review-item .ri-head{display:flex;align-items:center;gap:.5rem;margin-bottom:.45rem}
 .ri-no{font-size:.72rem;font-weight:700;color:var(--muted)}
@@ -119,6 +120,8 @@ button{cursor:pointer;font-family:inherit}
 .tag-wrong{background:#fee2e2;color:var(--wrong)}
 .tag-uncertain{background:var(--warn-bg);color:var(--warn)}
 .tag-correct{background:#dcfce7;color:var(--correct)}
+.tag-meta{background:#dbeafe;color:var(--primary-d)}
+.tag-count{background:#ede9fe;color:var(--purple)}
 .ri-q{font-size:.88rem;line-height:1.55;margin-bottom:.45rem;white-space:pre-wrap}
 .ri-choices{display:flex;flex-direction:column;gap:.2rem}
 .ri-choice{font-size:.8rem;padding:.25rem .5rem;border-radius:.4rem;line-height:1.4}
@@ -157,10 +160,6 @@ button{cursor:pointer;font-family:inherit}
 textarea.import-ta{width:100%;min-height:120px;border:1.5px solid var(--border);border-radius:.5rem;padding:.6rem .75rem;font-size:.8rem;font-family:monospace;resize:vertical;margin-bottom:.75rem;line-height:1.5}
 
 /* ── cloud sync ── */
-.sync-bar{display:flex;align-items:center;gap:.6rem;padding:.45rem .75rem;background:var(--card);border:1.5px solid var(--border);border-radius:.6rem;margin-bottom:.75rem;font-size:.78rem}
-#sync-status{flex:1;color:var(--muted)}
-.sync-btn-mini{font-size:.72rem;padding:.22rem .65rem;border:1.5px solid var(--border2);border-radius:999px;background:none;cursor:pointer;font-weight:600;color:var(--muted);white-space:nowrap;transition:.12s}
-.sync-btn-mini:hover{border-color:var(--primary);color:var(--primary)}
 .sync-inp{width:100%;padding:.45rem .65rem;border:1.5px solid var(--border);border-radius:.5rem;font-family:monospace;font-size:.82rem;box-sizing:border-box;margin-bottom:.6rem}
 .sync-msg{min-height:1.4rem;font-size:.82rem;margin:.35rem 0}
 
@@ -183,6 +182,10 @@ hr.div{border:none;border-top:1px solid var(--border);margin:.85rem 0}
 <div id="topbar">
   <h1>🩺 一階國考刷題</h1>
   <button class="tb-btn" onclick="showView('history')">紀錄</button>
+  <button class="tb-btn" onclick="showSyncModal()">☁️ 同步</button>
+  <button class="tb-btn" onclick="showImportModal()">匯入 JSON</button>
+  <button class="tb-btn" onclick="showBatchImportModal()">批次匯入</button>
+  <button class="tb-btn" onclick="showManageModal()">管理題庫</button>
   <button class="tb-btn" onclick="showView('review-all')">錯題本</button>
   <button class="tb-btn" onclick="showView('home')">主頁</button>
 </div>
@@ -199,15 +202,7 @@ hr.div{border:none;border-top:1px solid var(--border);margin:.85rem 0}
   <div class="home-actions">
     <button class="btn btn-primary" onclick="showView('review-all')">📕 錯題複習</button>
     <button class="btn btn-outline" onclick="showView('review-uncertain')">⚠️ 不確定複習</button>
-    <button class="btn btn-outline" onclick="showImportModal()">📂 匯入 JSON（單個）</button>
-    <button class="btn btn-primary" onclick="showBatchImportModal()">📂 批次匯入全部</button>
-    <button class="btn btn-outline btn-sm" onclick="showManageModal()">管理題庫</button>
-  </div>
-  <p class="import-hint">提示：點「批次匯入全部」→ 選取 quiz_json 資料夾內全部 .json 即可一次匯入。</p>
-
-  <div class="sync-bar">
-    <span id="sync-status">☁️ 未設定同步</span>
-    <button class="sync-btn-mini" onclick="showSyncModal()">設定 / 同步</button>
+    <button class="btn btn-outline" onclick="showDrillSetupModal()">🎯 刷錯題／不確定題</button>
   </div>
 
   <hr class="div">
@@ -266,10 +261,17 @@ hr.div{border:none;border-top:1px solid var(--border);margin:.85rem 0}
 <!-- ══ REVIEW (錯題本) ══ -->
 <div id="view-review-all" class="view" hidden>
   <p class="sec-title">錯題本 — 歷次累積</p>
+  <div class="gap mb">
+    <button class="btn btn-primary btn-sm" onclick="showDrillSetupModal()">🎯 開始刷題</button>
+  </div>
   <div class="filter-tabs">
     <button class="filter-tab act" onclick="setReviewFilter('all',this)">全部</button>
     <button class="filter-tab" onclick="setReviewFilter('wrong',this)">答錯</button>
     <button class="filter-tab" onclick="setReviewFilter('uncertain',this)">不確定</button>
+  </div>
+  <div class="gap mb">
+    <button class="btn btn-outline btn-sm" onclick="showReviewYearFilterModal()">📅 篩選年份／次數</button>
+    <span id="review-year-filter-summary" style="font-size:.78rem;color:var(--muted);align-self:center"></span>
   </div>
   <div id="review-all-list"></div>
 </div>
@@ -277,7 +279,56 @@ hr.div{border:none;border-top:1px solid var(--border);margin:.85rem 0}
 <!-- ══ REVIEW UNCERTAIN ══ -->
 <div id="view-review-uncertain" class="view" hidden>
   <p class="sec-title">不確定題目</p>
+  <div class="gap mb">
+    <button class="btn btn-primary btn-sm" onclick="showDrillSetupModal()">🎯 開始刷題</button>
+    <button class="btn btn-outline btn-sm" onclick="showReviewYearFilterModal()">📅 篩選年份／次數</button>
+    <span id="review-unc-year-filter-summary" style="font-size:.78rem;color:var(--muted);align-self:center"></span>
+  </div>
   <div id="review-unc-list"></div>
+</div>
+
+<!-- ══ DRILL (刷錯題／不確定題) ══ -->
+<div id="view-drill" class="view" hidden>
+  <div id="exam-header">
+    <span id="drill-title">刷題模式</span>
+    <span id="drill-counter"></span>
+  </div>
+  <div class="prog-bar"><div class="prog-fill" id="drill-prog-fill"></div></div>
+
+  <div class="card" id="drill-qcard">
+    <div class="qno" id="drill-qno"></div>
+    <div class="qtext" id="drill-qtext"></div>
+    <div class="choices" id="drill-choices"></div>
+    <div class="exam-actions">
+      <div class="nav-btns">
+        <button class="btn-nav" id="drill-btn-prev" onclick="goDrillQ(-1)">← 上一題</button>
+        <button class="btn-nav" id="drill-btn-next" onclick="goDrillQ(1)">下一題 →</button>
+      </div>
+    </div>
+    <div class="qnav" id="drill-qnav"></div>
+  </div>
+
+  <div class="exam-footer">
+    <button class="btn btn-warn" onclick="confirmDrillSubmit()">結束刷題</button>
+  </div>
+</div>
+
+<!-- ══ DRILL RESULTS ══ -->
+<div id="view-drill-results" class="view" hidden>
+  <div class="card score-big">
+    <div class="score-num" id="drill-score-num"></div>
+    <div class="score-sub" id="drill-score-sub"></div>
+  </div>
+  <div class="res-stats">
+    <div class="res-stat s-correct"><div class="n" id="dr-correct"></div><div class="l">答對</div></div>
+    <div class="res-stat s-wrong"><div class="n" id="dr-wrong"></div><div class="l">答錯</div></div>
+    <div class="res-stat"><div class="n" id="dr-unanswered"></div><div class="l">未作答</div></div>
+  </div>
+  <div class="gap mb">
+    <button class="btn btn-outline" onclick="showView('review-all')">回錯題本</button>
+    <button class="btn btn-outline" onclick="showView('home')">回主頁</button>
+  </div>
+  <div id="drill-results-list"></div>
 </div>
 
 <!-- ══ HISTORY ══ -->
@@ -381,7 +432,7 @@ function resolveStoredQuestion(entry){
 // ═══════════════════════════════════════════════════════════════
 // VIEWS
 // ═══════════════════════════════════════════════════════════════
-const VIEWS = ['home','exam','results','review-all','review-uncertain','history'];
+const VIEWS = ['home','exam','results','review-all','review-uncertain','history','drill','drill-results'];
 function showView(name){
   if(name!=='history'){
     state.historySelecting=false;
@@ -560,9 +611,7 @@ function submitExam(){
     const isUnc=state.uncertain.has(q.no);
     const isRight=isCorrectAnswer(q,ua);
     if(isRight) correct++;
-    else if(ua||!ua){
-      if(!isRight) wrongList.push({...q,userAnswer:ua});
-    }
+    else if(ua) wrongList.push({...q,userAnswer:ua});
     if(isUnc) uncList.push({...q,userAnswer:ua});
   });
 
@@ -643,7 +692,8 @@ function showResultReview(filter){
   if(filter==='wrong') items=_lastWrong;
   else if(filter==='uncertain') items=_lastUnc;
   else items=state.questions.map(q=>({...q,userAnswer:state.userAnswers[q.no]||null}));
-  document.getElementById('results-review-list').innerHTML=buildReviewHtml(items,filter!=='all');
+  const meta=_lastSession?{year:_lastSession.year,session:_lastSession.session}:null;
+  document.getElementById('results-review-list').innerHTML=buildReviewHtml(items,filter!=='all',meta);
   document.querySelector('#view-results .card').scrollIntoView({behavior:'smooth'});
 }
 
@@ -651,6 +701,7 @@ function showResultReview(filter){
 // REVIEW LISTS
 // ═══════════════════════════════════════════════════════════════
 let _reviewFilter='all';
+let _reviewYS=null; // null = 不限（全部年份／次數）；否則為已勾選「年份_次數」key 的 Set
 
 function setReviewFilter(f,el){
   _reviewFilter=f;
@@ -659,57 +710,127 @@ function setReviewFilter(f,el){
   renderReviewAll();
 }
 
+// ── 年份／次數（場次）共用工具：把錯題本＋不確定題本裡出現過的
+// 「年份+梯次」組合整理成可勾選清單，filterFn 可用來限定範圍（例如僅限目前 examTab） ──
+const SESSION_ORDER=['第一次','第二次'];
+function ysKey(year,session){ return `${year}_${session}`; }
+function collectYearSessions(filterFn){
+  const map=new Map();
+  const add=e=>{ if(filterFn(e)) map.set(ysKey(e.year,e.session),{year:e.year,session:e.session}); };
+  Object.values(getErrors()).forEach(add);
+  Object.values(getUncertain()).forEach(add);
+  return [...map.values()].sort((a,b)=>
+    Number(b.year)-Number(a.year) || SESSION_ORDER.indexOf(a.session)-SESSION_ORDER.indexOf(b.session));
+}
+
+function reviewYSMatches(e){
+  if(_reviewYS===null) return true;
+  return _reviewYS.has(ysKey(e.year,e.session));
+}
+
+function renderReviewYearFilterSummary(){
+  const combos=collectYearSessions(()=>true);
+  const total=combos.length;
+  const selectedCount=_reviewYS===null?total:_reviewYS.size;
+  const text=total===0?'（尚無資料）':(selectedCount===total?'（已選：全部）':`（已選 ${selectedCount}/${total}）`);
+  ['review-year-filter-summary','review-unc-year-filter-summary'].forEach(id=>{
+    const el=document.getElementById(id);
+    if(el) el.textContent=text;
+  });
+}
+
+function showReviewYearFilterModal(){
+  const combos=collectYearSessions(()=>true);
+  if(!combos.length){ alert('目前沒有錯題或不確定題目資料。'); return; }
+  const selected=_reviewYS===null?new Set(combos.map(c=>ysKey(c.year,c.session))):_reviewYS;
+  document.getElementById('modal-title').textContent='📅 篩選年份／次數';
+  document.getElementById('modal-body').innerHTML=`
+    <div class="gap mb">
+      <button class="btn btn-outline btn-sm" onclick="reviewYearFilterSelectAll(true)">全選</button>
+      <button class="btn btn-outline btn-sm" onclick="reviewYearFilterSelectAll(false)">清除</button>
+    </div>
+    <div id="review-yf-list" class="gap" style="max-height:320px;overflow-y:auto">
+      ${combos.map(c=>{
+        const key=ysKey(c.year,c.session);
+        return `<label class="year-chip"><input type="checkbox" class="review-yf-cb" value="${key}" ${selected.has(key)?'checked':''} onchange="toggleReviewYearFilter('${key}',this.checked)">${c.year}年${c.session}</label>`;
+      }).join('')}
+    </div>
+  `;
+  document.getElementById('modal-btns').innerHTML=`<button class="btn btn-primary" onclick="closeModal()">完成</button>`;
+  document.getElementById('modal-bg').hidden=false;
+}
+
+function toggleReviewYearFilter(key,checked){
+  if(_reviewYS===null) _reviewYS=new Set(collectYearSessions(()=>true).map(c=>ysKey(c.year,c.session)));
+  if(checked) _reviewYS.add(key);
+  else _reviewYS.delete(key);
+  renderReviewYearFilterSummary();
+  renderReviewAll();
+  renderReviewUncertain();
+}
+
+function reviewYearFilterSelectAll(checked){
+  _reviewYS=checked?null:new Set();
+  showReviewYearFilterModal();
+  renderReviewYearFilterSummary();
+  renderReviewAll();
+  renderReviewUncertain();
+}
+
 function renderReviewAll(){
+  renderReviewYearFilterSummary();
   const listEl=document.getElementById('review-all-list');
 
   if(_reviewFilter==='uncertain'){
     const uncs=getUncertain();
-    const items=Object.values(uncs).sort((a,b)=>b.count-a.count);
+    const items=Object.values(uncs).filter(reviewYSMatches).sort((a,b)=>b.count-a.count);
     listEl.innerHTML=items.length
-      ? items.map(e=>buildReviewItemHtml(resolveStoredQuestion(e),e.lastUserAnswer,true,e.count)).join('')
+      ? items.map(e=>buildReviewItemHtml(resolveStoredQuestion(e),e.lastUserAnswer,true,e.count,true,e)).join('')
       : emptyState('暫無不確定題目');
     return;
   }
 
   const errors=getErrors();
-  let items=Object.values(errors);
+  let items=Object.values(errors).filter(reviewYSMatches);
   if(_reviewFilter==='wrong')
     items=items.filter(e=>e.lastUserAnswer&&!isCorrectAnswer(resolveStoredQuestion(e),e.lastUserAnswer));
   items.sort((a,b)=>b.count-a.count);
   listEl.innerHTML=items.length
-    ? items.map(e=>buildReviewItemHtml(resolveStoredQuestion(e),e.lastUserAnswer,false,e.count)).join('')
+    ? items.map(e=>buildReviewItemHtml(resolveStoredQuestion(e),e.lastUserAnswer,false,e.count,true,e)).join('')
     : emptyState(_reviewFilter==='wrong'?'暫無答錯題目':'暫無錯題');
 }
 
 function renderReviewUncertain(){
+  renderReviewYearFilterSummary();
   const uncs=getUncertain();
-  const items=Object.values(uncs);
+  const items=Object.values(uncs).filter(reviewYSMatches);
   if(!items.length){
     document.getElementById('review-unc-list').innerHTML=emptyState('暫無不確定題目');
     return;
   }
   items.sort((a,b)=>b.count-a.count);
   document.getElementById('review-unc-list').innerHTML=
-    items.map(e=>buildReviewItemHtml(resolveStoredQuestion(e),e.lastUserAnswer,true,e.count)).join('');
+    items.map(e=>buildReviewItemHtml(resolveStoredQuestion(e),e.lastUserAnswer,true,e.count,true,e)).join('');
 }
 
-function buildReviewHtml(qs,showTags=true){
+function buildReviewHtml(qs,showTags=true,meta=null){
   if(!qs.length) return emptyState('沒有符合條件的題目');
-  return qs.map(q=>buildReviewItemHtml(q,q.userAnswer,false,0,showTags)).join('');
+  return qs.map(q=>buildReviewItemHtml(q,q.userAnswer,false,0,showTags,meta)).join('');
 }
 
-function buildReviewItemHtml(q,userAnswer,isUnc=false,count=0,showTags=true){
+function buildReviewItemHtml(q,userAnswer,isUnc=false,count=0,showTags=true,meta=null){
   if(!q) return '';
   const letters=['A','B','C','D','E'];
   const accepted=getAcceptedAnswers(q);
   const isRight=isCorrectAnswer(q,userAnswer);
   let tags='';
+  if(meta&&meta.year) tags+=`<span class="ri-tag tag-meta">${meta.year}年${meta.session||''}</span>`;
   if(showTags){
     if(isUnc) tags+=`<span class="ri-tag tag-uncertain">⚠️ 不確定</span>`;
     if(!isRight&&userAnswer) tags+=`<span class="ri-tag tag-wrong">✗ 答錯</span>`;
     if(isRight) tags+=`<span class="ri-tag tag-correct">✓ 答對</span>`;
     if(!userAnswer) tags+=`<span class="ri-tag" style="background:#f1f5f9;color:var(--muted)">未作答</span>`;
-    if(count>1) tags+=`<span class="ri-tag" style="background:#ede9fe;color:var(--purple)">錯 ${count} 次</span>`;
+    if(count>0) tags+=`<span class="ri-tag tag-count">${isUnc?'標記':'錯'} ${count} 次</span>`;
   }
   const choicesHtml=q.choices.map((c,i)=>{
     const l=letters[i];
@@ -885,6 +1006,170 @@ function clearHistory(){
   state.historySelecting=false;
   state.historySelection.clear();
   refreshStudyViews();
+}
+
+// ═══════════════════════════════════════════════════════════════
+// DRILL MODE — 單純刷錯題／不確定題（可複選/單選年份），不影響原本的
+// sessions / 錯題本 / 不確定題本紀錄
+// ═══════════════════════════════════════════════════════════════
+let drillState={items:[],userAnswers:{},curIdx:0};
+
+function showDrillSetupModal(){
+  const combos=collectYearSessions(e=>e.exam===state.examTab);
+  if(!combos.length){
+    alert(`目前「${state.examTab}」尚無錯題或不確定題目可供刷題。`);
+    return;
+  }
+  document.getElementById('modal-title').textContent='🎯 開始刷題';
+  document.getElementById('modal-body').innerHTML=`
+    <p style="font-weight:700;font-size:.85rem;margin-bottom:.4rem">題目來源</p>
+    <div class="gap mb">
+      <label style="display:inline-flex;align-items:center;gap:.35rem"><input type="checkbox" id="drill-src-wrong" checked> 錯題</label>
+      <label style="display:inline-flex;align-items:center;gap:.35rem"><input type="checkbox" id="drill-src-uncertain" checked> 不確定題</label>
+    </div>
+    <hr class="div">
+    <p style="font-weight:700;font-size:.85rem;margin-bottom:.4rem">選擇年份／次數（可複選，或只選單一場次）</p>
+    <div class="gap mb">
+      <button class="btn btn-outline btn-sm" onclick="drillYearSelectAll(true)">全選</button>
+      <button class="btn btn-outline btn-sm" onclick="drillYearSelectAll(false)">清除</button>
+    </div>
+    <div id="drill-year-list" class="gap" style="max-height:200px;overflow-y:auto">
+      ${combos.map(c=>{
+        const key=ysKey(c.year,c.session);
+        return `<label class="year-chip"><input type="checkbox" class="drill-year-cb" value="${key}" checked>${c.year}年${c.session}</label>`;
+      }).join('')}
+    </div>
+    <div id="drill-setup-msg" class="sync-msg"></div>
+  `;
+  document.getElementById('modal-btns').innerHTML=`
+    <button class="btn btn-outline" onclick="closeModal()">取消</button>
+    <button class="btn btn-primary" onclick="startDrill()">開始刷題</button>
+  `;
+  document.getElementById('modal-bg').hidden=false;
+}
+
+function drillYearSelectAll(checked){
+  document.querySelectorAll('.drill-year-cb').forEach(cb=>cb.checked=checked);
+}
+
+function startDrill(){
+  const useWrong=document.getElementById('drill-src-wrong').checked;
+  const useUncertain=document.getElementById('drill-src-uncertain').checked;
+  const ysKeys=new Set([...document.querySelectorAll('.drill-year-cb:checked')].map(cb=>cb.value));
+  const msgEl=document.getElementById('drill-setup-msg');
+  if(!useWrong&&!useUncertain){ msgEl.textContent='請至少選擇一種題目來源。'; return; }
+  if(!ysKeys.size){ msgEl.textContent='請至少選擇一個年份／次數。'; return; }
+
+  const picked=new Map(); // setId_Qno -> drill item
+  if(useWrong){
+    Object.values(getErrors())
+      .filter(e=>e.exam===state.examTab&&ysKeys.has(ysKey(e.year,e.session)))
+      .forEach(e=>{
+        const q=resolveStoredQuestion(e);
+        if(!q) return;
+        const key=`${e.setId}_Q${q.no}`;
+        picked.set(key,{...q,_meta:{exam:e.exam,year:e.year,session:e.session},_isUncertainSource:false,_count:e.count});
+      });
+  }
+  if(useUncertain){
+    Object.values(getUncertain())
+      .filter(e=>e.exam===state.examTab&&ysKeys.has(ysKey(e.year,e.session)))
+      .forEach(e=>{
+        const q=resolveStoredQuestion(e);
+        if(!q) return;
+        const key=`${e.setId}_Q${q.no}`;
+        if(picked.has(key)) picked.get(key)._isUncertainSource=true;
+        else picked.set(key,{...q,_meta:{exam:e.exam,year:e.year,session:e.session},_isUncertainSource:true,_count:e.count});
+      });
+  }
+
+  const items=[...picked.values()];
+  if(!items.length){ msgEl.textContent='選取的範圍內沒有題目。'; return; }
+
+  // 隨機排序，避免同一年份題目集中出現
+  for(let i=items.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [items[i],items[j]]=[items[j],items[i]];
+  }
+
+  drillState={items,userAnswers:{},curIdx:0};
+  closeModal();
+  document.getElementById('drill-title').textContent=`刷題模式（共 ${items.length} 題）`;
+  showView('drill');
+  renderDrillExam();
+}
+
+function renderDrillExam(){
+  const item=drillState.items[drillState.curIdx];
+  const total=drillState.items.length;
+  const answered=Object.keys(drillState.userAnswers).length;
+  document.getElementById('drill-counter').textContent=`第 ${drillState.curIdx+1}/${total} 題 ｜ 已作答 ${answered}`;
+  document.getElementById('drill-prog-fill').style.width=`${(answered/total)*100}%`;
+  document.getElementById('drill-qno').textContent=`${item._meta.year}年${item._meta.session} ｜ 第 ${item.no} 題`;
+  document.getElementById('drill-qtext').innerHTML=item.text;
+  const letters=['A','B','C','D','E'];
+  const ua=drillState.userAnswers[drillState.curIdx];
+  let choiceHtml='';
+  item.choices.forEach((c,i)=>{
+    const letter=letters[i];
+    const isSel=ua===letter;
+    const cls='choice-btn'+(isSel?' sel':'');
+    choiceHtml+=`<button class="${cls}" onclick="selectDrillChoice('${letter}')">
+      <span class="choice-letter">${letter}.</span><span>${c}</span>
+    </button>`;
+  });
+  document.getElementById('drill-choices').innerHTML=choiceHtml;
+  document.getElementById('drill-btn-prev').disabled=drillState.curIdx===0;
+  document.getElementById('drill-btn-next').disabled=drillState.curIdx===total-1;
+  let navHtml='';
+  drillState.items.forEach((it,i)=>{
+    const ans=drillState.userAnswers[i];
+    let cls='qnav-dot';
+    if(i===drillState.curIdx) cls+=' active';
+    else if(ans) cls+=' answered';
+    navHtml+=`<div class="${cls}" onclick="jumpDrillTo(${i})">${it.no}</div>`;
+  });
+  document.getElementById('drill-qnav').innerHTML=navHtml;
+}
+
+function selectDrillChoice(letter){
+  drillState.userAnswers[drillState.curIdx]=letter;
+  renderDrillExam();
+}
+function goDrillQ(dir){
+  drillState.curIdx=Math.max(0,Math.min(drillState.items.length-1,drillState.curIdx+dir));
+  renderDrillExam();
+}
+function jumpDrillTo(idx){ drillState.curIdx=idx; renderDrillExam(); }
+
+function confirmDrillSubmit(){
+  const total=drillState.items.length;
+  const answered=Object.keys(drillState.userAnswers).length;
+  const unanswered=total-answered;
+  const msg=unanswered>0?`還有 ${unanswered} 題未作答，確定要結束刷題嗎？`:'確定結束刷題？';
+  if(confirm(msg)) submitDrill();
+}
+
+function submitDrill(){
+  let correct=0;
+  const allItems=drillState.items.map((it,i)=>{
+    const ua=drillState.userAnswers[i]||null;
+    if(isCorrectAnswer(it,ua)) correct++;
+    return {...it,userAnswer:ua};
+  });
+  const total=drillState.items.length;
+  const pct=total?Math.round((correct/total)*100):0;
+  const numEl=document.getElementById('drill-score-num');
+  numEl.textContent=`${pct}%`;
+  numEl.className='score-num '+(pct>=90?'perfect':pct>=70?'good':'bad');
+  document.getElementById('drill-score-sub').textContent=`${correct}/${total} 答對 ｜ 刷題複習（不影響錯題本紀錄）`;
+  document.getElementById('dr-correct').textContent=correct;
+  document.getElementById('dr-wrong').textContent=total-correct;
+  document.getElementById('dr-unanswered').textContent=total-Object.keys(drillState.userAnswers).length;
+  document.getElementById('drill-results-list').innerHTML=allItems.map(it=>
+    buildReviewItemHtml(it,it.userAnswer,it._isUncertainSource,it._count||0,true,it._meta)
+  ).join('');
+  showView('drill-results');
 }
 
 // ═══════════════════════════════════════════════════════════════

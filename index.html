@@ -692,8 +692,9 @@ function showResultReview(filter){
   if(filter==='wrong') items=_lastWrong;
   else if(filter==='uncertain') items=_lastUnc;
   else items=state.questions.map(q=>({...q,userAnswer:state.userAnswers[q.no]||null}));
+  const uncSet=new Set((_lastSession&&_lastSession.uncertain_nos)||[]);
   const meta=_lastSession?{year:_lastSession.year,session:_lastSession.session}:null;
-  document.getElementById('results-review-list').innerHTML=buildReviewHtml(items,filter!=='all',meta);
+  document.getElementById('results-review-list').innerHTML=buildReviewHtml(items,filter!=='all',meta,uncSet);
   document.querySelector('#view-results .card').scrollIntoView({behavior:'smooth'});
 }
 
@@ -813,9 +814,9 @@ function renderReviewUncertain(){
     items.map(e=>buildReviewItemHtml(resolveStoredQuestion(e),e.lastUserAnswer,true,e.count,true,e)).join('');
 }
 
-function buildReviewHtml(qs,showTags=true,meta=null){
+function buildReviewHtml(qs,showTags=true,meta=null,uncSet=null){
   if(!qs.length) return emptyState('沒有符合條件的題目');
-  return qs.map(q=>buildReviewItemHtml(q,q.userAnswer,false,0,showTags,meta)).join('');
+  return qs.map(q=>buildReviewItemHtml(q,q.userAnswer,!!(uncSet&&uncSet.has(q.no)),0,showTags,meta)).join('');
 }
 
 function buildReviewItemHtml(q,userAnswer,isUnc=false,count=0,showTags=true,meta=null){
@@ -825,8 +826,8 @@ function buildReviewItemHtml(q,userAnswer,isUnc=false,count=0,showTags=true,meta
   const isRight=isCorrectAnswer(q,userAnswer);
   let tags='';
   if(meta&&meta.year) tags+=`<span class="ri-tag tag-meta">${meta.year}年${meta.session||''}</span>`;
+  if(isUnc) tags+=`<span class="ri-tag tag-uncertain">⚠️ 不確定</span>`;
   if(showTags){
-    if(isUnc) tags+=`<span class="ri-tag tag-uncertain">⚠️ 不確定</span>`;
     if(!isRight&&userAnswer) tags+=`<span class="ri-tag tag-wrong">✗ 答錯</span>`;
     if(isRight) tags+=`<span class="ri-tag tag-correct">✓ 答對</span>`;
     if(!userAnswer) tags+=`<span class="ri-tag" style="background:#f1f5f9;color:var(--muted)">未作答</span>`;

@@ -314,12 +314,12 @@
     },
     {
       "no": 29,
-      "text": "寄生蟲感染人體所造成之症狀，下列敘述何者正確？ћ犬蛔蟲（Toxocara canis）可造成眼部幼蟲移行症 （ocular larva migrans） ќ班氏絲蟲（Wuchereria bancrofti）的慢性感染可造成下肢象皮病 （elephantiasis） ѝ免疫低下之病患受到鞭蟲（Trichuris trichiura）感染必造成死亡 ў蛔蟲 （Ascaris lumbricoides）感染可能出現異位寄生（ectopic parasitism）",
+      "text": "寄生蟲感染人體所造成之症狀，下列敘述何者正確？①犬蛔蟲（Toxocara canis）可造成眼部幼蟲移行症 （ocular larva migrans） ②班氏絲蟲（Wuchereria bancrofti）的慢性感染可造成下肢象皮病 （elephantiasis） ③免疫低下之病患受到鞭蟲（Trichuris trichiura）感染必造成死亡 ④蛔蟲 （Ascaris lumbricoides）感染可能出現異位寄生（ectopic parasitism）",
       "choices": [
-        "僅ћѝ",
-        "僅ќў",
-        "僅ћќў",
-        "ћќѝў"
+        "僅①③",
+        "僅②④",
+        "僅①②④",
+        "①②③④"
       ],
       "answer": "C"
     },
@@ -347,12 +347,12 @@
     },
     {
       "no": 32,
-      "text": "水生植物可當何種寄生蟲之中間宿主？ћ牛羊肝吸蟲（Fasciola hepatica） ќ薑片蟲（Fasciolopsis buski） ѝ中華肝吸蟲（Clonorchis sinensis） ў槍狀肝吸蟲（Dicrocoelium dendriticum）",
+      "text": "水生植物可當何種寄生蟲之中間宿主？①牛羊肝吸蟲（Fasciola hepatica） ②薑片蟲（Fasciolopsis buski） ③中華肝吸蟲（Clonorchis sinensis） ④槍狀肝吸蟲（Dicrocoelium dendriticum）",
       "choices": [
-        "ћќ",
-        "ѝў",
-        "ћѝ",
-        "ќў"
+        "①②",
+        "③④",
+        "①③",
+        "②④"
       ],
       "answer": "A"
     },
@@ -864,12 +864,12 @@
     },
     {
       "no": 79,
-      "text": "下列疾病中，何者一般被認為大部分是與TH2 細胞的作用或反應有關？ћ蠕蟲類寄生蟲感染 ќ外因性過敏 性鼻炎（allergic rhinitis） ѝ肉芽腫性發炎（granulomatous inflammation）",
+      "text": "下列疾病中，何者一般被認為大部分是與TH2 細胞的作用或反應有關？①蠕蟲類寄生蟲感染 ②外因性過敏 性鼻炎（allergic rhinitis） ③肉芽腫性發炎（granulomatous inflammation）",
       "choices": [
-        "ћќѝ",
-        "僅ћќ",
-        "僅ќѝ",
-        "僅ћѝ"
+        "①②③",
+        "僅①②",
+        "僅②③",
+        "僅①③"
       ],
       "answer": "B"
     },

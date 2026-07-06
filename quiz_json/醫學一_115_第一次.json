@@ -895,8 +895,8 @@
       "choices": [
         "酪蛋白激酶Ⅱ（casein kinase Ⅱ）",
         "磷酸化酶激酶（phosphorylase kinase）",
-        "蛋白質激酶A（protein kinase",
-        "蛋白質激酶B（protein kinase"
+        "蛋白質激酶A（protein kinase A）",
+        "蛋白質激酶B（protein kinase B）"
       ],
       "answer": "A"
     },
@@ -907,7 +907,7 @@
         "β-半乳糖苷酶（β-Galactosidase）",
         "穀胱甘肽-S-轉移酶（Glutathione-S-transferase, GST）",
         "六個連續組胺酸（His）6",
-        "蛋白質A（Protein"
+        "蛋白質A（Protein A）"
       ],
       "answer": "C"
     },

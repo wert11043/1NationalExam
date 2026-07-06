@@ -491,11 +491,10 @@
       "no": 45,
       "text": "尿素酵素（urease）是以下何種細菌的致病因子？",
       "choices": [
-        "致病性大腸桿菌（Enteropathogenic",
+        "致病性大腸桿菌（Enteropathogenic E. coli）",
         "霍亂弧菌（Vibrio cholerae）",
         "博德氏桿菌（Bordetella pertussis）",
-        "幽門桿菌（Helicobacter pylori）",
-        "coli）"
+        "幽門桿菌（Helicobacter pylori）"
       ],
       "answer": "D"
     },
@@ -647,7 +646,7 @@
       "no": 58,
       "text": "某病毒可引起孩童之急性下呼吸道疾病，經由鼻腔分泌物分離出該病毒，發覺其不具血球凝 集作用，但可使感染之細胞融合（syncytia）。該病毒可能為下列何者？",
       "choices": [
-        "流行性感冒病毒A型（Influenza virus",
+        "流行性感冒病毒A型（Influenza virus A）",
         "副流行性感冒病毒（Parainfluenza virus）",
         "呼吸道細胞融合病毒（Respiratory syncytial virus）",
         "麻疹病毒（Measles virus）"

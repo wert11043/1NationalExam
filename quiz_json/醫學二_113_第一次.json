@@ -29,11 +29,10 @@
       "no": 3,
       "text": "一位8 歲孩童在吃過漢堡及生菜沙拉後48 小時，出現出血性腹瀉症狀，到醫院後又發現其有溶血性尿毒症 （hemolytic uremic syndrome），最有可能的病原菌是：",
       "choices": [
-        "侵襲性大腸桿菌EIEC（enteroinvasive",
-        "腸道凝集性大腸桿菌EAEC（enteroaggregative",
-        "病原性大腸桿菌EPEC（enteropathogenic",
-        "產志賀氏毒素大腸桿菌STEC（Shiga toxin-producing",
-        "coli） coli） coli） coli）"
+        "侵襲性大腸桿菌EIEC（enteroinvasive E. coli）",
+        "腸道凝集性大腸桿菌EAEC（enteroaggregative E. coli）",
+        "病原性大腸桿菌EPEC（enteropathogenic E. coli）",
+        "產志賀氏毒素大腸桿菌STEC（Shiga toxin-producing E. coli）"
       ],
       "answer": "D"
     },

@@ -130,7 +130,7 @@
       "choices": [
         "腺病毒40型（Adenovirus 40）",
         "諾羅病毒（Norovirus）",
-        "輪狀病毒（Rotavirus group",
+        "輪狀病毒（Rotavirus group A）",
         "腸病毒D68（Enterovirus D68）"
       ],
       "answer": "B"
@@ -260,8 +260,8 @@
       "no": 24,
       "text": "疫苗接種（vaccination）是公共衛生常用以預防傳染病的手段。下列何者最不適合用於先天性免疫不全的 病人？",
       "choices": [
-        "B型肝炎（hepatitis",
-        "疫苗 沙賓（Sabin）小兒麻痺疫苗",
+        "B型肝炎（hepatitis B）疫苗",
+        "沙賓（Sabin）小兒麻痺疫苗",
         "白喉、破傷風、百日咳三合一（DPT）疫苗",
         "注射型流行性感冒（influenza）疫苗"
       ],

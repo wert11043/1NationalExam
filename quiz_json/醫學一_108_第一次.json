@@ -853,9 +853,9 @@
       "no": 76,
       "text": "下列A到D蛋⽩質的混合物，在適當的條件下，以凝膠過濾⾊層分析法（gel filtration chromatography）分離 時，第⼆順位沖提出來的蛋⽩質為何？",
       "choices": [
-        "細胞⾊素c（cytochrome c）Mr=13,000 Mr=13,700",
+        "細胞⾊素c（cytochrome c）Mr=13,000",
         "免疫球蛋⽩G（immunoglobulin G）Mr=145,000",
-        "核醣核酸酶A（ribonuclease",
+        "核醣核酸酶A（ribonuclease A）Mr=13,700",
         "核醣核酸聚合酶（RNA polymerase）Mr=450,000"
       ],
       "answer": "B"
@@ -1097,7 +1097,7 @@
       "choices": [
         "類固醇受體（steroid receptors）",
         "腺苷酸環化酶（adenylyl cyclase）",
-        "磷脂酶C（phospholipase",
+        "磷脂酶C（phospholipase C）",
         "Ras蛋⽩"
       ],
       "answer": "A"

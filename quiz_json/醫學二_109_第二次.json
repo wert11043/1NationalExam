@@ -256,8 +256,8 @@
       "text": "親合力成熟作用（affinity maturation）是抗體對抗原的親合力增強的主要原因，有關親合力成熟作用的敘述， 何者錯誤？",
       "choices": [
         "活化的B細胞在生發中心（germinal center）進行體細胞超突變（somatic hypermutation），在Ig基因的變異區 （variable region）和固定區（constant region）造成胺基酸序列的改變",
-        "體細胞超突變（somatic hypermutation）需要AID（activation-induced cytidine deaminase）一種脫胺酵素的參 與，主要是作用在胞嘧啶（cytosine,",
-        "上使之轉變為尿嘧啶（uridine, U），再經過DNA修復作用引起突變 活化的B細胞的抗原接受器（BCR）會因為超突變的結果造成對抗原親合力的改變，可能會減弱BCR對抗原 的結合力，但也可能會增加親合力",
+        "體細胞超突變（somatic hypermutation）需要AID（activation-induced cytidine deaminase）一種脫胺酵素的參與，主要是作用在胞嘧啶（cytosine, C）上使之轉變為尿嘧啶（uridine, U），再經過DNA修復作用引起突變",
+        "活化的B細胞的抗原接受器（BCR）會因為超突變的結果造成對抗原親合力的改變，可能會減弱BCR對抗原的結合力，但也可能會增加親合力",
         "經過濾泡樹突細胞（follicular dendritic cell）上抗原的篩選後，只有親合力高的B細胞存活並大量增生，其餘 親合力弱的B細胞則由於缺乏抗原刺激而凋亡"
       ],
       "answer": "A"

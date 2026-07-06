@@ -51,9 +51,9 @@
       "no": 5,
       "text": "關於幽門螺旋桿菌（Helicobacter pylori）的敘述，下列何者錯誤？",
       "choices": [
-        "人類為其主要的貯存宿主（reservoir），糞口途徑（fecal-oral route）為可能的傳染方式 陽性細菌的感染被認為與導致胃癌的高風險有關",
+        "人類為其主要的貯存宿主（reservoir），糞口途徑（fecal-oral route）為可能的傳染方式",
         "此菌可能會導致胃潰瘍（gastric ulcer）或十二指腸潰瘍（duodenal ulcer）",
-        "cagA（cytotoxin-associated gene",
+        "cagA（cytotoxin-associated gene A）陽性細菌的感染被認為與導致胃癌的高風險有關",
         "尿素呼氣試驗（urea breath test）是一種非侵入性的檢驗方法，但其敏感度與專一性都比傳統細菌培養差"
       ],
       "answer": "D"
@@ -193,7 +193,7 @@
         "氟胞嘧啶（Flucytosine）",
         "棘白素類（Echinocandins）",
         "丙烯胺類（Allylamines）",
-        "兩性黴素B（Amphotericin"
+        "兩性黴素B（Amphotericin B）"
       ],
       "answer": "B"
     },

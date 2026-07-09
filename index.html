@@ -1491,7 +1491,16 @@ const GH_SYNC = {
       const r=await fetch(`https://api.github.com/gists/${this.gistId()}`,{headers:this.hdrs()});
       if(!r.ok) return {ok:false, msg:`HTTP ${r.status}`};
       const data=await r.json();
-      const raw=data.files?.[this.FILE]?.content;
+      const file=data.files?.[this.FILE];
+      if(!file) return {ok:false, msg:'Gist 內無資料'};
+      // GitHub API 對單一檔案內容超過 1MB 時會截斷(truncated:true)，
+      // 這種情況要改用 raw_url 抓完整內容，否則截斷的 JSON 會 parse 失敗。
+      let raw=file.content;
+      if(file.truncated && file.raw_url){
+        const rr=await fetch(file.raw_url);
+        if(!rr.ok) return {ok:false, msg:`讀取完整內容失敗 HTTP ${rr.status}`};
+        raw=await rr.text();
+      }
       if(!raw) return {ok:false, msg:'Gist 內無資料'};
       this.merge(JSON.parse(raw));
       this.setTs();

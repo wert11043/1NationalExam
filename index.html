@@ -203,6 +203,7 @@ hr.div{border:none;border-top:1px solid var(--border);margin:.85rem 0}
     <button class="btn btn-primary" onclick="showView('review-all')">📕 錯題複習</button>
     <button class="btn btn-outline" onclick="showView('review-uncertain')">⚠️ 不確定複習</button>
     <button class="btn btn-outline" onclick="showDrillSetupModal()">🎯 刷錯題／不確定題</button>
+    <button class="btn btn-outline" onclick="showSubjectDrillModal()">📘 依科目／年份選題</button>
   </div>
 
   <hr class="div">
@@ -1096,6 +1097,115 @@ function startDrill(){
   drillState={items,userAnswers:{},curIdx:0};
   closeModal();
   document.getElementById('drill-title').textContent=`刷題模式（共 ${items.length} 題）`;
+  showView('drill');
+  renderDrillExam();
+}
+
+// ═══════════════════════════════════════════════════════════════
+// 依科目／年份選題（規則僅適用於 106~115 年，因為更早的年份章節配題不同）
+// ═══════════════════════════════════════════════════════════════
+const SUBJECT_RANGES = {
+  '醫學一': [
+    {name:'解剖', from:1,  to:31},
+    {name:'胚胎', from:32, to:36},
+    {name:'組織', from:37, to:46},
+    {name:'生理', from:47, to:73},
+    {name:'生化', from:74, to:100},
+  ],
+  '醫學二': [
+    {name:'微生物', from:1,  to:17},
+    {name:'免疫',   from:18, to:28},
+    {name:'寄生蟲', from:29, to:35},
+    {name:'公衛',   from:36, to:50},
+    {name:'藥理',   from:51, to:75},
+    {name:'病理',   from:76, to:100},
+  ],
+};
+const SUBJECT_YEARS = ['106','107','108','109','110','111','112','113','114','115'];
+
+function subjectOfNo(exam,no){
+  const ranges=SUBJECT_RANGES[exam]||[];
+  const hit=ranges.find(r=>no>=r.from&&no<=r.to);
+  return hit?hit.name:null;
+}
+
+function showSubjectDrillModal(){
+  const subjects=SUBJECT_RANGES[state.examTab]||[];
+  document.getElementById('modal-title').textContent='📘 依科目／年份選題';
+  document.getElementById('modal-body').innerHTML=`
+    <p style="font-size:.8rem;color:var(--muted);margin-bottom:.7rem">
+      科目分類規則僅適用於 106~115 年（${state.examTab}，題號依科目章節區間換算）。
+    </p>
+    <p style="font-weight:700;font-size:.85rem;margin-bottom:.4rem">科目</p>
+    <div class="gap mb">
+      <button class="btn btn-outline btn-sm" onclick="subjectDrillSelectAll('subj-cb',true)">全選</button>
+      <button class="btn btn-outline btn-sm" onclick="subjectDrillSelectAll('subj-cb',false)">清除</button>
+    </div>
+    <div class="gap mb">
+      ${subjects.map(s=>`<label class="year-chip"><input type="checkbox" class="subj-cb" value="${s.name}" checked>${s.name}（第${s.from}~${s.to}題）</label>`).join('')}
+    </div>
+    <hr class="div">
+    <p style="font-weight:700;font-size:.85rem;margin-bottom:.4rem">年份／次數（可複選）</p>
+    <div class="gap mb">
+      <button class="btn btn-outline btn-sm" onclick="subjectDrillSelectAll('subj-year-cb',true)">全選</button>
+      <button class="btn btn-outline btn-sm" onclick="subjectDrillSelectAll('subj-year-cb',false)">清除</button>
+    </div>
+    <div id="subj-year-list" class="gap" style="max-height:200px;overflow-y:auto">
+      ${SUBJECT_YEARS.flatMap(yr=>SESSIONS.map(sess=>{
+        const key=ysKey(yr,sess);
+        const hasDat=!!getSets()[`${state.examTab}_${yr}_${sess}`];
+        return `<label class="year-chip"${hasDat?'':' style="opacity:.45"'}><input type="checkbox" class="subj-year-cb" value="${key}" checked>${yr}年${sess}${hasDat?'':'（未匯入）'}</label>`;
+      })).join('')}
+    </div>
+    <div id="subject-drill-msg" class="sync-msg"></div>
+  `;
+  document.getElementById('modal-btns').innerHTML=`
+    <button class="btn btn-outline" onclick="closeModal()">取消</button>
+    <button class="btn btn-primary" onclick="startSubjectDrill()">開始作答</button>
+  `;
+  document.getElementById('modal-bg').hidden=false;
+}
+
+function subjectDrillSelectAll(cls,checked){
+  document.querySelectorAll('.'+cls).forEach(cb=>cb.checked=checked);
+}
+
+function startSubjectDrill(){
+  const exam=state.examTab;
+  const subjects=new Set([...document.querySelectorAll('.subj-cb:checked')].map(cb=>cb.value));
+  const ysKeys=new Set([...document.querySelectorAll('.subj-year-cb:checked')].map(cb=>cb.value));
+  const msgEl=document.getElementById('subject-drill-msg');
+  if(!subjects.size){ msgEl.textContent='請至少選擇一個科目。'; return; }
+  if(!ysKeys.size){ msgEl.textContent='請至少選擇一個年份／次數。'; return; }
+
+  const sets=getSets();
+  const items=[];
+  let missing=0;
+  ysKeys.forEach(key=>{
+    const [year,session]=key.split('_');
+    const setId=`${exam}_${year}_${session}`;
+    if(!sets[setId]){ missing++; return; }
+    const qs=getQs(setId);
+    if(!qs||!Array.isArray(qs.questions)) return;
+    qs.questions.forEach(q=>{
+      const subj=subjectOfNo(exam,q.no);
+      if(subj&&subjects.has(subj)) items.push({...q,_meta:{exam,year,session},_isUncertainSource:false,_count:0});
+    });
+  });
+
+  if(!items.length){
+    msgEl.textContent=missing?'所選範圍內的題目尚未匯入，請先批次匯入 JSON。':'選取的範圍內沒有符合的題目。';
+    return;
+  }
+
+  for(let i=items.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [items[i],items[j]]=[items[j],items[i]];
+  }
+
+  drillState={items,userAnswers:{},curIdx:0};
+  closeModal();
+  document.getElementById('drill-title').textContent=`依科目選題（共 ${items.length} 題）`;
   showView('drill');
   renderDrillExam();
 }

@@ -238,10 +238,10 @@
       "no": 22,
       "text": "就精原母細胞（spermatogonium）到精子（sperm）的過程，下列那一項之順序最佳？",
       "choices": [
-        "Spermatogonium→primary spermatocyte→first meiosis→secondary spermatocyte→second meiosis→ spermatid→sperm Sperm",
-        "atogonium→first meiosis→primary spermatocyte→second meiosis→secondary spermatocyte→ spermatid→sperm Spermatogonium→primary spermatocyte→first meiosis→secondary spermatocyte→spermatid→second",
-        "meiosis→sperm Spermatogonium→primary spermatocyte→secondary sper",
-        "matocyte→first meiosis→spermatid→second meiosis→sperm"
+        "Spermatogonium→primary spermatocyte→first meiosis→secondary spermatocyte→second meiosis→spermatid→sperm",
+        "Spermatogonium→first meiosis→primary spermatocyte→second meiosis→secondary spermatocyte→spermatid→sperm",
+        "Spermatogonium→primary spermatocyte→first meiosis→secondary spermatocyte→spermatid→second meiosis→sperm",
+        "Spermatogonium→primary spermatocyte→secondary spermatocyte→first meiosis→spermatid→second meiosis→sperm"
       ],
       "answer": "A"
     },

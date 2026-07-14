@@ -360,6 +360,18 @@ const SK = {
   uncert:  'nqkb_uncertain', // uncertain book
   curTab:  'nqkb_tab',       // last selected exam tab
 };
+const MAX_SESSIONS = 300; // 作答紀錄上限，避免 localStorage 被無限累積的紀錄塞爆
+
+function isQuotaError(e){
+  return !!(e && (e.name==='QuotaExceededError' || e.code===22 || /quota/i.test(e.message||'')));
+}
+function trimSessions(keep){
+  keep = keep==null ? Math.floor(MAX_SESSIONS/2) : keep;
+  try{
+    const s=getSessions();
+    if(s.length>keep) save(SK.sessions, s.slice(0,keep));
+  }catch{}
+}
 
 // ═══════════════════════════════════════════════════════════════
 // STORAGE HELPERS
@@ -636,7 +648,14 @@ function submitExam(){
   };
   const sessions=getSessions();
   sessions.unshift(session);
-  save(SK.sessions,sessions);
+  if(sessions.length>MAX_SESSIONS) sessions.length=MAX_SESSIONS;
+  try{ save(SK.sessions,sessions); }
+  catch(e){
+    if(isQuotaError(e)){
+      sessions.length=Math.min(sessions.length,Math.floor(MAX_SESSIONS/2));
+      try{ save(SK.sessions,sessions); }catch{}
+    }
+  }
 
   // update error book
   const errors=getErrors();
@@ -1482,6 +1501,7 @@ const GH_SYNC = {
     const seen=new Set(locS.map(fp)), merged=[...locS];
     for(const s of remS){ const k=fp(s); if(!seen.has(k)){merged.push(s);seen.add(k);} }
     merged.sort((a,b)=>(b.ts||0)-(a.ts||0));
+    if(merged.length>MAX_SESSIONS) merged.length=MAX_SESSIONS;
     save(SK.sessions, merged);
   },
 
@@ -1505,7 +1525,10 @@ const GH_SYNC = {
       this.merge(JSON.parse(raw));
       this.setTs();
       return {ok:true};
-    }catch(e){ return {ok:false, msg:e.message}; }
+    }catch(e){
+      if(isQuotaError(e)) return {ok:false, msg:'本機儲存空間已滿，請到「紀錄」清除較舊的作答紀錄後再試一次'};
+      return {ok:false, msg:e.message};
+    }
   },
 
   async push(){
@@ -1526,7 +1549,14 @@ const GH_SYNC = {
         if(!r.ok) return {ok:false, msg:`更新失敗 ${r.status}`};
       }
       this.setTs(); return {ok:true};
-    }catch(e){ return {ok:false, msg:e.message}; }
+    }catch(e){
+      if(isQuotaError(e)){
+        trimSessions();
+        try{ this.setTs(); return {ok:true}; }
+        catch{ return {ok:false, msg:'本機儲存空間已滿，請到「紀錄」清除較舊的作答紀錄後再試一次'}; }
+      }
+      return {ok:false, msg:e.message};
+    }
   },
 
   async autoPush(){

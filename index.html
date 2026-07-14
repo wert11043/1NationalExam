@@ -360,17 +360,23 @@ const SK = {
   uncert:  'nqkb_uncertain', // uncertain book
   curTab:  'nqkb_tab',       // last selected exam tab
 };
-const MAX_SESSIONS = 300; // 作答紀錄上限，避免 localStorage 被無限累積的紀錄塞爆
-
 function isQuotaError(e){
   return !!(e && (e.name==='QuotaExceededError' || e.code===22 || /quota/i.test(e.message||'')));
 }
-function trimSessions(keep){
-  keep = keep==null ? Math.floor(MAX_SESSIONS/2) : keep;
-  try{
-    const s=getSessions();
-    if(s.length>keep) save(SK.sessions, s.slice(0,keep));
-  }catch{}
+// 本機儲存空間不足時的最後手段：只在真的存不進去時才觸發，
+// 逐步縮減「最舊的作答紀錄」直到存得下為止，並明確告知使用者（不靜默刪除）。
+// 若已設定雲端同步，資料仍完整保存在 Gist 中，可用「拉取」復原。
+function trimSessionsToFit(sessions){
+  let arr=sessions.slice();
+  while(arr.length>5){
+    arr=arr.slice(0, Math.ceil(arr.length*0.8));
+    try{
+      save(SK.sessions, arr);
+      alert(`⚠️ 本機儲存空間不足，已自動清除較舊的作答紀錄（保留最新 ${arr.length} 筆）以維持功能正常。\n若已設定雲端同步，可用「拉取」從雲端復原完整紀錄。`);
+      return arr;
+    }catch(e){ if(!isQuotaError(e)) throw e; }
+  }
+  return null; // 縮到最小仍存不下，放棄
 }
 
 // ═══════════════════════════════════════════════════════════════
@@ -648,13 +654,10 @@ function submitExam(){
   };
   const sessions=getSessions();
   sessions.unshift(session);
-  if(sessions.length>MAX_SESSIONS) sessions.length=MAX_SESSIONS;
   try{ save(SK.sessions,sessions); }
   catch(e){
-    if(isQuotaError(e)){
-      sessions.length=Math.min(sessions.length,Math.floor(MAX_SESSIONS/2));
-      try{ save(SK.sessions,sessions); }catch{}
-    }
+    if(isQuotaError(e)) trimSessionsToFit(sessions);
+    else throw e;
   }
 
   // update error book
@@ -1501,7 +1504,6 @@ const GH_SYNC = {
     const seen=new Set(locS.map(fp)), merged=[...locS];
     for(const s of remS){ const k=fp(s); if(!seen.has(k)){merged.push(s);seen.add(k);} }
     merged.sort((a,b)=>(b.ts||0)-(a.ts||0));
-    if(merged.length>MAX_SESSIONS) merged.length=MAX_SESSIONS;
     save(SK.sessions, merged);
   },
 
@@ -1526,7 +1528,11 @@ const GH_SYNC = {
       this.setTs();
       return {ok:true};
     }catch(e){
-      if(isQuotaError(e)) return {ok:false, msg:'本機儲存空間已滿，請到「紀錄」清除較舊的作答紀錄後再試一次'};
+      if(isQuotaError(e)){
+        const trimmed=trimSessionsToFit(getSessions());
+        if(trimmed){ try{ this.setTs(); return {ok:true}; }catch{} }
+        return {ok:false, msg:'本機儲存空間已滿，請到「紀錄」手動清除較舊的作答紀錄後再試一次'};
+      }
       return {ok:false, msg:e.message};
     }
   },
@@ -1551,9 +1557,11 @@ const GH_SYNC = {
       this.setTs(); return {ok:true};
     }catch(e){
       if(isQuotaError(e)){
-        trimSessions();
-        try{ this.setTs(); return {ok:true}; }
-        catch{ return {ok:false, msg:'本機儲存空間已滿，請到「紀錄」清除較舊的作答紀錄後再試一次'}; }
+        // push 當下已經把完整資料上傳到 Gist 了（見上方 fetch），
+        // 這裡失敗只是本機時間戳寫不進去，資料早已在雲端保存好，可放心裁切本機副本。
+        const trimmed=trimSessionsToFit(getSessions());
+        if(trimmed){ try{ this.setTs(); return {ok:true}; }catch{} }
+        return {ok:false, msg:'已成功推送到雲端，但本機儲存空間已滿，請到「紀錄」手動清除較舊的作答紀錄'};
       }
       return {ok:false, msg:e.message};
     }
